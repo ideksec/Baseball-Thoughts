@@ -1,0 +1,111 @@
+date,opponent,home_away,result,kc_final,opp_final,kc_thru7,opp_thru7,after7,extras,confidence,notes
+2026-03-27,ATL,A,L,0,6,0,6,L,,HIGH,All 6 ATL runs by 7th (Dubon 2R 2B 7th)
+2026-03-28,ATL,A,L,2,6,1,0,W,,HIGH,Led 1-0 thru 7 (Perez HR); 2-0 thru 8; D. Smith walk-off grand slam in 6-run B9
+2026-03-29,ATL,A,W,4,1,3,0,W,,MEDIUM,Jensen sac fly 8th was KC 4th run; Baldwin HR B8
+2026-03-30,MIN,H,W,3,1,3,1,W,,HIGH,Collins HR B7; no scoring after
+2026-04-01,MIN,H,W,13,9,,4,W,,MEDIUM,KC 12 or 13 thru 7; MIN 8 runs in final 3 innings incl 3-run 7th... MIN thru 7 = 4
+2026-04-02,MIN,H,L,1,5,0,1,L,,HIGH,MIN 3 solo HR 9th + Buxton SF 8th; KC lone run 8th
+2026-04-04,MIL,H,L,2,5,,5,L,,MEDIUM,G1 of DH; Mitchell drove in all 5 by 3rd; KC run innings unpinned
+2026-04-04,MIL2,H,W,8,2,8,2,W,,HIGH,G2 of DH; 6-run 6th; no scoring after
+2026-04-05,MIL,H,L,5,8,5,6,L,,HIGH,KC 3-run B7; MIL 2 in 9th (Bauers)
+2026-04-06,CLE,A,W,4,2,2,1,W,,HIGH,India 2R HR + Rocchio HR in 8th
+2026-04-07,CLE,A,L,1,2,1,1,T,,HIGH,Rocchio walk-off single B9
+2026-04-08,CLE,A,L,2,10,2,5,L,,HIGH,CLE 5-run 8th incl Martinez slam
+2026-04-09,CHW,H,L,0,2,0,2,L,,HIGH,
+2026-04-10,CHW,H,W,2,0,2,0,W,,HIGH,Bubic 7 shutout IP
+2026-04-11,CHW,H,W,2,0,1,0,W,,HIGH,2nd run Pasquantino sac fly 8th; Wacha 8 shutout IP
+2026-04-12,CHW,H,L,5,6,5,6,L,,MEDIUM-HIGH,Tiebreaking run on wild pitch in 7th; no scoring 8th-9th
+2026-04-14,DET,A,L,1,2,1,0,W,,HIGH,Led 1-0 thru 7; DET 2 in B8 (passed ball + Dingler 2B)
+2026-04-15,DET,A,L,1,2,1,1,T,,HIGH,W. Perez go-ahead leadoff HR B8
+2026-04-16,DET,A,L,9,10,8,6,W,,HIGH,Perez 3R HR in 6-run 7th; DET 3 in B9 (Greene 2R 2B; Keith walk-off single)
+2026-04-17,NYY,A,L,2,4,1,2,L,,HIGH,Pasquantino tying HR top 8; McMahon 2R HR B8
+2026-04-18,NYY,A,L,4,13,2,,L,,MEDIUM,NYY >=8 thru 7; Warren 7 IP 2 R
+2026-04-19,NYY,A,L,0,7,0,7,L,,HIGH,All 7 by 5th
+2026-04-20,BAL,H,L,5,7,1,0,W,12,HIGH,Led 1-0 into 9th; Basallo last-strike tying single; Taveras slam in 5-run 12th
+2026-04-21,BAL,H,W,6,5,4,3,W,,HIGH,Rutschman HR top 8; Massey tying HR B8; walk-off wild pitch B9
+2026-04-22,BAL,H,L,6,8,6,8,L,,MEDIUM,No scoring 7th-9th per recaps
+2026-04-24,LAA,H,W,6,3,,3,W,,MEDIUM,KC 5 or 6 thru 7; Cameron allowed all 3 LAA runs by 7th
+2026-04-25,LAA,H,W,12,1,,,W,,MEDIUM,Rout; Ragans won (KC led after 6); LAA 1 run all game; line score unavailable
+2026-04-26,LAA,H,W,11,9,5,7,L,10,MEDIUM-HIGH,LAA led 7-5 thru 7 (rain delay B7); Caglianone tying 2R HR 9th; Thomas 3R walk-off HR 10th
+2026-04-28,ATH,A,W,4,1,1,1,T,10,HIGH,1-1 thru 9; Witt 3R HR 10th
+2026-04-29,ATH,A,L,2,5,1,,L,,MEDIUM,Severino 7 IP 1 R (win) so ATH led after 7; KC 2nd run 8th/9th
+2026-04-30,ATH,A,L,3,6,,,L,,MEDIUM,ATH >=5 by ~6th vs KC <=3; leader after 7 certain
+2026-05-01,SEA,A,W,7,6,6,6,T,,HIGH,Julio 2 HR tied 6-6 in 6th; Thomas go-ahead RBI single 8th
+2026-05-02,SEA,A,W,3,2,,,,,NONE,No inning detail found after 6 searches; after-7 result UNKNOWN
+2026-05-03,SEA,A,W,4,1,4,1,W,,HIGH,All scoring by 6th
+2026-05-04,CLE,H,W,6,2,,2,W,,MEDIUM,KC 5 or 6 thru 7; CLE only 2 (Fry 2R HR 2nd)
+2026-05-05,CLE,H,W,5,3,5,3,W,,HIGH,All scoring by 6th
+2026-05-06,CLE,H,L,1,3,1,,L,,MEDIUM,DeLauter 2R single 5th ahead for good; CLE 3rd run inning unknown
+2026-05-07,CLE,H,L,5,8,,8,L,,MEDIUM,CLE 8 thru 7 (Naylor 3R HR 7th); KC 4 or 5 thru 7
+2026-05-08,DET,H,W,4,3,1,3,L,,HIGH,Trailed 3-1 thru 7; KC 2-run 8th; Isbel walk-off single 9th
+2026-05-09,DET,H,W,5,1,5,0,W,,HIGH,Wacha 7 scoreless; DET run off pen 8th/9th
+2026-05-10,DET,H,L,3,6,3,6,L,,HIGH,DET 6th run in 7th (W. Perez RBI single)
+2026-05-12,CWS,A,L,5,6,5,5,T,,HIGH,KC tied 5-5 in 6th; Hill pinch-HR off Strahm in 8th
+2026-05-13,CWS,A,L,5,6,,5,L,,MEDIUM,KC 2 or 3 thru 7; Witt 2R HR 9th got within one
+2026-05-14,CWS,A,L,2,6,2,,L,,MEDIUM,CWS 5 or 6 thru 7 (5 by 4th); KC run in 7th
+2026-05-15,STL,A,L,4,5,3,3,T,11,HIGH,Tied 3-3 from 6th thru 9th; Pozo walk-off single 11th
+2026-05-16,STL,A,L,2,4,1,3,L,,HIGH,Burleson RBI 8th; Caglianone HR 9th
+2026-05-17,STL,A,W,2,0,2,0,W,,HIGH,All scoring by 4th; Kolek + pen shutout
+2026-05-18,BOS,H,L,1,3,1,3,L,,HIGH,No 8th/9th scoring
+2026-05-19,BOS,H,L,1,7,1,,L,,MEDIUM,BOS 2 or 3 thru 7; 4-run 9th (Duran 3R HR)
+2026-05-20,BOS,H,L,3,4,3,4,L,,HIGH,KC led 3-2 thru 6; Duran 2R HR top 7 flipped it; no scoring after
+2026-05-22,SEA,H,L,0,2,0,2,L,,HIGH,Garver 2R HR in 7th was all the scoring
+2026-05-23,SEA,H,W,5,0,5,0,W,,HIGH,Kolek CG shutout; all KC runs by 6th
+2026-05-24,SEA,H,W,8,6,6,,W,,MEDIUM,SEA 3-6 thru 7 (likely 3-4); likely W; 6-6 tie cannot be fully excluded
+2026-05-25,NYY,H,L,3,4,2,2,T,,HIGH,Witt go-ahead HR 8th; Volpe 2R single 9th off Erceg
+2026-05-26,NYY,H,L,1,15,1,,L,,MEDIUM,NYY led big after 7 (Schlittler 6 IP 1 R); exact line unknown
+2026-05-27,NYY,H,L,0,7,0,5,L,,HIGH,NYY 3 in 7th; McMahon 2R HR 8th
+2026-05-29,TEX,A,L,1,9,0,,L,,MEDIUM,TEX 8 or 9 thru 7 (8 thru 6); KC lone run 9th
+2026-05-30,TEX,A,L,6,7,4,3,W,,HIGH,4-run 7th; Jensen 2R HR 8th (6-3); TEX 1 in 8th + 3-run 9th walk-off off Erceg
+2026-05-31,TEX,A,L,3,6,,6,L,,MEDIUM,TEX 6 by 4th; Leiter 5.2 scoreless; TEX led thru 7 in all cases
+2026-06-01,CIN,A,W,9,2,,,W,,MEDIUM,KC >=7 thru 7 vs CIN 1-2; leader certain
+2026-06-02,CIN,A,L,3,4,3,1,W,10,HIGH,Cameron 7 IP one-hit; Benson tying HR 9th off Erceg; Dunn walk-off 10th
+2026-06-03,CIN,A,W,5,2,2,2,T,,HIGH,2-2 thru 8; KC 3-run 9th (Massey tiebreak single)
+2026-06-04,MIN,A,W,8,6,6,6,T,,HIGH,Caratini tying HR B6; Rojas go-ahead 2R pinch single 9th
+2026-06-05,MIN,A,L,3,5,,5,L,,MEDIUM,MIN 5 thru 6; KC 2-3 thru 7
+2026-06-06,MIN,A,W,3,2,1,1,T,,HIGH,Arcia pinch-HR off Strahm 8th; KC 2 in 9th (Witt RBI single)
+2026-06-07,MIN,A,W,6,5,5,1,W,,HIGH,KC +1 in 8th; MIN 4 all in 9th (Bell 3R HR off Beck Way)
+2026-06-09,TEX,H,W,5,3,5,,W,,MEDIUM,TEX 2 or 3 thru 7; KC 5-2 thru 6
+2026-06-10,TEX,H,L,4,6,4,3,W,10,HIGH,Led 4-3 after 7; Burger sac fly tied 8th (walk-walk-HBP); Jung bases-loaded walk 10th
+2026-06-11,TEX,H,L,2,4,2,4,L,,HIGH,No scoring after 6th
+2026-06-12,HOU,H,L,8,10,5,9,L,,HIGH,HOU 9-run 1st; KC 3 in 8th; Matthews HR 9th
+2026-06-13,HOU,H,L,7,8,7,5,W,,HIGH,Led 7-5 thru 7; Altuve tying HR 8th; 9th-inning run on Loftin error
+2026-06-14,HOU,H,W,4,0,4,0,W,,HIGH,All KC runs 1st/3rd; Kolek 7.1 shutout IP
+2026-06-15,WSH,A,L,3,7,3,7,L,,HIGH,All scoring complete by end of 7th
+2026-06-16,WSH,A,L,4,6,3,6,L,,HIGH,Mead 3R HR bottom 7; Thomas HR 9th
+2026-06-17,WSH,A,W,6,2,6,,W,,MEDIUM,WSH 1-2 thru 7; KC 6 thru 6
+2026-06-18,STL,H,W,14,6,,,W,,MEDIUM,KC >=7 by 2nd exceeds STL game total; after-7 W arithmetic
+2026-06-19,STL,H,W,6,5,6,2,W,,HIGH,STL 3 in 9th off Strahm; Lange stranded tying run
+2026-06-21,STL,H,L,10,12,,12,L,,MEDIUM,STL 12 by 5th; KC 7-8 thru 7 + 2 in 9th
+2026-06-22,TB,A,W,2,1,2,1,W,,HIGH,No scoring after 5th; Wacha 7 IP
+2026-06-23,TB,A,W,12,5,7,2,W,,HIGH,KC 5-run 8th; TB 3 in 9th
+2026-06-24,TB,A,L,3,5,2,5,L,,HIGH,TB 5 by 4th; KC 3rd run in 9th
+2026-06-25,TB,A,L,2,13,0,,L,,MEDIUM,KC no-hit for 8.1 innings (0 thru 7); TB line by inning unavailable
+2026-06-26,CWS,A,L,1,22,,,L,,MEDIUM,CHW >=10 by 3rd (10-run 3rd; five HR); outcome not in doubt
+2026-06-27,CWS,A,L,1,2,1,1,T,,HIGH,KC 1-0 top 7 (Jensen RBI single); CHW tied B7; Gonzalez walk-off single 9th
+2026-06-28,CWS,A,W,5,4,5,4,W,,HIGH,All scoring by 4th; five KC relievers 5 scoreless IP
+2026-06-30,TB,H,L,4,10,,,L,,MEDIUM,TB 6-run 2nd; TB >=6 vs KC <=4 makes after-7 call safe
+2026-07-01,TB,H,L,0,4,0,,L,,MEDIUM,KC shut out; TB 3 or 4 thru 7
+2026-07-02,TB,H,L,2,5,2,,L,,MEDIUM,TB >=3 thru 7 vs KC 2 (Jensen HR 1st; Collins HR 7th)
+2026-07-04,PHI,H,L,1,6,1,,L,,MEDIUM,PHI >=4 thru 7; KC 1 in 4th only
+2026-07-05,PHI,H,W,5,2,3,,W,,MEDIUM-HIGH,PHI 1 or 2 thru 7; Perez 2R double in 8th = final 2 KC runs
+2026-07-06,PHI,H,W,15,1,,,W,,MEDIUM,KC scored every inning batted (>=7 thru 7); PHI 1 run total
+2026-07-07,NYM,A,W,16,12,16,9,W,,MEDIUM,KC 7-run top 7 off Seelinger; Mets 9 thru 7 per clawed-back-late recaps
+2026-07-08,NYM,A,L,2,6,2,1,W,,HIGH,Led 2-1 thru 7; five-run B8 off Lange/Cuas (Young bases-loaded HBP; Baty 2R single)
+2026-07-09,NYM,A,L,3,7,3,,L,,MEDIUM,NYM 6 or 7 thru 7; all KC runs off Manaea (7 IP)
+2026-07-10,BAL,A,L,3,5,3,3,T,,HIGH,Tied 3-3 entering 8th; Basallo go-ahead 2R HR off Strahm in 8th
+2026-07-11,BAL,A,L,1,6,1,,,,NONE,KC 1 thru 7 solid (off Bradish 6.2 IP) but BAL runs unplaced; probable L unproven
+2026-07-12,BAL,A,L,2,8,,,,,NONE,No inning placement found for either team; probable L unproven
+2026-07-17,SD,H,W,7,6,2,2,T,10,HIGH,2-2 thru 7; KC 8th lead; France tying HR 9th; SD 3 in T10; KC 4 in B10 (Jensen walk-off single)
+2026-07-18,SD,H,W,6,1,6,1,W,,HIGH,Perez 2R HR capped scoring in 6th
+2026-07-19,SD,H,L,2,19,2,,L,,MEDIUM,SD <=9 thru 7 (France slam made 13-2 in 8th); Merrill 2R HR 9th off position player
+2026-07-20,SF,H,W,4,3,3,,W,,MEDIUM-HIGH,SF 0 or 1 thru 7; led 3-1 entering 9th; Adames tying 2R HR T9; Loftin squeeze walk-off
+2026-07-21,SF,H,W,3,2,3,2,W,,HIGH,No scoring after 7th; hitless relief from Strahm/Schreiber/Lange
+2026-07-22,SF,H,W,5,4,5,3,W,,HIGH,KC all 5 in 6th-7th (Thomas tiebreaking 2R single 7th); SF HR off Cruz 9th
+2026-07-23,DET,A,L,3,4,2,3,L,,HIGH,Outman 3R HR 7th; Rojas tying RBI 8th; Dingler tiebreaking 2B 8th
+2026-07-24,DET,A,L,1,2,1,2,L,,MEDIUM-HIGH,Skubal 7.1 IP 12 K; both DET runs before KC 4th-inning run
+2026-07-25,DET,A,W,3,2,2,2,T,,HIGH,Perez record 318th HR tied it in 7th; Loftin go-ahead HR 9th
+2026-07-26,DET,A,W,5,4,3,4,L,,HIGH,Trailed 4-3 thru 7 (DET 4-run 5th); Massey go-ahead 2R HR with 2 outs in 8th
+2026-07-28,MIN,A,L,2,3,2,1,W,,HIGH,Led 2-1 from 6th (Rojas stole home); Royce Lewis 2R walk-off triple with 2 outs B9
+2026-07-29,MIN,A,W,4,0,4,0,W,,HIGH,Dobnak 7 scoreless; all KC runs off Ryan in 3rd-5th
+2026-07-30,MIN,A,L,3,4,,,,,NONE,Played today; final 4-3 MIN per search synthesis (MEDIUM); no inning detail yet

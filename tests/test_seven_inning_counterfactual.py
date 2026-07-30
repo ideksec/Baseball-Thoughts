@@ -21,6 +21,7 @@ def make_game(**overrides):
         opp_final=4,
         kc_thru7=5,
         opp_thru7=4,
+        after7="",
         extras="",
         confidence="HIGH",
         notes="",
@@ -50,6 +51,16 @@ def test_unknown_thru7():
     assert g.after7_result == "?"
 
 
+def test_after7_override_used_when_scores_missing():
+    g = make_game(kc_thru7=None, opp_thru7=None, after7="L")
+    assert g.after7_result == "L"
+
+
+def test_scores_win_over_after7_column():
+    g = make_game(kc_thru7=2, opp_thru7=1, after7="L")
+    assert g.after7_result == "W"
+
+
 def test_parse_int():
     assert mod.parse_int("3") == 3
     assert mod.parse_int("") is None
@@ -61,5 +72,6 @@ def test_sanity_check_flags_bad_rows():
     good = make_game()
     bad_result = make_game(result="L")  # says L but score is a KC win
     bad_thru7 = make_game(kc_thru7=9)  # thru-7 exceeds final
-    problems = mod.sanity_check([good, bad_result, bad_thru7])
-    assert len(problems) == 2
+    bad_after7 = make_game(after7="L")  # says L but thru-7 scores say W
+    problems = mod.sanity_check([good, bad_result, bad_thru7, bad_after7])
+    assert len(problems) == 3

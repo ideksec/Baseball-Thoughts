@@ -10,13 +10,17 @@ Usage:
 
 Expected CSV columns:
     date, opponent, home_away, result, kc_final, opp_final,
-    kc_thru7, opp_thru7, extras, confidence, notes
+    kc_thru7, opp_thru7, after7, extras, confidence, notes
 
-- kc_thru7 / opp_thru7 may be blank when unknown; those games are reported
-  separately and excluded from the counterfactual tally.
-- A tie through 7 counts as "T" in the counterfactual record (no extra
-  innings exist in this thought experiment; ties are reported as-is and
-  also allocated 50/50 in an adjusted record for comparison).
+- kc_thru7 / opp_thru7 may be blank when the exact line score is unknown.
+- after7 (W/L/T) may be given directly for games where the after-7 outcome
+  is certain even without exact thru-7 scores (e.g. blowouts). When both
+  scores and after7 are present they must agree.
+- Games with neither scores nor an after7 call are "unresolved" and are
+  reported separately, excluded from the counterfactual tally.
+- A tie through 7 counts as "T" (no extra innings exist in this thought
+  experiment); ties are reported as-is and also split 50/50 in an adjusted
+  record for comparison.
 """
 
 from __future__ import annotations
@@ -36,6 +40,7 @@ class Game:
     opp_final: int
     kc_thru7: int | None
     opp_thru7: int | None
+    after7: str
     extras: str
     confidence: str
     notes: str
@@ -50,13 +55,14 @@ class Game:
 
     @property
     def after7_result(self) -> str:
-        if not self.has_thru7:
-            return "?"
-        if self.kc_thru7 > self.opp_thru7:
-            return "W"
-        if self.kc_thru7 < self.opp_thru7:
-            return "L"
-        return "T"
+        """W/L/T from thru-7 scores when available, else the stated call, else '?'."""
+        if self.has_thru7:
+            if self.kc_thru7 > self.opp_thru7:
+                return "W"
+            if self.kc_thru7 < self.opp_thru7:
+                return "L"
+            return "T"
+        return self.after7 if self.after7 in ("W", "L", "T") else "?"
 
 
 def parse_int(value: str) -> int | None:
@@ -80,6 +86,7 @@ def load_games(path: str) -> list[Game]:
                     opp_final=int(row["opp_final"]),
                     kc_thru7=parse_int(row["kc_thru7"]),
                     opp_thru7=parse_int(row["opp_thru7"]),
+                    after7=row.get("after7", "").strip().upper(),
                     extras=row.get("extras", "").strip(),
                     confidence=row.get("confidence", "").strip(),
                     notes=row.get("notes", "").strip(),
@@ -98,7 +105,18 @@ def sanity_check(games: list[Game]) -> list[str]:
         if g.has_thru7:
             if g.kc_thru7 > g.kc_final or g.opp_thru7 > g.opp_final:
                 problems.append(f"{g.date} vs {g.opponent}: thru-7 score exceeds final")
+            if g.after7 in ("W", "L", "T") and g.after7 != g.after7_result:
+                problems.append(f"{g.date} vs {g.opponent}: stated after7 '{g.after7}' "
+                                f"disagrees with thru-7 scores "
+                                f"{g.kc_thru7}-{g.opp_thru7}")
     return problems
+
+
+def record_line(w: int, losses: int, t: int = 0) -> str:
+    games = w + losses + t
+    pct = (w + t / 2) / games if games else 0.0
+    tie_part = f"-{t}" if t else ""
+    return f"{w}-{losses}{tie_part} ({pct:.3f} counting ties as half)"
 
 
 def main(path: str) -> None:
@@ -113,64 +131,71 @@ def main(path: str) -> None:
     actual_w = sum(1 for g in games if g.actual_win)
     actual_l = len(games) - actual_w
     print(f"Games loaded: {len(games)}")
-    print(f"Actual record: {actual_w}-{actual_l} "
-          f"({actual_w / len(games):.3f})")
+    print(f"Actual record: {actual_w}-{actual_l} ({actual_w / len(games):.3f})")
 
-    known = [g for g in games if g.has_thru7]
-    unknown = [g for g in games if not g.has_thru7]
-    c_w = sum(1 for g in known if g.after7_result == "W")
-    c_l = sum(1 for g in known if g.after7_result == "L")
-    c_t = sum(1 for g in known if g.after7_result == "T")
-    print(f"\nCounterfactual (game ends after 7), over {len(known)} games with data:")
-    print(f"  Record: {c_w}-{c_l}-{c_t}")
-    adj_w = c_w + c_t / 2
-    adj_l = c_l + c_t / 2
-    print(f"  Ties split 50/50: {adj_w:.1f}-{adj_l:.1f} "
-          f"({adj_w / len(known):.3f})")
+    resolved = [g for g in games if g.after7_result in ("W", "L", "T")]
+    unresolved = [g for g in games if g.after7_result == "?"]
+    c_w = sum(1 for g in resolved if g.after7_result == "W")
+    c_l = sum(1 for g in resolved if g.after7_result == "L")
+    c_t = sum(1 for g in resolved if g.after7_result == "T")
+    print(f"\nCounterfactual (game ends after 7), over {len(resolved)} resolved games:")
+    print(f"  After-7 record: {record_line(c_w, c_l, c_t)}")
 
-    actual_w_known = sum(1 for g in known if g.actual_win)
+    actual_w_resolved = sum(1 for g in resolved if g.actual_win)
+    actual_l_resolved = len(resolved) - actual_w_resolved
     print(f"  Actual record in those same games: "
-          f"{actual_w_known}-{len(known) - actual_w_known}")
+          f"{record_line(actual_w_resolved, actual_l_resolved)}")
+    delta = (c_w + c_t / 2) - actual_w_resolved
+    print(f"  Net change: {delta:+.1f} wins of value across {len(resolved)} games")
 
-    rd_actual = sum(g.kc_final - g.opp_final for g in known)
-    rd_7 = sum(g.kc_thru7 - g.opp_thru7 for g in known)
-    print(f"\nRun differential (games with data): actual {rd_actual:+d}, "
-          f"through 7 innings {rd_7:+d}")
-    rs_8plus = sum(g.kc_final - g.kc_thru7 for g in known)
-    ra_8plus = sum(g.opp_final - g.opp_thru7 for g in known)
-    print(f"Innings 8+ only: KC scored {rs_8plus}, allowed {ra_8plus} "
+    complete = [g for g in resolved if g.has_thru7]
+    rd_actual = sum(g.kc_final - g.opp_final for g in complete)
+    rd_7 = sum(g.kc_thru7 - g.opp_thru7 for g in complete)
+    print(f"\nRun differential over the {len(complete)} games with full thru-7 "
+          f"line scores:")
+    print(f"  Actual {rd_actual:+d}, through 7 innings {rd_7:+d}")
+    rs_8plus = sum(g.kc_final - g.kc_thru7 for g in complete)
+    ra_8plus = sum(g.opp_final - g.opp_thru7 for g in complete)
+    print(f"  Innings 8+ only: KC scored {rs_8plus}, allowed {ra_8plus} "
           f"({rs_8plus - ra_8plus:+d})")
 
     print("\nGames the Royals were WINNING after 7 but lost (blown late):")
-    for g in known:
+    for g in resolved:
         if g.after7_result == "W" and not g.actual_win:
-            print(f"  {g.date} {g.home_away} {g.opponent}: led {g.kc_thru7}-{g.opp_thru7} "
-                  f"thru 7, lost {g.kc_final}-{g.opp_final}. {g.notes}")
+            lead = f"led {g.kc_thru7}-{g.opp_thru7}" if g.has_thru7 else "led"
+            print(f"  {g.date} {g.home_away} {g.opponent}: {lead} thru 7, "
+                  f"lost {g.kc_final}-{g.opp_final}. {g.notes}")
 
     print("\nGames the Royals were LOSING after 7 but won (late comeback):")
-    for g in known:
+    for g in resolved:
         if g.after7_result == "L" and g.actual_win:
-            print(f"  {g.date} {g.home_away} {g.opponent}: trailed {g.kc_thru7}-{g.opp_thru7} "
-                  f"thru 7, won {g.kc_final}-{g.opp_final}. {g.notes}")
+            trail = f"trailed {g.kc_thru7}-{g.opp_thru7}" if g.has_thru7 else "trailed"
+            print(f"  {g.date} {g.home_away} {g.opponent}: {trail} thru 7, "
+                  f"won {g.kc_final}-{g.opp_final}. {g.notes}")
 
     print("\nGames TIED after 7 (would end as ties):")
-    for g in known:
+    for g in resolved:
         if g.after7_result == "T":
             res = "won" if g.actual_win else "lost"
             print(f"  {g.date} {g.home_away} {g.opponent}: tied {g.kc_thru7}-{g.opp_thru7} "
                   f"thru 7, {res} {g.kc_final}-{g.opp_final}. {g.notes}")
 
-    if unknown:
-        print(f"\nGames excluded (no thru-7 data): {len(unknown)}")
-        for g in unknown:
-            res = "W" if g.actual_win else "L"
-            print(f"  {g.date} {g.home_away} {g.opponent}: {res} {g.kc_final}-{g.opp_final}")
+    extras = [g for g in games if g.extras]
+    if extras:
+        ew = sum(1 for g in extras if g.actual_win)
+        print(f"\nExtra-inning games: {len(extras)} (actual record {ew}-{len(extras) - ew})")
 
-    low_conf = [g for g in known if g.confidence.upper() not in ("HIGH", "")]
+    if unresolved:
+        print(f"\nGames excluded (after-7 outcome unresolved): {len(unresolved)}")
+        for g in unresolved:
+            res = "W" if g.actual_win else "L"
+            print(f"  {g.date} {g.home_away} {g.opponent}: {res} "
+                  f"{g.kc_final}-{g.opp_final}. {g.notes}")
+
+    low_conf = [g for g in resolved
+                if g.confidence.upper() not in ("HIGH", "MEDIUM-HIGH", "")]
     if low_conf:
-        print(f"\nGames with reduced confidence in thru-7 score: {len(low_conf)}")
-        for g in low_conf:
-            print(f"  {g.date} {g.home_away} {g.opponent} ({g.confidence}): {g.notes}")
+        print(f"\nResolved games with reduced confidence: {len(low_conf)}")
 
 
 if __name__ == "__main__":
