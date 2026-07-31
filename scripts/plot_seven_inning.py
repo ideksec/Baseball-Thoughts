@@ -146,6 +146,10 @@ def fig_flips(games, outdir):
     ax.fill_between([0.0, lim], 0, -lim, color=RED, alpha=0.06, zorder=0)
     ax.fill_between([-lim, 0.0], 0, lim, color=BLUE, alpha=0.06, zorder=0)
 
+    n_blown = sum(1 for g in full
+                  if g["kc_thru7"] > g["opp_thru7"] and g["kc_final"] < g["opp_final"])
+    n_comeback = sum(1 for g in full
+                     if g["kc_thru7"] < g["opp_thru7"] and g["kc_final"] > g["opp_final"])
     seen_xy = {}
     for g in full:
         x = g["kc_thru7"] - g["opp_thru7"]
@@ -165,10 +169,10 @@ def fig_flips(games, outdir):
         ax.scatter(x + dx, y + dy, s=size, color=color, edgecolors=SURFACE,
                    linewidths=1.4, zorder=z)
 
-    ax.text(lim - 0.3, -lim + 0.4, "Led thru 7, lost\n(10 games)", color=RED,
+    ax.text(lim - 0.3, -lim + 0.4, f"Led thru 7, lost\n({n_blown} games)", color=RED,
             fontsize=10, fontweight="bold", ha="right", va="bottom")
-    ax.text(-lim + 0.3, lim - 0.4, "Trailed thru 7, won\n(3 games)", color=BLUE,
-            fontsize=10, fontweight="bold", ha="left", va="top")
+    ax.text(-lim + 0.3, lim - 0.4, f"Trailed thru 7, won\n({n_comeback} games)",
+            color=BLUE, fontsize=10, fontweight="bold", ha="left", va="top")
     ax.set_xlim(-lim, lim)
     ax.set_ylim(-lim, lim)
     ax.set_xlabel("Royals margin at the end of the 7th inning")
@@ -214,9 +218,11 @@ def fig_late_runs(games, outdir):
     ax.grid(axis="y", visible=False)
     ax.set_xlim(0, max(scored + allowed) + 46)
     ax.set_xlabel("Runs")
-    title_block(fig, ax, "A positive team for seven innings, a disaster after",
+    net7, net8 = rs7 - ra7, rs8 - ra8
+    title_block(fig, ax, "Two innings do most of the damage",
                 f"Runs scored and allowed across the {len(full)} games with "
-                "verified line scores.")
+                f"verified line scores. Innings 8+ are ~2 of 9 innings but "
+                f"account for {net8} of the {net7 + net8} run differential.")
     legend = [Line2D([0], [0], color=BLUE, lw=6, label="Royals scored"),
               Line2D([0], [0], color=ORANGE, lw=6, label="Opponents scored")]
     ax.legend(handles=legend, loc="lower right", frameon=False, fontsize=9,

@@ -1,6 +1,6 @@
 # What if every Royals game ended after 7 innings? A 2026 counterfactual
 
-> Date: 2026-07-30
+> Date: 2026-07-30 (updated 2026-07-31 with box-score verification and figures)
 > Author: Baseball-Thoughts (compiled with Claude)
 
 ## Question
@@ -13,17 +13,20 @@ If the "blown leads" impression is real, the Royals' after-7 record should be me
 
 ## Data
 
-- Source(s): Per-game recaps and partial line scores from ESPN, MLB.com, AP wire stories (via Washington Post, FOX Sports, ABC News, and regional outlets), CBS Sports, and team SB Nation sites (Royals Review, Amazin' Avenue, South Side Sox, Twinkie Town, Lone Star Ball, Redleg Nation, The Good Phight, Camden Chat, Athletics Nation), gathered via web search on 2026-07-30. Sources for pivotal games are cited inline and in the game log.
-- Time window: 2026-03-27 (Opening Day) through 2026-07-30 — 110 regular-season games.
-- Filters / scope: Kansas City Royals regular-season games only.
-- Known limitations: The MLB Stats API and all direct page fetches were blocked by this environment's network policy (same constraint as the 2026-07-08 report), so line scores were reconstructed from recap narratives rather than pulled from a structured API. Confidence is graded per game in the data file; 4 of 110 games could not be resolved through 7 innings and are excluded from the counterfactual tally.
+- **Two independent passes.** Pass 1 reconstructed every game's score through 7 innings from game recaps (AP wire, ESPN, MLB.com, team SB Nation sites). Pass 2 re-verified all 110 games against box-score-grade sources — Baseball Almanac box pages, plaintextsports line scores, ESPN box scores, and AP recaps that itemize every scoring play — and corrected six games (list under Method).
+- **Structured sources were unreachable.** This environment's network policy blocks the MLB Stats API, ESPN's API, Baseball-Reference, Baseball Savant, and HuggingFace (where the weekly-updated `statcast-era-pitches` archive lives). The only open host family is GitHub: Neil Paine's maintained MLB Elo game-results CSV was pulled from `Neil-Paine-1/MLB-WAR-data-historical` as a candidate independent source for final scores, but its data ends with the 2025 season. All verification therefore ran through the web-search layer against the box-score sources above.
+- Time window: 2026-03-27 (Opening Day) through 2026-07-30 — 110 regular-season games, all resolved.
+- Coverage: **87 games have exact through-7 line scores for both teams**; the other 23 have one side bounded (e.g., "11–13") with the after-7 winner still arithmetically certain. Zero games unresolved.
+- Cross-checks: season-record checkpoints reconcile exactly (35-51 entering July 1; 41-60 after July 20; 43-62 after July 24; 46-64 after July 30).
 
 ## Method
 
-For each game, the score at the completion of the 7th inning was reconstructed from recap narratives (e.g., "tied it in the 8th," "walk-off in the 9th," "all the scoring came by the 5th"), cross-checked against season-record checkpoints (35-51 entering July 1; 43-62 after July 24). Each game gets an after-7 result: W, L, or T (tied through 7 — in this thought experiment, ties stand). Games where the exact through-7 line score is unknown but the after-7 leader is arithmetically certain (e.g., the 22-1 loss) are counted in the record but excluded from run-differential math.
+For each game, the score at the completion of the 7th inning was taken from line scores where available, otherwise reconstructed from itemized scoring plays. Each game gets an after-7 result: W, L, or T (tied through 7 — in this thought experiment, ties stand). Games with a certain after-7 winner but partially bounded scores count in the record but are excluded from run-differential math.
 
-Data: [`data/processed/2026_royals_after7_gamelog.csv`](../../data/processed/2026_royals_after7_gamelog.csv) (110 rows, per-game confidence grades and notes).
-Analysis: [`scripts/seven_inning_counterfactual.py`](../../scripts/seven_inning_counterfactual.py) — rerun with `python scripts/seven_inning_counterfactual.py data/processed/2026_royals_after7_gamelog.csv`.
+Corrections made by the verification pass: **May 2** (was unresolved → KC trailed 1-2 through 7 of a 10-inning game they won), **May 24** (5-3 lead, tie scenario eliminated), **June 4** (6-5 through 7, not 6-6 — Caratini's tying homer came in the 8th), **July 5** (2-2 tie, not a KC lead — Perez's sealing double came in the 8th), **July 10** (KC trailed 2-3 through 7; the 3-3 tie only existed mid-8th), and **July 30** (was unresolved → KC led 3-0 through 7 *and 8* and lost on a 9th-inning walk-off grand slam).
+
+Data: [`data/processed/2026_royals_after7_gamelog.csv`](../../data/processed/2026_royals_after7_gamelog.csv) (110 rows, per-game confidence grades, line scores in notes).
+Analysis: [`scripts/seven_inning_counterfactual.py`](../../scripts/seven_inning_counterfactual.py) · Figures: [`scripts/plot_seven_inning.py`](../../scripts/plot_seven_inning.py)
 
 ## Results
 
@@ -32,18 +35,15 @@ Analysis: [`scripts/seven_inning_counterfactual.py`](../../scripts/seven_inning_
 | | Record | Win % |
 |---|---|---|
 | **Actual season (110 games)** | 46-64 | .418 |
-| **Actual, over the 106 resolved games** | 45-61 | .425 |
-| **If games ended after 7 (106 resolved games)** | **45-47-14** | **.491** (ties as half) |
+| **If games ended after 7 (same 110 games)** | **46-51-13** | **.477** (ties as half) |
 
-The 7-inning Royals are a nearly .500 team. The 9-inning Royals are on a 68-win pace. Innings 8 and beyond have cost Kansas City **about 7 wins of standings value through July 30** — roughly an 11-win swing over a full season.
+The 7-inning Royals sit a hair under .500. The 9-inning Royals are on a 68-win pace. Innings 8 and beyond have cost Kansas City **6.5 wins of standings value through July 30** — a ~10-win swing over a full season.
 
-### It's not the offense, and it's not the starters
+![Cumulative games above .500: actual vs after-7](figures/walk_actual_vs_after7.png)
 
-Over the 72 games with fully reconstructed line scores, the Royals **outscored opponents by 22 runs through 7 innings** — and finished those same games with a **−12 run differential**. From the 8th inning on they were outscored **93 to 59 (−34)**. The first seven innings of Royals baseball this season have been played by a solidly positive team; the last two have been played by one of the worst late-game teams imaginable.
+### Eleven blown games — including the very night this question was asked
 
-### Ten blown games: led after 7, lost anyway
-
-The Royals led at the end of the 7th in **ten games they went on to lose**. Only **three times** did they trail after 7 and come back to win (Apr 26 vs LAA, May 8 vs DET, Jul 26 at DET). A 10-to-3 imbalance:
+The Royals led at the end of the 7th in **eleven games they went on to lose**; only **four times** did they trail after 7 and come back to win. Eight of the eleven ended as walk-off losses.
 
 | Date | Opp | Led thru 7 | Final | How it died |
 |---|---|---|---|---|
@@ -57,59 +57,61 @@ The Royals led at the end of the 7th in **ten games they went on to lose**. Only
 | Jun 13 | vs HOU | 7-5 | L 7-8 | Altuve tying HR in the 8th; winning run scored on a botched double-play throw in the 9th |
 | Jul 8 | @ NYM | 2-1 | L 2-6 | Five-run 8th off Lange/Cuas: bases-loaded HBP, two-run single, wild pitch |
 | Jul 28 | @ MIN | 2-1 | L 2-3 | Two out in the 9th; Royce Lewis two-run walk-off triple |
+| **Jul 30** | @ MIN | **3-0** | **L 3-4** | **Cameron threw 8 shutout innings; Erceg loaded the bases in the 9th and Kody Clemens hit a walk-off grand slam** |
 
-Seven of the ten ended as walk-off losses. In a 7-inning world, all ten go in the win column.
+![Margin through 7 vs final margin, flips highlighted](figures/flip_scatter.png)
 
-### Fourteen ties — and the Royals actually win the late innings of tied games
+### Thirteen ties — and the Royals actually win the late innings of tied games
 
-Fourteen games were tied through 7 (13% of the season). Here the Royals broke even-plus: they won 7 of the 14 in real life (including Salvador Perez's record-breaking 318th-HR game on Jul 25 and the Jensen walk-off against San Diego on Jul 17) and lost 7 (four of them walk-offs: Rocchio, Pozo, Gonzalez, plus Basallo's 8th-inning homer). The disaster is specifically **protecting leads**, not playing from even.
+Thirteen games were tied through 7 (12% of the season). Here the Royals came out ahead: they won 7 of the 13 in real life (including Salvador Perez's record-breaking 318th-HR game on Jul 25, the Jensen walk-off against San Diego on Jul 17, and the Jul 5 Phillies game sealed by Perez's 8th-inning double) and lost 6 — three of those by walk-off (Rocchio, Pozo, Gonzalez). The disaster is specifically **protecting leads**, not playing from even.
+
+### The run-differential anatomy
+
+Over the 87 games with complete line scores, the Royals were outscored by 21 through seven innings — they are not secretly a good team for seven frames; the 22-1 and 19-2 blowouts are real. But innings 8+ produced a **−33 differential (68 scored, 101 allowed) in roughly two innings a game**: per inning, the late innings have been about **five times worse** than innings 1–7 (−0.19 runs/inning vs −0.03). The record gap comes precisely from close games: an 11-to-4 blown-lead imbalance and a .418 season that would be .477 without the last two innings.
+
+![Runs scored and allowed, innings 1-7 vs 8+](figures/late_inning_runs.png)
 
 ### Month by month
 
-| Month | Actual | After 7 innings | Swing |
+| Month | Actual | After 7 innings | Swing (ties = ½) |
 |---|---|---|---|
 | March | 2-2 | 3-1 | +1 |
 | April | 10-17 | 11-13-3 | +2.5 |
-| May | 10-18 | 8-15-4 | ±0 |
-| June | 13-14 | 13-10-4 | +2 |
-| July (thru 7/30) | 11-13 | 10-8-3 | +0.5 |
+| May | 10-18 | 8-16-4 | ±0 |
+| June | 13-14 | 14-10-3 | +2.5 |
+| July (thru 7/30) | 11-13 | 10-11-3 | +0.5 |
 
-May is the honest month: the Royals were simply bad for nine innings (they even stole a couple of games late — the Isbel walk-off on May 8 was a real comeback). Every other month, the last two innings took wins off the board. April alone turned a would-be .500-ish month (11-13-3) into 10-17.
+May is the honest month: the Royals were simply bad for nine innings, and twice stole games late (the Isbel walk-off May 8, the 10-inning May 2 win in Seattle). Every other month, the last two innings took wins off the board.
 
 ### The culprits have names
 
-The blown games cluster around the same arms: **Lucas Erceg** (blown 9th innings May 25, May 30, Jun 2), **Matt Strahm** (decisive 8th-inning homers allowed May 12, Jun 6, Jul 10), and the **Lange/Cuas** five-run 8th on Jul 8. The Jun 10 loss featured a walk-walk-HBP meltdown; Jun 13 and the Jul 28 near-miss ended on defensive mistakes. This is a late-inning run-prevention problem across the board — the offense actually added runs late (59 scored in innings 8+), just nowhere near the 93 allowed.
+The blown games cluster around the same arms. **Lucas Erceg** has four of them: the Volpe two-run single (May 25, tied game), five straight hits in Texas (May 30), Benson's tying homer (Jun 2), and the Clemens walk-off grand slam (Jul 30). **Matt Strahm** allowed the decisive 8th-inning homer three times in tied games (May 12 Hill, Jun 6 Arcia, Jul 10 Basallo). The **Lange/Cuas** five-run 8th lost Jul 8. Two more died on defense (the Jun 13 double-play throw, Jul 28 after five double plays had kept KC ahead). The offense is not the problem late — 68 runs scored in innings 8+, and 7 of 13 after-7 ties won — the runs allowed are.
 
 ## Limitations
 
-- Line scores were reconstructed from recap narratives, not an API. 72 of 110 games have fully verified through-7 scores; 34 more have a certain after-7 winner but partially unknown exact scores; 4 games (May 2, Jul 11, Jul 12, Jul 30) are unresolved and excluded. Three of the four unresolved games were actual losses that were very probably also after-7 losses — including them would nudge the counterfactual toward 45-50-14 (.477), still ~5 wins better than actual.
-- Ties are counted as half-wins, which flatters no one; MLB has no ties, so the counterfactual record is an accounting convention, not a simulation.
-- The counterfactual is descriptive, not causal: in a real 7-inning league, managers would deploy bullpens completely differently, so this measures *where the 2026 Royals lost their games*, not what a 7-inning league would produce.
-- 35 resolved games carry MEDIUM confidence on the exact through-7 score (the after-7 winner is certain in each); a structured API pull could tighten every number here.
+- No structured API was reachable; every line score came from box-score pages and itemized recaps surfaced through the search layer. 87 of 110 games have exact two-sided through-7 scores; 23 more have one side bounded with a certain after-7 winner; 9 carry reduced confidence overall (flagged in the CSV). No game's after-7 *result* is in doubt.
+- Ties counted as half-wins are an accounting convention, not a simulation; MLB has no ties.
+- The counterfactual is descriptive, not causal: in a real 7-inning league, bullpens would be deployed completely differently. This measures *where the 2026 Royals lost their games*, not what a 7-inning league would produce.
 
 ## Takeaway
 
-The impression is correct, and it's quantifiable: through July 30 the Royals are a .491 team through seven innings and a .418 team at final. They led after 7 in ten games they lost — seven by walk-off — against only three late comeback wins, and were outscored 93-59 from the 8th inning on despite a +22 run differential through 7. End every game after seven innings and this is a fringe-.500 club (45-47-14) instead of one 18 games under. The roughly 7 wins burned in the late innings trace mostly to the high-leverage bullpen (Erceg's three blown 9ths, Strahm's three decisive 8th-inning homers, the Jul 8 Lange/Cuas implosion) rather than to a lineup that goes quiet late.
+Verified against box scores, the picture is sharper than the first pass suggested: the Royals are a .477 team through seven innings and a .418 team at final. They led after 7 in eleven games they lost — eight by walk-off, four with Erceg on the mound at the end — against four late comeback wins, and innings 8+ carry a −33 run differential in two innings a game, five times worse per inning than the first seven. The night before this report was updated was the season in miniature: eight shutout innings from Noah Cameron, a 3-0 lead, and a walk-off grand slam. End games after seven and this club is 46-51-13 — fringe-.500 — instead of eighteen games under.
 
 ## Next iteration
 
-- Re-pull the whole season from the MLB Stats API linescore endpoint from a network-permitted environment to upgrade all MEDIUM rows to verified and resolve the 4 unknowns.
-- Compare against league: is a −34 innings-8+ run differential actually extreme, or does every bad team look like this? (Compute the same counterfactual for all 30 teams.)
-- Slice by reliever: innings-8+ runs allowed by pitcher, and win-probability-added lost in innings 8+, to separate the Erceg/Strahm effect from general bullpen depth.
-- Revisit after the trade deadline: if the late-inning arms change, does the actual-vs-after-7 gap close?
+- A statsapi/linescore pull from a network-permitted environment would upgrade the 23 bounded rows to exact and add R/H/E; the repo's CSV schema is ready for it.
+- League context: compute the same counterfactual for all 30 teams — is an 11-to-4 blown-lead imbalance and −33 late differential historically extreme?
+- Per-reliever accounting: innings-8+ runs allowed and WPA lost by pitcher, to separate the Erceg/Strahm effect from bullpen depth.
+- Re-run after the trade deadline to see whether the gap closes with new late-inning arms.
 
 ## Sources
 
-Pivotal-game sources (full per-game citations in the CSV notes and the four research passes behind it):
+Verification-pass sources per game are recorded in the CSV notes. Pivotal-game citations:
 
-- [ESPN: Braves 6-2 Royals, Mar 28 — walk-off grand slam](https://www.espn.com/mlb/recap/_/gameId/401814710) · [AJC](https://www.ajc.com/sports/2026/03/dominic-smith-hits-walk-off-grand-slam-as-braves-beat-royals-6-2/)
-- [ESPN: Tigers 2-1 Royals, Apr 14](https://www.espn.com/mlb/recap/_/gameId/401814934) · [ESPN: Tigers 10-9 Royals, Apr 16](https://www.espn.com/mlb/recap?gameId=401814963)
-- [ESPN: Orioles 7-5 Royals (12), Apr 20](https://www.espn.com/mlb/recap?gameId=401815021)
-- [MLB.com: Rangers walk off Royals, May 30](https://www.mlb.com/news/carter-jensen-royals-rally-before-walk-off-loss-to-rangers)
-- [Redleg Nation: Benson ties it in 9th, Dunn wins it in 10th, Jun 2](https://www.redlegnation.com/2026/06/02/will-benson-ties-it-in-9th-blake-dunn-wins-it-in-10th/)
-- [NBC DFW: Rangers 6-4 in 10, Jun 10](https://www.nbcdfw.com/mlb/diaz-and-burger-lead-the-rangers-to-a-6-4-win-over-the-royals-in-10-innings/4035150/) · [MLB.com: Astros' three unanswered, Jun 13](https://www.mlb.com/video/astros-score-three-unanswered-runs-to-defeat-royals)
-- [Amazin' Avenue: Five-run eighth propels Mets, Jul 8](https://www.amazinavenue.com/new-york-mets-scores/97401/mets-recap-final-scores-five-run-eighth-propels-victory-over-royals-kansas-city-new-york-baseball-mlb)
-- [Baltimore Banner: Basallo's 8th-inning homer, Jul 10](https://www.thebanner.com/sports/orioles-mlb/orioles-royals-samuel-basallo-winning-home-run-RENZGVWL2JCGFBJB2BPRYPP7XU/)
-- [CBS Minnesota/AP: Lewis walk-off triple, Jul 28](https://www.cbsnews.com/minnesota/news/twins-vs-royals-game-july-28-2026/)
-- [Times Gazette/AP: Perez's record 318th HR, Jul 25](https://www.timesgazette.com/2026/07/25/nick-loftin-and-salvador-perez-hit-late-inning-home-runs-as-royals-rally-to-beat-tigers-3-2/)
-- [NBC Sports/AP: Jensen caps 4-run 10th, Jul 17](https://www.nbcsports.com/mlb/news/carter-jensens-2-run-single-caps-4-run-10th-inning-as-royals-rally-for-7-6-win-over-padres)
+- [Baseball Almanac 2026 box scores (e.g., 202604160DET, 202605250KCA, 202607020KCA)](https://www.baseball-almanac.com/box-scores/boxscore.php?boxid=202604160DET) · [plaintextsports line scores (e.g., Jul 11 KC-BAL)](https://plaintextsports.com/mlb/2026-07-11/kc-bal)
+- [Neil-Paine-1/MLB-WAR-data-historical](https://github.com/Neil-Paine-1/MLB-WAR-data-historical) (checked as an independent finals source; data ends 2025)
+- [AP via Washington Post, Jul 30 @ MIN](https://www.washingtonpost.com/sports/mlb/2026/07/29/twins-royals-score/a5ce5ec0-8bbb-11f1-8912-d71e69d679d7_story.html) · [Jul 28 @ MIN](https://www.washingtonpost.com/sports/mlb/2026/07/28/twins-royals-score-lewis-buxton/bc39ae96-8afb-11f1-8912-d71e69d679d7_story.html)
+- [ESPN: Braves 6-2 Royals, Mar 28](https://www.espn.com/mlb/recap/_/gameId/401814710) · [Orioles 7-5 Royals (12), Apr 20](https://www.espn.com/mlb/recap?gameId=401815021) · [Tigers 10-9 Royals, Apr 16](https://www.espn.com/mlb/recap?gameId=401814963)
+- [Royals Review: May 2 in 10 innings](https://www.royalsreview.com/kansas-city-royals-scores-standings/98125/royals-defeat-mariners-and-the-ghost-of-randy-johnson-3-2-in-10-innings) · [MLB.com: Rangers walk off Royals, May 30](https://www.mlb.com/news/carter-jensen-royals-rally-before-walk-off-loss-to-rangers)
+- [Redleg Nation: Jun 2](https://www.redlegnation.com/2026/06/02/will-benson-ties-it-in-9th-blake-dunn-wins-it-in-10th/) · [Amazin' Avenue: five-run eighth, Jul 8](https://www.amazinavenue.com/new-york-mets-scores/97401/mets-recap-final-scores-five-run-eighth-propels-victory-over-royals-kansas-city-new-york-baseball-mlb) · [Baltimore Banner: Basallo, Jul 10](https://www.thebanner.com/sports/orioles-mlb/orioles-royals-samuel-basallo-winning-home-run-RENZGVWL2JCGFBJB2BPRYPP7XU/)
+- [Times Gazette/AP: Perez's record 318th HR, Jul 25](https://www.timesgazette.com/2026/07/25/nick-loftin-and-salvador-perez-hit-late-inning-home-runs-as-royals-rally-to-beat-tigers-3-2/) · [NBC Sports/AP: Jensen walk-off, Jul 17](https://www.nbcsports.com/mlb/news/carter-jensens-2-run-single-caps-4-run-10th-inning-as-royals-rally-for-7-6-win-over-padres)
