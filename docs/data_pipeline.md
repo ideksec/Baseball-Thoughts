@@ -86,13 +86,13 @@ Principles:
 
 ## Phased plan
 
-| Phase | Deliverable | Depends on |
-|-------|-------------|------------|
-| 1 | `io.statsapi` + `clean.games` + `pull_games.py`; committed Royals 2026 game log in `data/processed/` | nothing — free API |
-| 2 | `game_report.py` generating report skeletons; backfill the July report's "Next iteration" (reproducible statsapi pull) | Phase 1 |
-| 3 | `io.statcast` with day-chunked caching; first Statcast notebook (e.g. Caglianone's batted-ball profile) | Phase 1 patterns |
-| 4 | Historical layer: Retrosheet CSVs + Lahman loaders; league-context notebooks | independent |
-| 5 | Automation: nightly in-season pull (see below) | Phases 1–2 |
+| Phase | Deliverable | Depends on | Status |
+|-------|-------------|------------|--------|
+| 1 | `io.statsapi` + `clean.games`; committed Royals season game log in `data/processed/` | nothing — free API | **Done** (as part of the daily pipeline) |
+| 2 | Automated per-game reports (superseded `game_report.py`: stat packs + a report-writing Routine, see below) | Phase 1 | **Done** |
+| 3 | `io.statcast` single-game pulls + Statcast highlights in each stat pack; day-chunked bulk pulls for notebooks | Phase 1 patterns | **Partial** (single-game done) |
+| 4 | Historical layer: Retrosheet CSVs + Lahman loaders; league-context notebooks | independent | Not started |
+| 5 | Automation: nightly in-season pull + morning narrative (`.github/workflows/nightly-royals.yml` + `docs/ROUTINE_PROMPT.md`) | Phases 1–2 | **Done** |
 
 ## Automation and environments
 

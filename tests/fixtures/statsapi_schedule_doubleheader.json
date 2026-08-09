@@ -1,0 +1,48 @@
+{
+  "totalGames": 2,
+  "dates": [
+    {
+      "date": "2026-08-15",
+      "games": [
+        {
+          "gamePk": 777003,
+          "officialDate": "2026-08-15",
+          "gameNumber": 2,
+          "doubleHeader": "Y",
+          "status": {"codedGameState": "F", "detailedState": "Final"},
+          "teams": {
+            "away": {
+              "team": {"id": 118, "name": "Kansas City Royals"},
+              "score": 2,
+              "leagueRecord": {"wins": 59, "losses": 64}
+            },
+            "home": {
+              "team": {"id": 142, "name": "Minnesota Twins"},
+              "score": 6,
+              "leagueRecord": {"wins": 60, "losses": 63}
+            }
+          }
+        },
+        {
+          "gamePk": 777002,
+          "officialDate": "2026-08-15",
+          "gameNumber": 1,
+          "doubleHeader": "Y",
+          "status": {"codedGameState": "F", "detailedState": "Final"},
+          "teams": {
+            "away": {
+              "team": {"id": 118, "name": "Kansas City Royals"},
+              "score": 4,
+              "leagueRecord": {"wins": 59, "losses": 63}
+            },
+            "home": {
+              "team": {"id": 142, "name": "Minnesota Twins"},
+              "score": 1,
+              "leagueRecord": {"wins": 59, "losses": 63}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -64,6 +64,15 @@ era(earned_runs=3, innings_pitched=innings_from_notation(6.1))  # 4.26...
 4. **Publishable by default.** Written clearly and defensibly, with data handling explicit.
 5. **Messy is allowed, but contained.** Experiments live in `scratch/` and get promoted or removed.
 
+## Automation
+
+Every Royals game produces analysis automatically, in two stages:
+
+1. **Nightly stat pack** — [`nightly-royals.yml`](.github/workflows/nightly-royals.yml) runs after each game day, pulls the game from the MLB Stats API and Baseball Savant, and commits a compact per-game JSON to `data/processed/royals/statpacks/` plus a season game-log row. Deterministic Python (`scripts/nightly_royals.py`), fully covered by offline fixture tests.
+2. **Morning narrative** — a scheduled Claude session reads the newest stat pack and writes a themed report to `reports/royals/daily/`, following [`docs/ROUTINE_PROMPT.md`](docs/ROUTINE_PROMPT.md). It works entirely from committed data — every number traces back to the stat pack.
+
+Design details in [`docs/data_pipeline.md`](docs/data_pipeline.md).
+
 ## Data policy
 
 - Never commit large raw datasets — `data/raw/` and `data/interim/` are gitignored.

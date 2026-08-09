@@ -1,0 +1,13 @@
+[
+  {"atBatIndex": 0, "homeTeamWinProbability": 52.0, "homeTeamWinProbabilityAdded": -1.0},
+  {"atBatIndex": 2, "homeTeamWinProbability": 55.0, "homeTeamWinProbabilityAdded": 3.0},
+  {"atBatIndex": 3, "homeTeamWinProbability": 68.0, "homeTeamWinProbabilityAdded": 13.0},
+  {"atBatIndex": 10, "homeTeamWinProbability": 67.0, "homeTeamWinProbabilityAdded": -1.0},
+  {"atBatIndex": 18, "homeTeamWinProbability": 60.0, "homeTeamWinProbabilityAdded": -7.0},
+  {"atBatIndex": 25, "homeTeamWinProbability": 62.0, "homeTeamWinProbabilityAdded": 2.0},
+  {"atBatIndex": 33, "homeTeamWinProbability": 38.0, "homeTeamWinProbabilityAdded": -22.0},
+  {"atBatIndex": 40, "homeTeamWinProbability": 36.0, "homeTeamWinProbabilityAdded": -2.0},
+  {"atBatIndex": 47, "homeTeamWinProbability": 78.0, "homeTeamWinProbabilityAdded": 28.4},
+  {"atBatIndex": 55, "homeTeamWinProbability": 88.0, "homeTeamWinProbabilityAdded": 6.0},
+  {"atBatIndex": 60, "homeTeamWinProbability": 100.0, "homeTeamWinProbabilityAdded": 5.0}
+]

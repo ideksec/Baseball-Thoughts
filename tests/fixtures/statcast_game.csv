@@ -1,0 +1,31 @@
+game_pk,batter,player_name,pitcher,events,description,des,launch_speed,launch_angle,hit_distance_sc,estimated_ba_using_speedangle,pitch_type,release_speed,inning,inning_topbot,home_team,away_team
+777001,674951,"Cameron, Noah",694973,,ball,,,,,,FF,94.1,1,Top,KC,CWS
+777001,674951,"Cameron, Noah",694973,,called_strike,,,,,,FF,93.5,1,Top,KC,CWS
+777001,674951,"Cameron, Noah",694973,,swinging_strike,,,,,,CH,85.2,1,Top,KC,CWS
+777001,683734,"Cameron, Noah",694973,,foul,,,,,,FF,93.8,2,Top,KC,CWS
+777001,674951,"Cameron, Noah",694973,double,hit_into_play,Luis Robert Jr. doubles on a sharp line drive.,102.3,14,255,0.48,FF,94.8,3,Top,KC,CWS
+777001,700600,"Cameron, Noah",694973,,swinging_strike,,,,,,SL,84.0,3,Top,KC,CWS
+777001,683734,"Cameron, Noah",694973,,called_strike,,,,,,FF,93.2,4,Top,KC,CWS
+777001,683734,"Cameron, Noah",694973,home_run,hit_into_play,Andrew Vaughn homers on a fly ball to left field.,103.5,30,398,0.55,FF,94.0,5,Top,KC,CWS
+777001,700600,"Cameron, Noah",694973,,swinging_strike,,,,,,CH,84.8,5,Top,KC,CWS
+777001,674951,"Cameron, Noah",694973,,ball,,,,,,FF,93.9,6,Top,KC,CWS
+777001,683734,"Cameron, Noah",694973,,swinging_strike,,,,,,FF,94.2,7,Top,KC,CWS
+777001,700600,"Cameron, Noah",694973,field_out,hit_into_play,Lenyn Sosa grounds out.,95.0,-8,12,0.31,SL,83.6,7,Top,KC,CWS
+777001,674951,"Lynch IV, Daniel",663903,field_out,hit_into_play,Luis Robert Jr. lines out sharply to first baseman.,107.1,12,150,0.81,FF,95.5,7,Top,KC,CWS
+777001,683734,"Lynch IV, Daniel",663903,,swinging_strike,,,,,,FF,95.1,8,Top,KC,CWS
+777001,700600,"Lynch IV, Daniel",663903,,called_strike,,,,,,SL,86.0,8,Top,KC,CWS
+777001,700600,"Lynch IV, Daniel",663903,field_out,hit_into_play,Lenyn Sosa flies out.,88.0,35,310,0.12,FF,95.2,8,Top,KC,CWS
+777001,674951,"Estevez, Carlos",686294,,called_strike,,,,,,FF,97.2,9,Top,KC,CWS
+777001,683734,"Estevez, Carlos",686294,single,hit_into_play,Andrew Vaughn singles on a line drive.,99.2,10,180,0.44,FF,97.5,9,Top,KC,CWS
+777001,700600,"Estevez, Carlos",686294,,swinging_strike,,,,,,SL,88.1,9,Top,KC,CWS
+777001,700600,"Estevez, Carlos",686294,field_out,hit_into_play,Lenyn Sosa grounds out to second baseman.,85.3,-12,8,0.09,FF,97.0,9,Top,KC,CWS
+777001,677951,"Taylor, Grant",700001,single,hit_into_play,Bobby Witt Jr. singles on a line drive to left field.,98.5,11,175,0.52,FF,96.0,1,Bot,KC,CWS
+777001,691411,"Taylor, Grant",700001,home_run,hit_into_play,Jac Caglianone homers on a fly ball to right field.,111.2,24,448,0.87,FF,96.1,1,Bot,KC,CWS
+777001,521692,"Taylor, Grant",700001,,swinging_strike,,,,,,SL,85.0,2,Bot,KC,CWS
+777001,677951,"Taylor, Grant",700001,double,hit_into_play,Bobby Witt Jr. doubles on a sharp line drive to left-center.,108.4,16,280,0.65,FF,95.8,3,Bot,KC,CWS
+777001,700500,"Taylor, Grant",700001,single,hit_into_play,Carter Jensen singles on a soft ground ball to third base.,68.3,-5,90,0.06,CH,86.2,4,Bot,KC,CWS
+777001,521692,"Taylor, Grant",700001,,called_strike,,,,,,FF,96.2,5,Bot,KC,CWS
+777001,521692,"Taylor, Grant",700001,home_run,hit_into_play,Salvador Perez homers on a fly ball to left field.,105.9,28,402,0.71,SL,84.2,6,Bot,KC,CWS
+777001,700500,"Taylor, Grant",700001,single,hit_into_play,Carter Jensen singles on a line drive.,91.2,9,160,0.38,FF,95.5,6,Bot,KC,CWS
+777001,677951,"Booser, Cam",700002,field_out,hit_into_play,Bobby Witt Jr. flies out to center fielder.,101.5,32,385,0.42,FF,94.5,7,Bot,KC,CWS
+777001,691411,"Booser, Cam",700002,,swinging_strike,,,,,,SL,84.9,8,Bot,KC,CWS

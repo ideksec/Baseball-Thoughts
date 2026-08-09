@@ -24,6 +24,7 @@ dependencies = [
     "numpy>=1.24",
     "matplotlib>=3.7",
     "seaborn>=0.12",
+    "requests>=2.31",
 ]
 
 [project.urls]
@@ -54,3 +55,7 @@ select = ["E", "F", "I", "W"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "live: tests that hit real MLB endpoints (excluded by default; run with -m live)",
+]
+addopts = "-m \"not live\""

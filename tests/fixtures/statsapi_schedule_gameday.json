@@ -1,0 +1,29 @@
+{
+  "totalGames": 1,
+  "dates": [
+    {
+      "date": "2026-08-08",
+      "games": [
+        {
+          "gamePk": 777001,
+          "officialDate": "2026-08-08",
+          "gameNumber": 1,
+          "doubleHeader": "N",
+          "status": {"codedGameState": "F", "detailedState": "Final"},
+          "teams": {
+            "away": {
+              "team": {"id": 145, "name": "Chicago White Sox"},
+              "score": 3,
+              "leagueRecord": {"wins": 51, "losses": 67}
+            },
+            "home": {
+              "team": {"id": 118, "name": "Kansas City Royals"},
+              "score": 5,
+              "leagueRecord": {"wins": 56, "losses": 62}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
