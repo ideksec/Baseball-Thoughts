@@ -2,7 +2,14 @@
 
 import pytest
 
-from baseball_lab.metrics.batting import batting_avg, on_base_pct, ops, slugging_pct
+from baseball_lab.metrics.batting import (
+    babip,
+    batting_avg,
+    iso,
+    on_base_pct,
+    ops,
+    slugging_pct,
+)
 
 
 class TestBattingAvg:
@@ -35,6 +42,28 @@ class TestOnBasePct:
 
     def test_zero_denom(self):
         assert on_base_pct(0, 0, 0, 0, 0) == 0.0
+
+
+class TestIso:
+    def test_all_singles_is_zero(self):
+        # A hitter with only singles has no isolated power.
+        assert iso(10, 0, 0, 0, 40) == pytest.approx(0.0)
+
+    def test_mixed(self):
+        # SLG = (10 + 10 + 6 + 12) / 100 = 0.380; AVG = 20/100 = 0.200
+        assert iso(10, 5, 2, 3, 100) == pytest.approx(0.180)
+
+    def test_zero_at_bats(self):
+        assert iso(0, 0, 0, 0, 0) == 0.0
+
+
+class TestBabip:
+    def test_basic(self):
+        # (150 H - 30 HR) / (550 AB - 100 K - 30 HR + 5 SF) = 120 / 425
+        assert babip(150, 30, 550, 100, 5) == pytest.approx(120 / 425)
+
+    def test_zero_denom(self):
+        assert babip(0, 0, 0, 0, 0) == 0.0
 
 
 class TestOPS:

@@ -1,7 +1,7 @@
 # spec.md — Baseball Analytics Lab Repo (Framework Only)
 
 ## Purpose
-A private, long-lived "lab" repo for learning baseball + Python through:
+A long-lived "lab" repo for learning baseball + Python through:
 - analysis (notebooks + write-ups)
 - reusable Python modules
 - scripts / CLIs
@@ -22,7 +22,7 @@ Non-goals:
 1. One question → one primary artifact (notebook, report, or app).
 2. Reproducible by default: results must be recreatable from code + documented data steps.
 3. Separation of concerns: data, code, analysis, and outputs are clearly separated.
-4. Private-first posture: everything should be clean enough to publish later if desired.
+4. Publishable by default: the repo is public, so everything committed should be clean and defensible.
 5. Messy is allowed, but contained: experiments live in scratch and are promoted or removed.
 
 ---
@@ -182,16 +182,13 @@ This keeps learning structured rather than fragmented.
 
 ---
 
-## Public-ready posture (future)
-Assume eventual publication:
+## Public posture
+This repo is public:
 - write clearly and defensibly
 - avoid personal notes in the repo
 - keep data handling explicit
-
-If publishing later:
-- add a license
-- scrub history for secrets or large files
-- document setup and reproducibility
+- the code and writing are MIT-licensed (see `LICENSE`); data sources keep their own terms
+- CI (`.github/workflows/ci.yml`) runs lint and tests on every push and pull request
 
 ---
 

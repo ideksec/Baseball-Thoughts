@@ -40,6 +40,36 @@ def on_base_pct(
     return (hits + walks + hbp) / denom
 
 
+def iso(
+    singles: int,
+    doubles: int,
+    triples: int,
+    home_runs: int,
+    at_bats: int,
+) -> float:
+    """Isolated power: SLG - AVG, i.e. extra bases per at-bat."""
+    if at_bats == 0:
+        return 0.0
+    hits = singles + doubles + triples + home_runs
+    return slugging_pct(singles, doubles, triples, home_runs, at_bats) - batting_avg(
+        hits, at_bats
+    )
+
+
+def babip(
+    hits: int,
+    home_runs: int,
+    at_bats: int,
+    strikeouts: int,
+    sacrifice_flies: int,
+) -> float:
+    """Batting average on balls in play: (H - HR) / (AB - K - HR + SF)."""
+    denom = at_bats - strikeouts - home_runs + sacrifice_flies
+    if denom == 0:
+        return 0.0
+    return (hits - home_runs) / denom
+
+
 def ops(
     singles: int,
     doubles: int,
