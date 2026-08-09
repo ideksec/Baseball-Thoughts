@@ -102,7 +102,33 @@ Principles:
 
 ## Paid options — is paying worth it?
 
-*(Being finalized — pricing research in progress; summary lands in this section.)*
+**Short answer: not for the pipeline itself.** Baseball is unusual among sports: the free baseline (official MLB Stats API + Baseball Savant) is *better* than the paid mid-market. No product under ~$100/month matches Savant's free 2015-present pitch-level data — even Sportradar's enterprise Statcast add-on only covers 2020+. Pricing below researched August 2026, mostly via search snippets (provider sites block direct fetches) — verify on the provider's pricing page before paying.
+
+### Provider survey
+
+| Provider | MLB depth | Price (2026) | Verdict for this project |
+|----------|-----------|--------------|--------------------------|
+| [Sportradar](https://developer.sportradar.com/baseball/reference/mlb-overview) | Deepest commercial feed incl. Statcast (2020+) | Enterprise contract; free 30-day trial (1,000 calls) | Companies only. Trial is a fun sandbox, nothing more |
+| [SportsDataIO](https://sportsdata.io/mlb-api) | Full stack + BAKER projections; event-level PBP, not pitch-tracking | Discovery Lab $99–149/mo (delayed data); real-time is sales-only | Overkill; delayed data at $99/mo loses to free real-time statsapi |
+| [Goalserve](https://www.goalserve.com/en/sport-data-feeds/MLB-api/prices) | Scores, stats, odds since 2010; XML-first | $250/mo or $1,500/yr | Poor value for solo Python analytics |
+| [Rolling Insights](https://rolling-insights.com/rolling-insights-datafeeds/price-plans/price-plans-mlb/) | Schedules/stats ($100/mo tier); box scores only at $4,200/yr tier | $100–600/mo | Dominated by free options; their free 2017+ historical sets are the only interesting part |
+| [balldontlie](https://www.balldontlie.io/) | Stats/standings/PBP summaries 2002+, odds/props on higher tier; official Python SDK | $9.99/mo (stats), $39.99/mo (odds/props) | Cheapest credible paid API; buys a *documented, stable contract*, not more data |
+| [API-Sports](https://api-sports.io/sports/baseball), [Highlightly](https://highlightly.net/mlb-api/), [TheSportsDB](https://www.thesportsdb.com/pricing) | Scores/standings/odds; no PBP or pitch data | ~$6–39/mo | Scoreboard-grade; an analytics project outgrows them in a week |
+| [MySportsFeeds](https://www.mysportsfeeds.com/feed-pricing/) | PBP + projections add-ons | **Free for approved non-commercial use** | Sleeper pick — worth an application if statsapi ever becomes insufficient |
+| [Stathead](https://stathead.com/baseball/) | Query tool over all of Baseball-Reference (not an API) | ~$9/mo / ~$80/yr | Best value on the list for historical *questions*; share-with-citation is public-repo-friendly |
+| [FanGraphs Membership](https://plus.fangraphs.com/product/fangraphs-membership/) | CSV exports incl. ZiPS/Steamer/THE BAT projections (not an API) | ~$80/yr | The cheapest legitimate source of projections |
+| [The Odds API](https://theoddsapi.com/) | Odds/props only | $29/mo (props at $99/mo) | Only if betting-market analysis enters the project |
+
+### What paying actually closes
+
+- **Projections** — the realest gap in the free stack. Cheapest fill: FanGraphs Membership (~$80/yr).
+- **Deep historical query convenience** — Stathead (~$80/yr) answers "every player since 1901 who…" questions that would take real engineering over Retrosheet/Lahman.
+- **API stability** — balldontlie ($9.99/mo) offers a documented, versioned contract if statsapi's undocumented-field drift or pybaseball's scraping fragility ever becomes a maintenance burden.
+- **Not closed by paying**: pitch-level depth (free Savant wins), SLA at hobbyist prices (nobody offers one under $100/mo), redistribution rights (paid ToS are generally *more* restrictive than Retrosheet/Lahman/Chadwick).
+
+### Recommendation
+
+Build Phases 1–5 on the free stack: **$0**. If spending anything, **Stathead + FanGraphs ≈ $160/yr** closes the only two genuine gaps (historical queries, projections) — both are research tools feeding analysis, not pipeline dependencies. Revisit balldontlie or The Odds API only when a concrete need appears.
 
 ## References
 
