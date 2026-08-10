@@ -1,0 +1,449 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 2,
+    "name": "Jac Caglianone",
+    "season_total": 20
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 4,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "4-4, 2 2B, 2 HR, 2 R, 4 RBI",
+   "name": "Jac Caglianone"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 605280,
+   "name": "Clay Holmes"
+  },
+  "save": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  },
+  "winner": {
+   "id": 607625,
+   "name": "Seth Lugo"
+  }
+ },
+ "game": {
+  "date": "2026-08-08",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824079,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CHC",
+   "id": 112,
+   "name": "Chicago Cubs"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 69,
+   "wins": 49
+  },
+  "score": {
+   "opponent": 3,
+   "royals": 6
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-10T09:56:55Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CHC",
+   "errors": 0,
+   "hits": 7,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 10,
+   "runs": 6,
+   "runs_by_inning": [
+    1,
+    2,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 289"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 4,
+   "h": 6,
+   "hr": 1,
+   "id": 605280,
+   "ip": "4.0",
+   "k": 1,
+   "name": "Clay Holmes",
+   "pitches": 70,
+   "r": 4,
+   "strikes": 44
+  },
+  "royals_bullpen": [
+   {
+    "bb": 2,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 670167,
+    "ip": "1.0",
+    "k": 2,
+    "name": "John Schreiber",
+    "pitches": 27,
+    "r": 0,
+    "strikes": 13
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 20,
+    "r": 0,
+    "strikes": 12
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Nate Pearson",
+    "pitches": 19,
+    "r": 0,
+    "strikes": 14
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 3,
+   "h": 5,
+   "hr": 1,
+   "id": 607625,
+   "ip": "6.0",
+   "k": 5,
+   "name": "Seth Lugo",
+   "pitches": 90,
+   "r": 3,
+   "strikes": 61
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -17,
+   "run_diff_excl_blowouts": -2,
+   "runs_allowed": 53,
+   "runs_scored": 36,
+   "top_game_run_share": 0.2222,
+   "top_game_runs": 8,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 119,
+   "last10": "3-7",
+   "losses": 70,
+   "run_diff": -110,
+   "streak": "L1",
+   "wins": 49
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 448,
+    "event": "home_run",
+    "exit_velocity": 111.9,
+    "inning": 1,
+    "launch_angle": 24.0,
+    "team": "KC",
+    "xba": 1.0
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 420,
+    "event": "home_run",
+    "exit_velocity": 111.0,
+    "inning": 7,
+    "launch_angle": 33.0,
+    "team": "KC",
+    "xba": 0.966
+   },
+   {
+    "batter": "Michael Conforto",
+    "distance": 307,
+    "event": "double",
+    "exit_velocity": 110.7,
+    "inning": 9,
+    "launch_angle": 19.0,
+    "team": "CHC",
+    "xba": 0.886
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 329,
+    "event": null,
+    "exit_velocity": 108.2,
+    "inning": 1,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 219,
+    "event": "double",
+    "exit_velocity": 106.7,
+    "inning": 3,
+    "launch_angle": 12.0,
+    "team": "KC",
+    "xba": 0.929
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.25,
+    "max_velo": 95.3,
+    "name": "Hoerner, Nico",
+    "pitches": 16,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 93.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.188,
+    "max_velo": 99.9,
+    "name": "Happ, Ian",
+    "pitches": 16,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 92.5,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.273,
+    "max_velo": 100.1,
+    "name": "Bregman, Alex",
+    "pitches": 11,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.0,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.158,
+    "max_velo": 98.8,
+    "name": "Busch, Michael",
+    "pitches": 19,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 91.6,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.158,
+    "max_velo": 94.8,
+    "name": "Suzuki, Seiya",
+    "pitches": 19,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.3,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.318,
+    "max_velo": 99.5,
+    "name": "Crow-Armstrong, Pete",
+    "pitches": 22,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.2,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.25,
+    "max_velo": 94.7,
+    "name": "Taylor, Tyrone",
+    "pitches": 16,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.133,
+    "max_velo": 98.3,
+    "name": "Swanson, Dansby",
+    "pitches": 15,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.8,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.5,
+    "max_velo": 95.6,
+    "name": "Kelly, Carson",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.75,
+    "max_velo": 96.4,
+    "name": "Ram\u00edrez, Pedro",
+    "pitches": 4,
+    "primary_pitch": "CU",
+    "primary_pitch_avg_velo": 81.0,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.0,
+    "max_velo": 97.8,
+    "name": "Conforto, Michael",
+    "pitches": 6,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.1,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 58,
+   "batter": "Jac Caglianone",
+   "captivating_index": 75,
+   "description": "Jac Caglianone homers (20) on a fly ball to center field. Carter Jensen scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Colin Rea",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 3,
+    "royals": 6
+   },
+   "wp_royals_after": 0.936,
+   "wpa_royals": 0.146
+  },
+  {
+   "at_bat_index": 30,
+   "batter": "Carson Kelly",
+   "captivating_index": 34,
+   "description": "Carson Kelly doubles (11) on a line drive to left fielder Isaac Collins. Alex Bregman scores. Nico Hoerner scores. Carson Kelly to 3rd. Carson Kelly advances to 3rd, on a throwing error by shortstop Bobby Witt Jr.",
+   "event": "Double",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Seth Lugo",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 4
+   },
+   "wp_royals_after": 0.745,
+   "wpa_royals": -0.135
+  },
+  {
+   "at_bat_index": 45,
+   "batter": "Ian Happ",
+   "captivating_index": 38,
+   "description": "Ian Happ homers (19) on a fly ball to right center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Seth Lugo",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 4
+   },
+   "wp_royals_after": 0.723,
+   "wpa_royals": -0.109
+  },
+  {
+   "at_bat_index": 5,
+   "batter": "Jac Caglianone",
+   "captivating_index": 65,
+   "description": "Jac Caglianone homers (19) on a fly ball to center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Clay Holmes",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.612,
+   "wpa_royals": 0.102
+  },
+  {
+   "at_bat_index": 13,
+   "batter": "Josh Rojas",
+   "captivating_index": 70,
+   "description": "Josh Rojas singles on a ground ball to right fielder Seiya Suzuki. Michael Massey scores. John Rave scores.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Clay Holmes",
+   "rank": 5,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 0,
+    "royals": 3
+   },
+   "wp_royals_after": 0.822,
+   "wpa_royals": 0.09
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

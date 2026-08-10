@@ -54,7 +54,7 @@
   "venue": "Kauffman Stadium",
   "walk_off": false
  },
- "generated_at": "2026-08-10T02:03:23Z",
+ "generated_at": "2026-08-10T09:56:54Z",
  "linescore": {
   "away": {
    "abbrev": "CHC",
@@ -92,7 +92,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 824078 (2026-08-09)"
+  "statcast rows: 292"
  ],
  "pitching": {
   "opponent_starter": {
@@ -189,13 +189,204 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 824078 (2026-08-09)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Starling Marte",
+    "distance": 413,
+    "event": "home_run",
+    "exit_velocity": 106.5,
+    "inning": 4,
+    "launch_angle": 26.0,
+    "team": "KC",
+    "xba": 0.943
+   },
+   {
+    "batter": "Michael Conforto",
+    "distance": 411,
+    "event": null,
+    "exit_velocity": 105.9,
+    "inning": 6,
+    "launch_angle": 33.0,
+    "team": "CHC",
+    "xba": null
+   },
+   {
+    "batter": "Michael Busch",
+    "distance": 235,
+    "event": "single",
+    "exit_velocity": 105.6,
+    "inning": 3,
+    "launch_angle": 13.0,
+    "team": "CHC",
+    "xba": 0.886
+   },
+   {
+    "batter": "Michael Busch",
+    "distance": 274,
+    "event": null,
+    "exit_velocity": 104.4,
+    "inning": 4,
+    "launch_angle": 19.0,
+    "team": "CHC",
+    "xba": null
+   },
+   {
+    "batter": "Ian Happ",
+    "distance": 105,
+    "event": "single",
+    "exit_velocity": 104.2,
+    "inning": 3,
+    "launch_angle": 4.0,
+    "team": "CHC",
+    "xba": 0.563
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Michael Busch",
+    "description": "Michael Busch doubles (20) on a fly ball to center fielder Kyle Isbel.",
+    "event": "double",
+    "exit_velocity": 90.4,
+    "kind": "hit_below_xba",
+    "team": "CHC",
+    "xba": 0.046
+   },
+   {
+    "batter": "Jac Caglianone",
+    "description": "Royals challenged (play at 1st), call on the field was overturned: Jac Caglianone singles on a ground ball to third baseman Alex Bregman.",
+    "event": "single",
+    "exit_velocity": 85.0,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.054
+   },
+   {
+    "batter": "Kyle Isbel",
+    "description": "Kyle Isbel lines out sharply to left fielder Ian Happ.",
+    "event": "field_out",
+    "exit_velocity": 100.7,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.934
+   },
+   {
+    "batter": "Pedro Ram\u00edrez",
+    "description": "Pedro Ram\u00edrez lines out to right fielder Jac Caglianone.",
+    "event": "field_out",
+    "exit_velocity": 83.2,
+    "kind": "out_above_xba",
+    "team": "CHC",
+    "xba": 0.709
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.3,
+    "max_velo": 97.1,
+    "name": "Amaya, Miguel",
+    "pitches": 10,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 82.8,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.238,
+    "max_velo": 97.3,
+    "name": "Swanson, Dansby",
+    "pitches": 21,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.4,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 93.2,
+    "name": "Hoerner, Nico",
+    "pitches": 18,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 90.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.222,
+    "max_velo": 95.0,
+    "name": "Conforto, Michael",
+    "pitches": 18,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 84.9,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.4,
+    "max_velo": 96.5,
+    "name": "Happ, Ian",
+    "pitches": 15,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 84.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.238,
+    "max_velo": 94.2,
+    "name": "Bregman, Alex",
+    "pitches": 21,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.111,
+    "max_velo": 92.3,
+    "name": "Busch, Michael",
+    "pitches": 18,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 84.4,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.217,
+    "max_velo": 92.8,
+    "name": "Crow-Armstrong, Pete",
+    "pitches": 23,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 84.4,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.231,
+    "max_velo": 93.2,
+    "name": "Taylor, Tyrone",
+    "pitches": 13,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.8,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.0,
+    "max_velo": 97.0,
+    "name": "Ram\u00edrez, Pedro",
+    "pitches": 6,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 88.8,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.0,
+    "max_velo": 60.6,
+    "name": "Triantos, James",
+    "pitches": 2,
+    "primary_pitch": "CS",
+    "primary_pitch_avg_velo": 60.6,
+    "whiffs": 0
+   }
+  ]
  },
  "top_plays": [
   {

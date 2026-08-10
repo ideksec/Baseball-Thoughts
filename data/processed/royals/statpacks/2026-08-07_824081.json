@@ -1,0 +1,442 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 16
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2B",
+   "name": "Jac Caglianone"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663738,
+   "name": "Daniel Lynch IV"
+  },
+  "save": {
+   "id": 657097,
+   "name": "Jacob Webb"
+  },
+  "winner": {
+   "id": 592332,
+   "name": "Kevin Gausman"
+  }
+ },
+ "game": {
+  "date": "2026-08-07",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824081,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CHC",
+   "id": 112,
+   "name": "Chicago Cubs"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 69,
+   "wins": 48
+  },
+  "score": {
+   "opponent": 6,
+   "royals": 4
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-10T09:56:57Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CHC",
+   "errors": 0,
+   "hits": 9,
+   "runs": 6,
+   "runs_by_inning": [
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 7,
+   "runs": 4,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 299"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 2,
+   "h": 4,
+   "hr": 1,
+   "id": 592332,
+   "ip": "7.0",
+   "k": 4,
+   "name": "Kevin Gausman",
+   "pitches": 96,
+   "r": 2,
+   "strikes": 66
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.1",
+    "k": 1,
+    "name": "Jose Cuas",
+    "pitches": 29,
+    "r": 0,
+    "strikes": 19
+   },
+   {
+    "bb": 3,
+    "er": 2,
+    "h": 3,
+    "hr": 1,
+    "id": 696131,
+    "ip": "5.0",
+    "k": 2,
+    "name": "Mason Black",
+    "pitches": 86,
+    "r": 2,
+    "strikes": 48
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 668674,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Lucas Erceg",
+    "pitches": 12,
+    "r": 0,
+    "strikes": 8
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 3,
+   "h": 3,
+   "hr": 0,
+   "id": 663738,
+   "ip": "1.2",
+   "k": 2,
+   "name": "Daniel Lynch IV",
+   "pitches": 35,
+   "r": 4,
+   "strikes": 21
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -17,
+   "run_diff_excl_blowouts": -2,
+   "runs_allowed": 53,
+   "runs_scored": 36,
+   "top_game_run_share": 0.2222,
+   "top_game_runs": 8,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 119,
+   "last10": "3-7",
+   "losses": 70,
+   "run_diff": -110,
+   "streak": "L1",
+   "wins": 49
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Michael Busch",
+    "distance": 365,
+    "event": null,
+    "exit_velocity": 109.5,
+    "inning": 7,
+    "launch_angle": 25.0,
+    "team": "CHC",
+    "xba": null
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 70,
+    "event": "single",
+    "exit_velocity": 106.2,
+    "inning": 1,
+    "launch_angle": 2.0,
+    "team": "KC",
+    "xba": 0.52
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 355,
+    "event": "field_out",
+    "exit_velocity": 105.0,
+    "inning": 1,
+    "launch_angle": 16.0,
+    "team": "KC",
+    "xba": 0.551
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 358,
+    "event": "double",
+    "exit_velocity": 103.4,
+    "inning": 1,
+    "launch_angle": 15.0,
+    "team": "KC",
+    "xba": 0.637
+   },
+   {
+    "batter": "Seiya Suzuki",
+    "distance": 147,
+    "event": "single",
+    "exit_velocity": 103.4,
+    "inning": 9,
+    "launch_angle": 7.0,
+    "team": "CHC",
+    "xba": 0.637
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Pete Crow-Armstrong",
+    "description": "Pete Crow-Armstrong lines out to second baseman Michael Massey.",
+    "event": "field_out",
+    "exit_velocity": 98.2,
+    "kind": "out_above_xba",
+    "team": "CHC",
+    "xba": 0.74
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.133,
+    "max_velo": 95.3,
+    "name": "Crow-Armstrong, Pete",
+    "pitches": 15,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 94.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.091,
+    "max_velo": 95.1,
+    "name": "Swanson, Dansby",
+    "pitches": 11,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.6,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.316,
+    "max_velo": 95.9,
+    "name": "Ram\u00edrez, Pedro",
+    "pitches": 19,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 94.3,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.235,
+    "max_velo": 93.3,
+    "name": "Kelly, Carson",
+    "pitches": 17,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.7,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.5,
+    "max_velo": 94.9,
+    "name": "Happ, Ian",
+    "pitches": 22,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.6,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.176,
+    "max_velo": 97.8,
+    "name": "Hoerner, Nico",
+    "pitches": 17,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.5,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.238,
+    "max_velo": 98.2,
+    "name": "Busch, Michael",
+    "pitches": 21,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 87.8,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.188,
+    "max_velo": 97.7,
+    "name": "Bregman, Alex",
+    "pitches": 16,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 94.6,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.375,
+    "max_velo": 97.5,
+    "name": "Suzuki, Seiya",
+    "pitches": 24,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.9,
+    "whiffs": 3
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 15,
+   "batter": "Pete Crow-Armstrong",
+   "captivating_index": 60,
+   "description": "Pete Crow-Armstrong singles on a ground ball to second baseman Michael Massey. Carson Kelly scores. Pedro Ram\u00edrez scores. Dansby Swanson to 3rd. Throwing error by second baseman Michael Massey.",
+   "event": "Single",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.397,
+   "wpa_royals": -0.178
+  },
+  {
+   "at_bat_index": 16,
+   "batter": "Seiya Suzuki",
+   "captivating_index": 70,
+   "description": "Seiya Suzuki singles on a ground ball to right fielder Starling Marte. Dansby Swanson scores. Pete Crow-Armstrong scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Jose Cuas",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 1
+   },
+   "wp_royals_after": 0.239,
+   "wpa_royals": -0.15
+  },
+  {
+   "at_bat_index": 8,
+   "batter": "Isaac Collins",
+   "captivating_index": 61,
+   "description": "Isaac Collins doubles (19) on a sharp line drive to center fielder Pete Crow-Armstrong. Carter Jensen scores. Salvador Perez to 3rd.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Kevin Gausman",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.652,
+   "wpa_royals": 0.104
+  },
+  {
+   "at_bat_index": 66,
+   "batter": "Jac Caglianone",
+   "captivating_index": 34,
+   "description": "Jac Caglianone doubles (19) on a line drive to right fielder Seiya Suzuki. Bobby Witt Jr. to 3rd.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Caleb Thielbar",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 6,
+    "royals": 3
+   },
+   "wp_royals_after": 0.195,
+   "wpa_royals": 0.103
+  },
+  {
+   "at_bat_index": 69,
+   "batter": "Nick Loftin",
+   "captivating_index": 0,
+   "description": "Nick Loftin flies out to center fielder Pete Crow-Armstrong.",
+   "event": "Flyout",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Trent Thornton",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 6,
+    "royals": 4
+   },
+   "wp_royals_after": 0.076,
+   "wpa_royals": -0.088
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
