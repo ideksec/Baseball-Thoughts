@@ -1,0 +1,13 @@
+game_pk,date,game_number,doubleheader,home_away,opponent_abbrev,opponent_name,result,royals_runs,opponent_runs,innings,walk_off,royals_hits,royals_errors,opponent_hits,opponent_errors,win_pitcher,loss_pitcher,save_pitcher,royals_starter,royals_starter_ip,royals_starter_er,royals_wins_after,royals_losses_after,statpack
+776001,2026-06-24,1,N,home,SEA,Seattle Mariners,W,3,2,9,False,8,0,6,1,Seth Lugo,Logan Gilbert,Carlos Estevez,Seth Lugo,7.0,2,34,46,
+776002,2026-06-25,1,N,home,SEA,Seattle Mariners,L,2,4,9,False,5,1,9,0,George Kirby,Michael Wacha,Andres Munoz,Michael Wacha,6.0,4,34,47,
+776003,2026-06-26,1,N,away,CWS,Chicago White Sox,L,1,22,9,False,4,2,24,0,Shane Smith,Noah Cameron,,Noah Cameron,2.1,9,34,48,
+776004,2026-06-27,1,N,away,CWS,Chicago White Sox,L,1,2,9,False,6,0,7,1,Jacob Gonzalez,Seth Lugo,,Seth Lugo,7.0,2,34,49,
+776005,2026-06-28,1,N,away,CWS,Chicago White Sox,W,5,4,9,False,10,1,8,0,Daniel Lynch IV,Grant Taylor,Carlos Estevez,Michael Lorenzen,4.0,4,35,49,
+776006,2026-06-30,1,N,home,TB,Tampa Bay Rays,L,4,10,9,False,9,2,13,0,Ian Seymour,Michael Wacha,,Michael Wacha,4.2,6,35,50,
+776007,2026-07-01,1,N,home,TB,Tampa Bay Rays,L,0,4,9,False,3,0,8,0,Ryan Pepiot,Noah Cameron,,Noah Cameron,6.0,3,35,51,
+776008,2026-07-02,1,N,home,TB,Tampa Bay Rays,L,2,5,9,False,6,1,9,0,Ian Seymour,Seth Lugo,Pete Fairbanks,Seth Lugo,6.0,4,35,52,
+776009,2026-07-04,1,N,home,PHI,Philadelphia Phillies,L,1,6,9,False,5,0,11,0,Jesus Luzardo,Michael Wacha,,Michael Wacha,5.0,5,35,53,
+776010,2026-07-05,1,N,home,PHI,Philadelphia Phillies,W,5,2,9,False,9,0,6,1,Noah Cameron,Aaron Nola,Carlos Estevez,Noah Cameron,6.2,2,36,53,
+776011,2026-07-06,1,N,home,PHI,Philadelphia Phillies,W,15,1,9,False,19,0,4,2,Seth Lugo,Cristopher Sanchez,,Seth Lugo,7.0,1,37,53,
+776012,2026-07-07,1,N,away,NYM,New York Mets,W,16,12,9,False,19,1,13,2,Daniel Lynch IV,Matt Seelinger,,Michael Lorenzen,3.1,9,38,53,

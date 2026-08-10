@@ -1,0 +1,82 @@
+name: Nightly Royals stat pack
+
+on:
+  schedule:
+    # 08:30 UTC (2:30/3:30 AM Central), March-November — after West Coast
+    # games end, during the season. Off-season months skipped entirely.
+    - cron: "30 8 * 3-11 *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Game date YYYY-MM-DD (default: recent-days lookback)"
+        required: false
+      days_back:
+        description: "Lookback window in days"
+        required: false
+        default: "3"
+      backfill:
+        description: "START:END date range to seed the season game log"
+        required: false
+      dry_run:
+        description: "Print packs without writing or committing"
+        type: boolean
+        default: false
+      run_live_tests:
+        description: "Run pytest -m live against real MLB endpoints first"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-royals
+  cancel-in-progress: false
+
+jobs:
+  statpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install package
+        run: pip install -e ".[dev]"
+      - name: Live API smoke tests
+        if: ${{ inputs.run_live_tests }}
+        run: pytest -m live
+      - name: Build stat packs
+        id: build
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.backfill }}" ]; then
+            ARGS="--backfill ${{ inputs.backfill }}"
+          elif [ -n "${{ inputs.date }}" ]; then
+            ARGS="--date ${{ inputs.date }}"
+          else
+            ARGS="--days-back ${{ inputs.days_back || '3' }}"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python scripts/nightly_royals.py $ARGS | tee run.log
+          {
+            echo "summary<<EOF"
+            grep '^RESULT:' run.log | sed 's/^RESULT: //'
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      - name: Commit and push
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [ -z "$(git status --porcelain data/processed)" ]; then
+            echo "No changes - no commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed
+          git commit -m "Nightly stat pack [skip ci]" -m "${{ steps.build.outputs.summary }}"
+          git pull --rebase origin main
+          git push origin HEAD:main
