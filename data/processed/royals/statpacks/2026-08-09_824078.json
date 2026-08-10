@@ -1,0 +1,293 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Starling Marte",
+    "season_total": 2
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Michael Massey"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 3B",
+   "name": "Michael Massey"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 677976,
+   "name": "Randy Dobnak"
+  },
+  "save": null,
+  "winner": {
+   "id": 571510,
+   "name": "Matthew Boyd"
+  }
+ },
+ "game": {
+  "date": "2026-08-09",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824078,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CHC",
+   "id": 112,
+   "name": "Chicago Cubs"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 70,
+   "wins": 49
+  },
+  "score": {
+   "opponent": 10,
+   "royals": 2
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-10T02:03:23Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CHC",
+   "errors": 0,
+   "hits": 18,
+   "runs": 10,
+   "runs_by_inning": [
+    1,
+    0,
+    2,
+    1,
+    0,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 6,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 824078 (2026-08-09)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 2,
+   "h": 5,
+   "hr": 1,
+   "id": 571510,
+   "ip": "7.0",
+   "k": 3,
+   "name": "Matthew Boyd",
+   "pitches": 98,
+   "r": 2,
+   "strikes": 64
+  },
+  "royals_bullpen": [
+   {
+    "bb": 2,
+    "er": 6,
+    "h": 5,
+    "hr": 2,
+    "id": 668834,
+    "ip": "2.0",
+    "k": 3,
+    "name": "Easton McGee",
+    "pitches": 41,
+    "r": 6,
+    "strikes": 28
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 668674,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Lucas Erceg",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 12
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 668942,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Josh Rojas",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 7
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 4,
+   "h": 10,
+   "hr": 0,
+   "id": 677976,
+   "ip": "5.0",
+   "k": 4,
+   "name": "Randy Dobnak",
+   "pitches": 94,
+   "r": 4,
+   "strikes": 65
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -17,
+   "run_diff_excl_blowouts": -2,
+   "runs_allowed": 53,
+   "runs_scored": 36,
+   "top_game_run_share": 0.2222,
+   "top_game_runs": 8,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 119,
+   "last10": "3-7",
+   "losses": 70,
+   "run_diff": -110,
+   "streak": "L1",
+   "wins": 49
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 824078 (2026-08-09)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 35,
+   "batter": "Starling Marte",
+   "captivating_index": 38,
+   "description": "Starling Marte homers (2) on a fly ball to left field. Salvador Perez scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Matthew Boyd",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 2
+   },
+   "wp_royals_after": 0.262,
+   "wpa_royals": 0.141
+  },
+  {
+   "at_bat_index": 43,
+   "batter": "Kyle Isbel",
+   "captivating_index": 25,
+   "description": "Kyle Isbel bunt pops into a double play, pitcher Matthew Boyd to first baseman Michael Busch. Luke Maile out at 1st.",
+   "event": "Double Play",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Matthew Boyd",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 2
+   },
+   "wp_royals_after": 0.235,
+   "wpa_royals": -0.108
+  },
+  {
+   "at_bat_index": 19,
+   "batter": "Michael Conforto",
+   "captivating_index": 70,
+   "description": "Michael Conforto singles on a fly ball to center fielder Kyle Isbel. Michael Busch scores. Ian Happ to 2nd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Randy Dobnak",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 0
+   },
+   "wp_royals_after": 0.293,
+   "wpa_royals": -0.101
+  },
+  {
+   "at_bat_index": 49,
+   "batter": "Ian Happ",
+   "captivating_index": 38,
+   "description": "Ian Happ homers (20) on a fly ball to right field. Alex Bregman scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Easton McGee",
+   "rank": 4,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 7,
+    "royals": 2
+   },
+   "wp_royals_after": 0.055,
+   "wpa_royals": -0.096
+  },
+  {
+   "at_bat_index": 20,
+   "batter": "Nico Hoerner",
+   "captivating_index": 70,
+   "description": "Nico Hoerner singles on a fly ball to center fielder Kyle Isbel. Ian Happ scores. Michael Conforto to 2nd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Randy Dobnak",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.209,
+   "wpa_royals": -0.084
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
