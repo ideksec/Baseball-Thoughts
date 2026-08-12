@@ -1,0 +1,294 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, BB, R, RBI",
+   "name": "Jac Caglianone"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 668674,
+   "name": "Lucas Erceg"
+  },
+  "save": null,
+  "winner": {
+   "id": 678020,
+   "name": "Seth Halvorsen"
+  }
+ },
+ "game": {
+  "date": "2026-08-11",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823917,
+  "home_away": "away",
+  "innings": 10,
+  "opponent": {
+   "abbrev": "LAD",
+   "id": 119,
+   "name": "Los Angeles Dodgers"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 72,
+   "wins": 49
+  },
+  "score": {
+   "opponent": 5,
+   "royals": 4
+  },
+  "venue": "UNIQLO Field at Dodger Stadium",
+  "walk_off": true
+ },
+ "generated_at": "2026-08-12T09:39:22Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 6,
+   "runs": 4,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "LAD",
+   "errors": 1,
+   "hits": 9,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 823917 (2026-08-11)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 1,
+   "h": 3,
+   "hr": 0,
+   "id": 605483,
+   "ip": "6.0",
+   "k": 10,
+   "name": "Blake Snell",
+   "pitches": 84,
+   "r": 1,
+   "strikes": 55
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 1,
+    "h": 1,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.1",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 24,
+    "r": 1,
+    "strikes": 15
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Nate Pearson",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 2,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 668674,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Lucas Erceg",
+    "pitches": 7,
+    "r": 1,
+    "strikes": 5
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 3,
+   "h": 7,
+   "hr": 1,
+   "id": 608379,
+   "ip": "6.2",
+   "k": 5,
+   "name": "Michael Wacha",
+   "pitches": 96,
+   "r": 3,
+   "strikes": 67
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 7,
+   "run_diff": -16,
+   "run_diff_excl_blowouts": -1,
+   "runs_allowed": 57,
+   "runs_scored": 41,
+   "top_game_run_share": 0.1951,
+   "top_game_runs": 8,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 121,
+   "last10": "3-7",
+   "losses": 72,
+   "run_diff": -112,
+   "streak": "L3",
+   "wins": 49
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 823917 (2026-08-11)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 65,
+   "batter": "Mookie Betts",
+   "captivating_index": 70,
+   "description": "Mookie Betts singles on a line drive to right fielder John Rave. Kyle Tucker scores. Max Muncy to 3rd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Steven Cruz",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 4
+   },
+   "wp_royals_after": 0.393,
+   "wpa_royals": -0.317
+  },
+  {
+   "at_bat_index": 58,
+   "batter": "Salvador Perez",
+   "captivating_index": 70,
+   "description": "Salvador Perez singles on a sharp ground ball to left fielder Alex Call. Bobby Witt Jr. scores. Jac Caglianone to 2nd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 8,
+   "pitcher": "Evan Phillips",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 3
+   },
+   "wp_royals_after": 0.572,
+   "wpa_royals": 0.221
+  },
+  {
+   "at_bat_index": 51,
+   "batter": "Alex Call",
+   "captivating_index": 61,
+   "description": "Alex Call doubles (7) on a ground ball to right fielder John Rave. Mookie Betts scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Michael Wacha",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.223,
+   "wpa_royals": -0.202
+  },
+  {
+   "at_bat_index": 74,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 0,
+   "description": "Bobby Witt Jr. flies out to right fielder Kyle Tucker.",
+   "event": "Flyout",
+   "half": "top",
+   "inning": 10,
+   "pitcher": "Seth Halvorsen",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 4
+   },
+   "wp_royals_after": 0.31,
+   "wpa_royals": -0.177
+  },
+  {
+   "at_bat_index": 80,
+   "batter": "Max Muncy",
+   "captivating_index": 60,
+   "description": "Max Muncy singles on a sharp line drive to center fielder Kyle Isbel. Shohei Ohtani scores. Freddie Freeman to 3rd. Kyle Tucker to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 10,
+   "pitcher": "Lucas Erceg",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 5,
+    "royals": 4
+   },
+   "wp_royals_after": 0.0,
+   "wpa_royals": -0.163
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

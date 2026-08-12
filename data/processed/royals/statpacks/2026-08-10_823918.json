@@ -67,7 +67,7 @@
   "venue": "UNIQLO Field at Dodger Stadium",
   "walk_off": false
  },
- "generated_at": "2026-08-11T09:29:42Z",
+ "generated_at": "2026-08-12T09:39:22Z",
  "linescore": {
   "away": {
    "abbrev": "KC",
@@ -104,7 +104,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 823918 (2026-08-10)"
+  "statcast rows: 291"
  ],
  "pitching": {
   "opponent_starter": {
@@ -180,34 +180,179 @@
    "blowout_margin": 7,
    "blowouts_excluded": 2,
    "games": 10,
-   "games_le_2_runs": 4,
+   "games_le_2_runs": 3,
    "losses": 7,
-   "run_diff": -17,
-   "run_diff_excl_blowouts": -2,
-   "runs_allowed": 55,
-   "runs_scored": 38,
-   "top_game_run_share": 0.2105,
+   "run_diff": -16,
+   "run_diff_excl_blowouts": -1,
+   "runs_allowed": 57,
+   "runs_scored": 41,
+   "top_game_run_share": 0.1951,
    "top_game_runs": 8,
    "wins": 3
   },
   "season": {
-   "games_played": 120,
+   "games_played": 121,
    "last10": "3-7",
-   "losses": 71,
-   "run_diff": -111,
-   "streak": "L2",
+   "losses": 72,
+   "run_diff": -112,
+   "streak": "L3",
    "wins": 49
   }
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 823918 (2026-08-10)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 410,
+    "event": "home_run",
+    "exit_velocity": 110.8,
+    "inning": 3,
+    "launch_angle": 17.0,
+    "team": "KC",
+    "xba": 0.7
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 5,
+    "event": "grounded_into_double_play",
+    "exit_velocity": 108.6,
+    "inning": 1,
+    "launch_angle": -9.0,
+    "team": "KC",
+    "xba": 0.317
+   },
+   {
+    "batter": "Andy Pages",
+    "distance": 319,
+    "event": "field_out",
+    "exit_velocity": 106.5,
+    "inning": 5,
+    "launch_angle": 17.0,
+    "team": "LAD",
+    "xba": 0.531
+   },
+   {
+    "batter": "Shohei Ohtani",
+    "distance": 216,
+    "event": "single",
+    "exit_velocity": 105.9,
+    "inning": 7,
+    "launch_angle": 8.0,
+    "team": "LAD",
+    "xba": 0.671
+   },
+   {
+    "batter": "Shohei Ohtani",
+    "distance": 369,
+    "event": "double",
+    "exit_velocity": 105.8,
+    "inning": 3,
+    "launch_angle": 21.0,
+    "team": "LAD",
+    "xba": 0.837
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.136,
+    "max_velo": 94.5,
+    "name": "Rojas, Miguel",
+    "pitches": 22,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 81.9,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.364,
+    "max_velo": 92.9,
+    "name": "Betts, Mookie",
+    "pitches": 11,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 90.2,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.214,
+    "max_velo": 92.8,
+    "name": "Edman, Tommy",
+    "pitches": 14,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 91.7,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.217,
+    "max_velo": 94.6,
+    "name": "Freeman, Freddie",
+    "pitches": 23,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 86.4,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.1,
+    "max_velo": 96.6,
+    "name": "Pages, Andy",
+    "pitches": 20,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 87.0,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.3,
+    "max_velo": 96.2,
+    "name": "Ohtani, Shohei",
+    "pitches": 10,
+    "primary_pitch": "CU",
+    "primary_pitch_avg_velo": 81.7,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 91.3,
+    "name": "Feduccia, Hunter",
+    "pitches": 6,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 89.4,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.368,
+    "max_velo": 95.1,
+    "name": "Muncy, Max",
+    "pitches": 19,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 90.1,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 93.6,
+    "name": "Hern\u00e1ndez, Teoscar",
+    "pitches": 10,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 83.2,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.111,
+    "max_velo": 91.9,
+    "name": "Tucker, Kyle",
+    "pitches": 9,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 82.7,
+    "whiffs": 0
+   }
+  ]
  },
  "top_plays": [
   {
