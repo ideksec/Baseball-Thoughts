@@ -53,7 +53,7 @@
   "venue": "UNIQLO Field at Dodger Stadium",
   "walk_off": true
  },
- "generated_at": "2026-08-12T09:39:22Z",
+ "generated_at": "2026-08-13T09:39:51Z",
  "linescore": {
   "away": {
    "abbrev": "KC",
@@ -93,7 +93,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 823917 (2026-08-11)"
+  "statcast rows: 311"
  ],
  "pitching": {
   "opponent_starter": {
@@ -169,34 +169,207 @@
    "blowout_margin": 7,
    "blowouts_excluded": 2,
    "games": 10,
-   "games_le_2_runs": 3,
+   "games_le_2_runs": 4,
    "losses": 7,
-   "run_diff": -16,
-   "run_diff_excl_blowouts": -1,
-   "runs_allowed": 57,
-   "runs_scored": 41,
-   "top_game_run_share": 0.1951,
+   "run_diff": -12,
+   "run_diff_excl_blowouts": 3,
+   "runs_allowed": 49,
+   "runs_scored": 37,
+   "top_game_run_share": 0.2162,
    "top_game_runs": 8,
    "wins": 3
   },
   "season": {
-   "games_played": 121,
+   "games_played": 122,
    "last10": "3-7",
-   "losses": 72,
-   "run_diff": -112,
-   "streak": "L3",
+   "losses": 73,
+   "run_diff": -114,
+   "streak": "L4",
    "wins": 49
   }
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 823917 (2026-08-11)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 77,
+    "event": "single",
+    "exit_velocity": 114.4,
+    "inning": 8,
+    "launch_angle": 1.0,
+    "team": "KC",
+    "xba": 0.629
+   },
+   {
+    "batter": "Teoscar Hern\u00e1ndez",
+    "distance": 246,
+    "event": "double",
+    "exit_velocity": 107.7,
+    "inning": 7,
+    "launch_angle": 11.0,
+    "team": "LAD",
+    "xba": 0.946
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 362,
+    "event": "field_out",
+    "exit_velocity": 107.5,
+    "inning": 8,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": 0.646
+   },
+   {
+    "batter": "Shohei Ohtani",
+    "distance": 185,
+    "event": null,
+    "exit_velocity": 106.6,
+    "inning": 9,
+    "launch_angle": 11.0,
+    "team": "LAD",
+    "xba": null
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 94,
+    "event": "single",
+    "exit_velocity": 106.1,
+    "inning": 8,
+    "launch_angle": 2.0,
+    "team": "KC",
+    "xba": 0.52
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Tommy Edman",
+    "description": "Tommy Edman singles on a line drive to center fielder Kyle Isbel.",
+    "event": "single",
+    "exit_velocity": 83.9,
+    "kind": "hit_below_xba",
+    "team": "LAD",
+    "xba": 0.117
+   },
+   {
+    "batter": "Jac Caglianone",
+    "description": "Jac Caglianone singles on a ground ball to right fielder Kyle Tucker. Bobby Witt Jr. to 3rd.",
+    "event": "single",
+    "exit_velocity": 88.7,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.121
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.333,
+    "max_velo": 86.1,
+    "name": "Hern\u00e1ndez, Teoscar",
+    "pitches": 3,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 85.8,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.421,
+    "max_velo": 98.5,
+    "name": "Call, Alex",
+    "pitches": 19,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.0,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.188,
+    "max_velo": 100.2,
+    "name": "Edman, Tommy",
+    "pitches": 16,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 81.5,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.25,
+    "max_velo": 94.9,
+    "name": "Betts, Mookie",
+    "pitches": 8,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 92.6,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.176,
+    "max_velo": 99.7,
+    "name": "Muncy, Max",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 96.9,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.1,
+    "max_velo": 100.2,
+    "name": "Tucker, Kyle",
+    "pitches": 20,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 81.7,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.0,
+    "max_velo": 99.8,
+    "name": "Pages, Andy",
+    "pitches": 11,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.1,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 99.9,
+    "name": "Freeman, Freddie",
+    "pitches": 24,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 81.7,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.077,
+    "max_velo": 99.4,
+    "name": "Ohtani, Shohei",
+    "pitches": 13,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 83.6,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.25,
+    "max_velo": 95.1,
+    "name": "Rortvedt, Ben",
+    "pitches": 12,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 81.8,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 98.8,
+    "name": "Feduccia, Hunter",
+    "pitches": 3,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.1,
+    "whiffs": 1
+   }
+  ]
  },
  "top_plays": [
   {

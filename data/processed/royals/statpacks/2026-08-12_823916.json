@@ -1,0 +1,289 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-5, 2B",
+   "name": "Bobby Witt Jr."
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663738,
+   "name": "Daniel Lynch IV"
+  },
+  "save": {
+   "id": 689017,
+   "name": "Landon Knack"
+  },
+  "winner": {
+   "id": 641778,
+   "name": "Eric Lauer"
+  }
+ },
+ "game": {
+  "date": "2026-08-12",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823916,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "LAD",
+   "id": 119,
+   "name": "Los Angeles Dodgers"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 73,
+   "wins": 49
+  },
+  "score": {
+   "opponent": 4,
+   "royals": 2
+  },
+  "venue": "UNIQLO Field at Dodger Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-13T09:39:50Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 6,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "LAD",
+   "errors": 2,
+   "hits": 8,
+   "runs": 4,
+   "runs_by_inning": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 823916 (2026-08-12)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 1,
+   "h": 4,
+   "hr": 0,
+   "id": 641778,
+   "ip": "6.1",
+   "k": 6,
+   "name": "Eric Lauer",
+   "pitches": 112,
+   "r": 2,
+   "strikes": 73
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.2",
+    "k": 2,
+    "name": "Jose Cuas",
+    "pitches": 30,
+    "r": 0,
+    "strikes": 20
+   },
+   {
+    "bb": 2,
+    "er": 1,
+    "h": 3,
+    "hr": 1,
+    "id": 696131,
+    "ip": "3.0",
+    "k": 1,
+    "name": "Mason Black",
+    "pitches": 44,
+    "r": 1,
+    "strikes": 25
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Craig Kimbrel",
+    "pitches": 10,
+    "r": 0,
+    "strikes": 4
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 3,
+   "h": 3,
+   "hr": 2,
+   "id": 663738,
+   "ip": "2.1",
+   "k": 3,
+   "name": "Daniel Lynch IV",
+   "pitches": 39,
+   "r": 3,
+   "strikes": 28
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -12,
+   "run_diff_excl_blowouts": 3,
+   "runs_allowed": 49,
+   "runs_scored": 37,
+   "top_game_run_share": 0.2162,
+   "top_game_runs": 8,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 122,
+   "last10": "3-7",
+   "losses": 73,
+   "run_diff": -114,
+   "streak": "L4",
+   "wins": 49
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 823916 (2026-08-12)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 25,
+   "batter": "Shohei Ohtani",
+   "captivating_index": 65,
+   "description": "Shohei Ohtani homers (27) on a fly ball to left center field. Miguel Rojas scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 3,
+    "royals": 2
+   },
+   "wp_royals_after": 0.352,
+   "wpa_royals": -0.188
+  },
+  {
+   "at_bat_index": 14,
+   "batter": "Mookie Betts",
+   "captivating_index": 75,
+   "description": "Mookie Betts homers (15) on a fly ball to left center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.472,
+   "wpa_royals": -0.11
+  },
+  {
+   "at_bat_index": 38,
+   "batter": "Hunter Feduccia",
+   "captivating_index": 75,
+   "description": "Hunter Feduccia homers (3) on a fly ball to center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Mason Black",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 2
+   },
+   "wp_royals_after": 0.188,
+   "wpa_royals": -0.104
+  },
+  {
+   "at_bat_index": 11,
+   "batter": "Josh Rojas",
+   "captivating_index": 60,
+   "description": "Josh Rojas singles on a line drive to right fielder Kyle Tucker. Tyler Tolbert scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Eric Lauer",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.578,
+   "wpa_royals": 0.095
+  },
+  {
+   "at_bat_index": 19,
+   "batter": "Salvador Perez",
+   "captivating_index": 60,
+   "description": "Salvador Perez singles on a ground ball to right fielder Kyle Tucker. Jac Caglianone scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Eric Lauer",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 2
+   },
+   "wp_royals_after": 0.614,
+   "wpa_royals": 0.092
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
