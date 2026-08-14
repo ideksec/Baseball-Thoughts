@@ -51,7 +51,7 @@
   "venue": "UNIQLO Field at Dodger Stadium",
   "walk_off": false
  },
- "generated_at": "2026-08-13T09:39:50Z",
+ "generated_at": "2026-08-14T09:34:49Z",
  "linescore": {
   "away": {
    "abbrev": "KC",
@@ -88,7 +88,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 823916 (2026-08-12)"
+  "statcast rows: 272"
  ],
  "pitching": {
   "opponent_starter": {
@@ -185,13 +185,195 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 823916 (2026-08-12)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Shohei Ohtani",
+    "distance": 397,
+    "event": "home_run",
+    "exit_velocity": 109.5,
+    "inning": 3,
+    "launch_angle": 34.0,
+    "team": "LAD",
+    "xba": 0.906
+   },
+   {
+    "batter": "Shohei Ohtani",
+    "distance": 158,
+    "event": "field_out",
+    "exit_velocity": 108.9,
+    "inning": 5,
+    "launch_angle": 9.0,
+    "team": "LAD",
+    "xba": 0.777
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 164,
+    "event": null,
+    "exit_velocity": 108.2,
+    "inning": 6,
+    "launch_angle": 7.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Starling Marte",
+    "distance": 51,
+    "event": "single",
+    "exit_velocity": 107.9,
+    "inning": 3,
+    "launch_angle": 0.0,
+    "team": "KC",
+    "xba": 0.491
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 304,
+    "event": "field_out",
+    "exit_velocity": 107.2,
+    "inning": 3,
+    "launch_angle": 13.0,
+    "team": "KC",
+    "xba": 0.863
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Salvador Perez",
+    "description": "Salvador Perez singles on a ground ball to right fielder Kyle Tucker. Jac Caglianone scores.",
+    "event": "single",
+    "exit_velocity": 98.6,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.11
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "description": "Bobby Witt Jr. hits a ground-rule double (25) on a line drive to right field.",
+    "event": "double",
+    "exit_velocity": 90.8,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.123
+   },
+   {
+    "batter": "Carter Jensen",
+    "description": "Carter Jensen lines out sharply to right fielder Kyle Tucker.",
+    "event": "field_out",
+    "exit_velocity": 107.2,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.863
+   },
+   {
+    "batter": "Shohei Ohtani",
+    "description": "Shohei Ohtani lines out sharply to first baseman Jac Caglianone.",
+    "event": "field_out",
+    "exit_velocity": 108.9,
+    "kind": "out_above_xba",
+    "team": "LAD",
+    "xba": 0.777
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.294,
+    "max_velo": 96.1,
+    "name": "Pages, Andy",
+    "pitches": 17,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.7,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 96.2,
+    "name": "Ohtani, Shohei",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.2,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.091,
+    "max_velo": 94.1,
+    "name": "Rojas, Miguel",
+    "pitches": 11,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.0,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.4,
+    "max_velo": 94.6,
+    "name": "Feduccia, Hunter",
+    "pitches": 10,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.444,
+    "max_velo": 94.2,
+    "name": "Hern\u00e1ndez, Teoscar",
+    "pitches": 9,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 83.2,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 93.8,
+    "name": "Muncy, Max",
+    "pitches": 10,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 83.3,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.167,
+    "max_velo": 94.4,
+    "name": "Betts, Mookie",
+    "pitches": 18,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.3,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.294,
+    "max_velo": 93.8,
+    "name": "Tucker, Kyle",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 92.2,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.278,
+    "max_velo": 95.6,
+    "name": "Freeman, Freddie",
+    "pitches": 18,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 94.8,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.0,
+    "max_velo": 94.0,
+    "name": "Edman, Tommy",
+    "pitches": 2,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.5,
+    "whiffs": 0
+   }
+  ]
  },
  "top_plays": [
   {
