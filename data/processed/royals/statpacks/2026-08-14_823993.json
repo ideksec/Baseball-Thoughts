@@ -1,0 +1,332 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Michael Massey",
+    "season_total": 10
+   },
+   {
+    "count": 1,
+    "name": "Jac Caglianone",
+    "season_total": 22
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Michael Massey"
+   },
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-4, HR, 2 R, 5 RBI",
+   "name": "Jac Caglianone"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 642048,
+   "name": "Tayler Saucedo"
+  },
+  "save": {
+   "id": 674444,
+   "name": "Steven Cruz"
+  },
+  "winner": {
+   "id": 656638,
+   "name": "Alex Lange"
+  }
+ },
+ "game": {
+  "date": "2026-08-14",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823993,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "LAA",
+   "id": 108,
+   "name": "Los Angeles Angels"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 73,
+   "wins": 50
+  },
+  "score": {
+   "opponent": 6,
+   "royals": 7
+  },
+  "venue": "Angel Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-15T08:53:57Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 10,
+   "runs": 7,
+   "runs_by_inning": [
+    0,
+    1,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "LAA",
+   "errors": 1,
+   "hits": 10,
+   "runs": 6,
+   "runs_by_inning": [
+    0,
+    0,
+    4,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 823993 (2026-08-14)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 3,
+   "h": 3,
+   "hr": 1,
+   "id": 680570,
+   "ip": "4.0",
+   "k": 5,
+   "name": "Grayson Rodriguez",
+   "pitches": 89,
+   "r": 3,
+   "strikes": 53
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 621016,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Jose Cuas",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 4
+   },
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 2,
+    "hr": 1,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Alex Lange",
+    "pitches": 14,
+    "r": 1,
+    "strikes": 11
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 670167,
+    "ip": "1.0",
+    "k": 0,
+    "name": "John Schreiber",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 12
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Nate Pearson",
+    "pitches": 12,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 12,
+    "r": 0,
+    "strikes": 11
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 5,
+   "h": 7,
+   "hr": 0,
+   "id": 607625,
+   "ip": "4.2",
+   "k": 4,
+   "name": "Seth Lugo",
+   "pitches": 86,
+   "r": 5,
+   "strikes": 56
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 6,
+   "run_diff": -4,
+   "run_diff_excl_blowouts": 4,
+   "runs_allowed": 47,
+   "runs_scored": 43,
+   "top_game_run_share": 0.186,
+   "top_game_runs": 8,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 123,
+   "last10": "4-6",
+   "losses": 73,
+   "run_diff": -113,
+   "streak": "W1",
+   "wins": 50
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 823993 (2026-08-14)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 37,
+   "batter": "Jac Caglianone",
+   "captivating_index": 65,
+   "description": "Jac Caglianone homers (22) on a fly ball to right center field. Bobby Witt Jr. scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Sammy Peralta",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 5
+   },
+   "wp_royals_after": 0.596,
+   "wpa_royals": 0.272
+  },
+  {
+   "at_bat_index": 25,
+   "batter": "Nolan Schanuel",
+   "captivating_index": 71,
+   "description": "Nolan Schanuel doubles (22) on a line drive to right fielder John Rave. Denzer Guzman scores. Tyler Heineman scores. Wade Meckler scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Seth Lugo",
+   "rank": 2,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 3,
+    "royals": 3
+   },
+   "wp_royals_after": 0.462,
+   "wpa_royals": -0.271
+  },
+  {
+   "at_bat_index": 58,
+   "batter": "Jac Caglianone",
+   "captivating_index": 70,
+   "description": "Jac Caglianone singles on a line drive to right fielder Josh Lowe. Bobby Witt Jr. scores. Jac Caglianone to 2nd. Jac Caglianone advances to 2nd, on a throwing error by shortstop Zach Neto.",
+   "event": "Single",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Tayler Saucedo",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 6,
+    "royals": 6
+   },
+   "wp_royals_after": 0.537,
+   "wpa_royals": 0.223
+  },
+  {
+   "at_bat_index": 52,
+   "batter": "Josh Lowe",
+   "captivating_index": 65,
+   "description": "Josh Lowe homers (9) on a fly ball to right center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 6,
+   "pitcher": "Alex Lange",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 6,
+    "royals": 5
+   },
+   "wp_royals_after": 0.281,
+   "wpa_royals": -0.177
+  },
+  {
+   "at_bat_index": 60,
+   "batter": "Michael Massey",
+   "captivating_index": 60,
+   "description": "Michael Massey singles on a sharp line drive to right fielder Josh Lowe. Jac Caglianone scores. Michael Massey out at 2nd on the throw, right fielder Josh Lowe to second baseman Vaughn Grissom to shortstop Zach Neto.",
+   "event": "Single",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Luke Murphy",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 6,
+    "royals": 7
+   },
+   "wp_royals_after": 0.636,
+   "wpa_royals": 0.152
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
