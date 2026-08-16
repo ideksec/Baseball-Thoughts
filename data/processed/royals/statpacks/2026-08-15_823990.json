@@ -1,0 +1,324 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [],
+  "royals_top_line": {
+   "line": "1-3",
+   "name": "Michael Massey"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  },
+  "save": {
+   "id": 690829,
+   "name": "Ben Joyce"
+  },
+  "winner": {
+   "id": 672282,
+   "name": "Reid Detmers"
+  }
+ },
+ "game": {
+  "date": "2026-08-15",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823990,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "LAA",
+   "id": 108,
+   "name": "Los Angeles Angels"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 50
+  },
+  "score": {
+   "opponent": 1,
+   "royals": 0
+  },
+  "venue": "Angel Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-16T08:55:43Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 2,
+   "runs": 0,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "LAA",
+   "errors": 0,
+   "hits": 6,
+   "runs": 1,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 105"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 0,
+   "h": 2,
+   "hr": 0,
+   "id": 672282,
+   "ip": "8.0",
+   "k": 11,
+   "name": "Reid Detmers",
+   "pitches": 92,
+   "r": 0,
+   "strikes": 68
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.1",
+    "k": 0,
+    "name": "Craig Kimbrel",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 1,
+    "er": 1,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 20,
+    "r": 1,
+    "strikes": 10
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 0,
+   "h": 4,
+   "hr": 0,
+   "id": 677976,
+   "ip": "5.2",
+   "k": 6,
+   "name": "Randy Dobnak",
+   "pitches": 93,
+   "r": 0,
+   "strikes": 59
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -11,
+   "run_diff_excl_blowouts": -3,
+   "runs_allowed": 46,
+   "runs_scored": 35,
+   "top_game_run_share": 0.2,
+   "top_game_runs": 7,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 124,
+   "last10": "3-7",
+   "losses": 74,
+   "run_diff": -114,
+   "streak": "L1",
+   "wins": 50
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 203,
+    "event": null,
+    "exit_velocity": 109.0,
+    "inning": 7,
+    "launch_angle": 11.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 5,
+    "event": null,
+    "exit_velocity": 106.7,
+    "inning": 4,
+    "launch_angle": -21.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 102,
+    "event": "single",
+    "exit_velocity": 105.5,
+    "inning": 4,
+    "launch_angle": 3.0,
+    "team": "KC",
+    "xba": 0.554
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 376,
+    "event": "field_out",
+    "exit_velocity": 103.2,
+    "inning": 1,
+    "launch_angle": 34.0,
+    "team": "KC",
+    "xba": 0.583
+   },
+   {
+    "batter": "Michael Massey",
+    "distance": 218,
+    "event": "single",
+    "exit_velocity": 101.8,
+    "inning": 5,
+    "launch_angle": 13.0,
+    "team": "KC",
+    "xba": 0.903
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": []
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 54,
+   "batter": "Nolan Schanuel",
+   "captivating_index": 60,
+   "description": "Nolan Schanuel singles on a sharp ground ball to right fielder Tyler Tolbert, deflected by first baseman Jac Caglianone. Jose Siri scores.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Nate Pearson",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.133,
+   "wpa_royals": -0.211
+  },
+  {
+   "at_bat_index": 57,
+   "batter": "Carter Jensen",
+   "captivating_index": 14,
+   "description": "Carter Jensen strikes out swinging.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Ben Joyce",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.092,
+   "wpa_royals": -0.073
+  },
+  {
+   "at_bat_index": 31,
+   "batter": "Starling Marte",
+   "captivating_index": 24,
+   "description": "Starling Marte grounds into a double play, pitcher Reid Detmers to second baseman Adam Frazier to first baseman Nolan Schanuel. Michael Massey out at 2nd. Starling Marte out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Reid Detmers",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.433,
+   "wpa_royals": -0.07
+  },
+  {
+   "at_bat_index": 42,
+   "batter": "Josh Lowe",
+   "captivating_index": 0,
+   "description": "Josh Lowe flies out to right fielder Starling Marte.",
+   "event": "Flyout",
+   "half": "bottom",
+   "inning": 6,
+   "pitcher": "Craig Kimbrel",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.5,
+   "wpa_royals": 0.066
+  },
+  {
+   "at_bat_index": 41,
+   "batter": "Mois\u00e9s Ballesteros",
+   "captivating_index": 0,
+   "description": "Mois\u00e9s Ballesteros flies out to left fielder Isaac Collins.",
+   "event": "Flyout",
+   "half": "bottom",
+   "inning": 6,
+   "pitcher": "Randy Dobnak",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.434,
+   "wpa_royals": 0.064
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

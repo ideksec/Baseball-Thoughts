@@ -67,7 +67,7 @@
   "venue": "Angel Stadium",
   "walk_off": false
  },
- "generated_at": "2026-08-15T08:53:57Z",
+ "generated_at": "2026-08-16T08:55:43Z",
  "linescore": {
   "away": {
    "abbrev": "KC",
@@ -105,7 +105,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 823993 (2026-08-14)"
+  "statcast rows: 324"
  ],
  "pitching": {
   "opponent_starter": {
@@ -228,13 +228,141 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 823993 (2026-08-14)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Josh Lowe",
+    "distance": 407,
+    "event": "home_run",
+    "exit_velocity": 107.0,
+    "inning": 6,
+    "launch_angle": 32.0,
+    "team": "LAA",
+    "xba": 0.897
+   },
+   {
+    "batter": "Zach Neto",
+    "distance": 279,
+    "event": "single",
+    "exit_velocity": 106.7,
+    "inning": 3,
+    "launch_angle": 17.0,
+    "team": "LAA",
+    "xba": 0.551
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 285,
+    "event": "double",
+    "exit_velocity": 106.5,
+    "inning": 6,
+    "launch_angle": 12.0,
+    "team": "KC",
+    "xba": 0.929
+   },
+   {
+    "batter": "Nick Loftin",
+    "distance": 288,
+    "event": "single",
+    "exit_velocity": 106.3,
+    "inning": 5,
+    "launch_angle": 16.0,
+    "team": "KC",
+    "xba": 0.566
+   },
+   {
+    "batter": "Tyler Heineman",
+    "distance": 231,
+    "event": "single",
+    "exit_velocity": 106.3,
+    "inning": 6,
+    "launch_angle": 14.0,
+    "team": "LAA",
+    "xba": 0.709
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Jose Siri",
+    "description": "Jose Siri singles on a ground ball to second baseman Michael Massey.",
+    "event": "single",
+    "exit_velocity": 84.4,
+    "kind": "hit_below_xba",
+    "team": "LAA",
+    "xba": 0.083
+   },
+   {
+    "batter": "Vaughn Grissom",
+    "description": "Vaughn Grissom lines out sharply to shortstop Bobby Witt Jr.",
+    "event": "field_out",
+    "exit_velocity": 103.4,
+    "kind": "out_above_xba",
+    "team": "LAA",
+    "xba": 0.717
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.279,
+    "max_velo": 94.0,
+    "name": "Seth Lugo",
+    "pitches": 86,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.8,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.353,
+    "max_velo": 95.2,
+    "name": "John Schreiber",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.6,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.571,
+    "max_velo": 96.6,
+    "name": "Alex Lange",
+    "pitches": 14,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 95.7,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 99.4,
+    "name": "Steven Cruz",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.5,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.417,
+    "max_velo": 100.6,
+    "name": "Nate Pearson",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 99.4,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.111,
+    "max_velo": 93.0,
+    "name": "Jose Cuas",
+    "pitches": 9,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.1,
+    "whiffs": 1
+   }
+  ]
  },
  "top_plays": [
   {
