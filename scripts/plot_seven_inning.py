@@ -4,7 +4,8 @@
 Reads the after-7 game log CSV and writes PNGs to reports/royals/figures/.
 
 Usage:
-    python scripts/plot_seven_inning.py data/processed/2026_royals_after7_gamelog.csv reports/royals/figures
+    python scripts/plot_seven_inning.py \
+        data/processed/2026_royals_after7_gamelog.csv reports/royals/figures
 """
 
 from __future__ import annotations
@@ -15,9 +16,11 @@ from datetime import date
 from pathlib import Path
 
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+
+# Headless: pin the non-interactive backend before any figure is created.
+matplotlib.use("Agg")
 
 # Palette (validated reference instance, light mode)
 SURFACE = "#fcfcfb"
