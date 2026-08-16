@@ -12,6 +12,22 @@ def _sorted(gamelog: pd.DataFrame) -> pd.DataFrame:
     return gamelog.sort_values(["date", "game_number"]).reset_index(drop=True)
 
 
+def through_game(gamelog: pd.DataFrame, *, date: str, game_number: int = 1) -> pd.DataFrame:
+    """Game-log rows up to and including the given game.
+
+    The nightly job upserts a multi-day lookback before building any pack, so
+    the log it holds routinely extends past the game being written up. Rolling
+    summaries must describe that game, not the newest row in the file.
+    """
+    games = _sorted(gamelog)
+    if games.empty:
+        return games
+    keep = (games["date"] < date) | (
+        (games["date"] == date) & (games["game_number"] <= game_number)
+    )
+    return games[keep].reset_index(drop=True)
+
+
 def last_n_summary(
     gamelog: pd.DataFrame,
     n: int = 10,

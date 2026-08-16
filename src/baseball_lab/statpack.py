@@ -23,7 +23,7 @@ from baseball_lab.clean.games import (
     rank_top_plays,
 )
 from baseball_lab.clean.statcast import statcast_highlights
-from baseball_lab.metrics.rolling import last_n_summary, season_summary
+from baseball_lab.metrics.rolling import last_n_summary, season_summary, through_game
 
 STAT_PACK_VERSION = 1
 
@@ -58,10 +58,14 @@ def build_stat_pack(
 ) -> dict:
     """Assemble a stat pack from parsed sources.
 
-    gamelog must already include this game's row so rolling numbers
-    reflect the game being written up.
+    gamelog must include this game's row. It may also extend past it — the
+    rolling block is trimmed to this game so the numbers describe the game
+    being written up rather than the newest row ingested.
     """
     summary = parse_game_summary(feed)
+    rolling_log = through_game(
+        gamelog, date=summary["date"], game_number=summary["game_number"]
+    )
     royals_home = summary["home_away"] == "home"
     plays = parse_plays(feed, win_probability or None)
     top_plays, basis = rank_top_plays(plays, royals_home=royals_home)
@@ -96,8 +100,8 @@ def build_stat_pack(
         "pitching": parse_pitching_lines(feed),
         "batting_highlights": parse_batting_highlights(feed),
         "rolling": {
-            "last10": last_n_summary(gamelog, 10),
-            "season": season_summary(gamelog),
+            "last10": last_n_summary(rolling_log, 10),
+            "season": season_summary(rolling_log),
         },
         "statcast": statcast,
         "notes": [statcast_note],

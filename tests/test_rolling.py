@@ -7,7 +7,7 @@ The fixture's last 10 games mirror the real late-June 2026 stretch:
 import pandas as pd
 import pytest
 
-from baseball_lab.metrics.rolling import last_n_summary, season_summary
+from baseball_lab.metrics.rolling import last_n_summary, season_summary, through_game
 
 
 class TestLastNSummary:
@@ -45,3 +45,40 @@ class TestSeasonSummary:
         assert season_summary(pd.DataFrame(columns=["date", "game_number", "result"]))[
             "last10"
         ] == "0-0"
+
+
+class TestThroughGame:
+    """Regression: the nightly job upserts a multi-day lookback before building
+    packs, so the log it passes routinely extends past the game being written
+    up. Rolling numbers must describe that game, not the newest row."""
+
+    def test_trims_later_games(self, gamelog_df):
+        games = gamelog_df.sort_values(["date", "game_number"]).reset_index(drop=True)
+        target = games.iloc[-3]
+        trimmed = through_game(
+            gamelog_df, date=target["date"], game_number=int(target["game_number"])
+        )
+        assert len(trimmed) == len(games) - 2
+        assert trimmed.iloc[-1]["date"] == target["date"]
+
+    def test_season_summary_matches_the_trimmed_game(self, gamelog_df):
+        games = gamelog_df.sort_values(["date", "game_number"]).reset_index(drop=True)
+        target = games.iloc[-3]
+        trimmed = through_game(
+            gamelog_df, date=target["date"], game_number=int(target["game_number"])
+        )
+        summary = season_summary(trimmed)
+        assert summary["games_played"] == len(games) - 2
+        assert summary["wins"] + summary["losses"] == summary["games_played"]
+
+    def test_full_log_is_unchanged(self, gamelog_df):
+        games = gamelog_df.sort_values(["date", "game_number"]).reset_index(drop=True)
+        last = games.iloc[-1]
+        trimmed = through_game(
+            gamelog_df, date=last["date"], game_number=int(last["game_number"])
+        )
+        assert len(trimmed) == len(games)
+
+    def test_empty_log(self):
+        empty = pd.DataFrame(columns=["date", "game_number", "result"])
+        assert through_game(empty, date="2026-08-07").empty

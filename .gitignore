@@ -209,3 +209,6 @@ __marimo__/
 # Baseball Lab — local data cache (never commit)
 data/raw/
 data/interim/
+
+# Baseball Lab — generated static site (build with scripts/build_site.py)
+site/

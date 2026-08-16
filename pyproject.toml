@@ -35,6 +35,10 @@ dev = [
     "pytest>=7.0",
     "ruff>=0.1",
     "jupyter>=1.0",
+    "markdown>=3.5",  # also in [site]; kept here so the site tests run in CI
+]
+site = [
+    "markdown>=3.5",
 ]
 
 [tool.setuptools.packages.find]

@@ -35,7 +35,7 @@ class TestStatcastHighlights:
     def test_royals_pitchers(self, statcast_df, player_names):
         result = statcast_highlights(statcast_df, royals_home=True, player_names=player_names)
         pitchers = {p["name"]: p for p in result["royals_pitchers"]}
-        cameron = pitchers["Cameron, Noah"]
+        cameron = pitchers["Noah Cameron"]
         assert cameron["pitches"] == 12
         assert cameron["whiffs"] == 4
         assert cameron["csw_pct"] == pytest.approx(0.5)
@@ -44,7 +44,20 @@ class TestStatcastHighlights:
         assert cameron["primary_pitch_avg_velo"] == pytest.approx(93.9)
         # Appearance order preserved
         assert [p["name"] for p in result["royals_pitchers"]] == [
-            "Cameron, Noah",
-            "Lynch IV, Daniel",
-            "Estevez, Carlos",
+            "Noah Cameron",
+            "Daniel Lynch IV",
+            "Carlos Estevez",
+        ]
+
+    def test_royals_pitchers_resolves_ids_not_player_name(self, statcast_df, player_names):
+        """Regression: live Savant exports put the batter in player_name, which
+        filled royals_pitchers with the opposing lineup. Grouping must key off
+        the pitcher id, so a scrambled player_name column changes nothing."""
+        scrambled = statcast_df.copy()
+        scrambled["player_name"] = "Wrong, Totally"
+        result = statcast_highlights(scrambled, royals_home=True, player_names=player_names)
+        assert [p["name"] for p in result["royals_pitchers"]] == [
+            "Noah Cameron",
+            "Daniel Lynch IV",
+            "Carlos Estevez",
         ]

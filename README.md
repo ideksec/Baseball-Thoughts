@@ -70,8 +70,17 @@ Every Royals game produces analysis automatically, in two stages:
 
 1. **Nightly stat pack** — [`nightly-royals.yml`](.github/workflows/nightly-royals.yml) runs after each game day, pulls the game from the MLB Stats API and Baseball Savant, and commits a compact per-game JSON to `data/processed/royals/statpacks/` plus a season game-log row. Deterministic Python (`scripts/nightly_royals.py`), fully covered by offline fixture tests.
 2. **Morning narrative** — a scheduled Claude session reads the newest stat pack and writes a themed report to `reports/royals/daily/`, following [`docs/ROUTINE_PROMPT.md`](docs/ROUTINE_PROMPT.md). It works entirely from committed data — every number traces back to the stat pack.
+3. **Published site** — [`pages.yml`](.github/workflows/pages.yml) renders the daily reports to GitHub Pages via [`scripts/build_site.py`](scripts/build_site.py). Stage 2 commits with `[skip ci]`, so the site also rebuilds on a daily schedule rather than relying on the push trigger alone.
 
 Design details in [`docs/data_pipeline.md`](docs/data_pipeline.md).
+
+To build the site locally:
+
+```bash
+pip install -e ".[site]"
+python scripts/build_site.py --out site
+# then open site/index.html
+```
 
 ## Data policy
 
