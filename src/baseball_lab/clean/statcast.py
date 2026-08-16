@@ -1,8 +1,10 @@
 """Statcast (Baseball Savant) frame -> highlight structures.
 
-Savant's CSV names the pitcher in player_name but identifies batters only
-by MLBAM id, so callers pass a player_names mapping (built from the GUMBO
-feed's gameData.players) to label batters.
+Savant's CSV identifies both batter and pitcher by MLBAM id, so callers pass
+a player_names mapping (built from the GUMBO feed's gameData.players) to
+label them. The player_name column is deliberately unused: live exports have
+been observed labelling the batter there, not the pitcher, which silently
+filled royals_pitchers with the opposing lineup. Resolve ids, not names.
 """
 
 import pandas as pd
@@ -88,7 +90,8 @@ def statcast_highlights(
     royals_half = "Top" if royals_home else "Bot"  # Royals pitch while the opponent bats
     royals_pitching = df[df["inning_topbot"] == royals_half]
     pitchers = []
-    for name, group in royals_pitching.groupby("player_name", sort=False):
+    for pitcher_id, group in royals_pitching.groupby("pitcher", sort=False):
+        name = player_names.get(int(pitcher_id), f"MLBAM:{int(pitcher_id)}")
         whiffs = group["description"].str.startswith("swinging_strike").sum()
         called = (group["description"] == "called_strike").sum()
         primary = group["pitch_type"].mode()
