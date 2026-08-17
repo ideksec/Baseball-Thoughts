@@ -1,0 +1,258 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Michael Massey",
+    "season_total": 11
+   },
+   {
+    "count": 1,
+    "name": "Bobby Witt Jr.",
+    "season_total": 14
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Michael Massey"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-4, HR, R, RBI",
+   "name": "Michael Massey"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 696270,
+   "name": "Ryan Johnson"
+  },
+  "save": null,
+  "winner": {
+   "id": 702070,
+   "name": "Noah Cameron"
+  }
+ },
+ "game": {
+  "date": "2026-08-16",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823991,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "LAA",
+   "id": 108,
+   "name": "Los Angeles Angels"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 51
+  },
+  "score": {
+   "opponent": 0,
+   "royals": 3
+  },
+  "venue": "Angel Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-17T09:07:55Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 7,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "LAA",
+   "errors": 1,
+   "hits": 1,
+   "runs": 0,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 823991 (2026-08-16)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 2,
+   "h": 5,
+   "hr": 2,
+   "id": 696270,
+   "ip": "5.1",
+   "k": 4,
+   "name": "Ryan Johnson",
+   "pitches": 85,
+   "r": 2,
+   "strikes": 53
+  },
+  "royals_bullpen": [],
+  "royals_starter": {
+   "bb": 1,
+   "er": 0,
+   "h": 1,
+   "hr": 0,
+   "id": 702070,
+   "ip": "9.0",
+   "k": 8,
+   "name": "Noah Cameron",
+   "pitches": 115,
+   "r": 0,
+   "strikes": 73
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 7,
+   "run_diff": -9,
+   "run_diff_excl_blowouts": -1,
+   "runs_allowed": 45,
+   "runs_scored": 36,
+   "top_game_run_share": 0.1944,
+   "top_game_runs": 7,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 125,
+   "last10": "3-7",
+   "losses": 74,
+   "run_diff": -111,
+   "streak": "W1",
+   "wins": 51
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 823991 (2026-08-16)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 9,
+   "batter": "Isaac Collins",
+   "captivating_index": 24,
+   "description": "Isaac Collins grounds into a double play, first baseman Vaughn Grissom to catcher Travis d'Arnaud. Salvador Perez out at home. Michael Massey to 3rd. Nick Loftin to 2nd. Isaac Collins out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Ryan Johnson",
+   "rank": 1,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.509,
+   "wpa_royals": -0.159
+  },
+  {
+   "at_bat_index": 22,
+   "batter": "Michael Massey",
+   "captivating_index": 65,
+   "description": "Michael Massey homers (11) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Ryan Johnson",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.6,
+   "wpa_royals": 0.127
+  },
+  {
+   "at_bat_index": 31,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 75,
+   "description": "Bobby Witt Jr. homers (14) on a fly ball to left field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Ryan Johnson",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.72,
+   "wpa_royals": 0.124
+  },
+  {
+   "at_bat_index": 8,
+   "batter": "Nick Loftin",
+   "captivating_index": 0,
+   "description": "Nick Loftin walks. Salvador Perez to 3rd. Michael Massey to 2nd.",
+   "event": "Walk",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Ryan Johnson",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.668,
+   "wpa_royals": 0.073
+  },
+  {
+   "at_bat_index": 10,
+   "batter": "John Rave",
+   "captivating_index": 0,
+   "description": "John Rave flies out to right fielder Josh Lowe.",
+   "event": "Flyout",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Ryan Johnson",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.449,
+   "wpa_royals": -0.06
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
