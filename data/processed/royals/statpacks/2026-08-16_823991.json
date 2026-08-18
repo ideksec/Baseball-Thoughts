@@ -59,7 +59,7 @@
   "venue": "Angel Stadium",
   "walk_off": false
  },
- "generated_at": "2026-08-17T09:07:55Z",
+ "generated_at": "2026-08-18T09:02:41Z",
  "linescore": {
   "away": {
    "abbrev": "KC",
@@ -97,7 +97,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 823991 (2026-08-16)"
+  "statcast rows: 267"
  ],
  "pitching": {
   "opponent_starter": {
@@ -154,13 +154,105 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 823991 (2026-08-16)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 192,
+    "event": null,
+    "exit_velocity": 106.3,
+    "inning": 1,
+    "launch_angle": 10.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 43,
+    "event": "grounded_into_double_play",
+    "exit_velocity": 105.3,
+    "inning": 2,
+    "launch_angle": 0.0,
+    "team": "KC",
+    "xba": 0.509
+   },
+   {
+    "batter": "Kyle Isbel",
+    "distance": 240,
+    "event": "single",
+    "exit_velocity": 102.8,
+    "inning": 3,
+    "launch_angle": 13.0,
+    "team": "KC",
+    "xba": 0.906
+   },
+   {
+    "batter": "Michael Massey",
+    "distance": 384,
+    "event": "home_run",
+    "exit_velocity": 101.6,
+    "inning": 4,
+    "launch_angle": 26.0,
+    "team": "KC",
+    "xba": 0.686
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 59,
+    "event": null,
+    "exit_velocity": 100.0,
+    "inning": 1,
+    "launch_angle": 0.0,
+    "team": "KC",
+    "xba": null
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Carter Jensen",
+    "description": "Carter Jensen singles on a ground ball to second baseman Oswald Peraza. John Rave scores.",
+    "event": "single",
+    "exit_velocity": 74.6,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.114
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "description": "Bobby Witt Jr. homers (14) on a fly ball to left field.",
+    "event": "home_run",
+    "exit_velocity": 98.4,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.14
+   },
+   {
+    "batter": "Salvador Perez",
+    "description": "Salvador Perez lines out to shortstop Zach Neto.",
+    "event": "field_out",
+    "exit_velocity": 90.4,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.917
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.287,
+    "max_velo": 94.7,
+    "name": "Noah Cameron",
+    "pitches": 115,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 85.3,
+    "whiffs": 17
+   }
+  ]
  },
  "top_plays": [
   {

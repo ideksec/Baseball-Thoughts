@@ -1,0 +1,395 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Bobby Witt Jr.",
+    "season_total": 15
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 3,
+    "name": "Jac Caglianone"
+   },
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Bobby Witt Jr."
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Maikel Garcia"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-4, 2B, HR, BB, 4 R, 3 RBI",
+   "name": "Bobby Witt Jr."
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 686930,
+   "name": "Mason Barnett"
+  },
+  "save": {
+   "id": 674444,
+   "name": "Steven Cruz"
+  },
+  "winner": {
+   "id": 608379,
+   "name": "Michael Wacha"
+  }
+ },
+ "game": {
+  "date": "2026-08-17",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824077,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "ATH",
+   "id": 133,
+   "name": "Athletics"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 52
+  },
+  "score": {
+   "opponent": 5,
+   "royals": 9
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-18T09:02:39Z",
+ "linescore": {
+  "away": {
+   "abbrev": "ATH",
+   "errors": 1,
+   "hits": 8,
+   "runs": 5,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 13,
+   "runs": 9,
+   "runs_by_inning": [
+    3,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 147"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 4,
+   "er": 6,
+   "h": 7,
+   "hr": 1,
+   "id": 686930,
+   "ip": "2.2",
+   "k": 2,
+   "name": "Mason Barnett",
+   "pitches": 83,
+   "r": 6,
+   "strikes": 45
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Connor Thomas",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 670167,
+    "ip": "1.0",
+    "k": 0,
+    "name": "John Schreiber",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Nate Pearson",
+    "pitches": 18,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 2,
+    "er": 1,
+    "h": 1,
+    "hr": 0,
+    "id": 668674,
+    "ip": "0.0",
+    "k": 0,
+    "name": "Lucas Erceg",
+    "pitches": 14,
+    "r": 1,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Steven Cruz",
+    "pitches": 8,
+    "r": 0,
+    "strikes": 5
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 4,
+   "h": 6,
+   "hr": 3,
+   "id": 608379,
+   "ip": "5.0",
+   "k": 3,
+   "name": "Michael Wacha",
+   "pitches": 79,
+   "r": 4,
+   "strikes": 49
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 6,
+   "run_diff": -4,
+   "run_diff_excl_blowouts": 4,
+   "runs_allowed": 46,
+   "runs_scored": 42,
+   "top_game_run_share": 0.2143,
+   "top_game_runs": 9,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 126,
+   "last10": "4-6",
+   "losses": 74,
+   "run_diff": -107,
+   "streak": "W2",
+   "wins": 52
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 320,
+    "event": "double",
+    "exit_velocity": 107.3,
+    "inning": 8,
+    "launch_angle": 13.0,
+    "team": "KC",
+    "xba": 0.863
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 390,
+    "event": "home_run",
+    "exit_velocity": 106.6,
+    "inning": 2,
+    "launch_angle": 22.0,
+    "team": "KC",
+    "xba": 0.866
+   },
+   {
+    "batter": "Maikel Garcia",
+    "distance": 3,
+    "event": null,
+    "exit_velocity": 104.0,
+    "inning": 6,
+    "launch_angle": -29.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 22,
+    "event": "field_out",
+    "exit_velocity": 103.8,
+    "inning": 5,
+    "launch_angle": -5.0,
+    "team": "KC",
+    "xba": 0.384
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 95,
+    "event": "single",
+    "exit_velocity": 102.3,
+    "inning": 1,
+    "launch_angle": 3.0,
+    "team": "KC",
+    "xba": 0.54
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Maikel Garcia",
+    "description": "Maikel Garcia singles on a ground ball to shortstop Alika Williams.",
+    "event": "single",
+    "exit_velocity": 93.8,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.124
+   }
+  ],
+  "royals_pitchers": []
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 10,
+   "batter": "Salvador Perez",
+   "captivating_index": 70,
+   "description": "Salvador Perez singles on a line drive to center fielder Henry Bolte. Jac Caglianone scores. Maikel Garcia scores.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Mason Barnett",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 1,
+    "royals": 3
+   },
+   "wp_royals_after": 0.714,
+   "wpa_royals": 0.158
+  },
+  {
+   "at_bat_index": 18,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 38,
+   "description": "Bobby Witt Jr. homers (15) on a fly ball to left center field. Kyle Isbel scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Mason Barnett",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 1,
+    "royals": 5
+   },
+   "wp_royals_after": 0.869,
+   "wpa_royals": 0.108
+  },
+  {
+   "at_bat_index": 0,
+   "batter": "Jeff McNeil",
+   "captivating_index": 38,
+   "description": "Jeff McNeil homers (6) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Michael Wacha",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.404,
+   "wpa_royals": -0.096
+  },
+  {
+   "at_bat_index": 8,
+   "batter": "Maikel Garcia",
+   "captivating_index": 70,
+   "description": "Maikel Garcia singles on a line drive to right fielder Lawrence Butler. Bobby Witt Jr. scores. Jac Caglianone to 3rd. Maikel Garcia to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Mason Barnett",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.633,
+   "wpa_royals": 0.095
+  },
+  {
+   "at_bat_index": 40,
+   "batter": "Brian Serven",
+   "captivating_index": 38,
+   "description": "Brian Serven homers (3) on a fly ball to left field. Donovan Walton scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Michael Wacha",
+   "rank": 5,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 6
+   },
+   "wp_royals_after": 0.78,
+   "wpa_royals": -0.091
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
