@@ -1,0 +1,292 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Vinnie Pasquantino"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2B, RBI",
+   "name": "Vinnie Pasquantino"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663687,
+   "name": "Hogan Harris"
+  },
+  "save": null,
+  "winner": {
+   "id": 679922,
+   "name": "Carlos Duran"
+  }
+ },
+ "game": {
+  "date": "2026-08-18",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824075,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "ATH",
+   "id": 133,
+   "name": "Athletics"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 53
+  },
+  "score": {
+   "opponent": 3,
+   "royals": 4
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": true
+ },
+ "generated_at": "2026-08-19T09:03:24Z",
+ "linescore": {
+  "away": {
+   "abbrev": "ATH",
+   "errors": 1,
+   "hits": 5,
+   "runs": 3,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 9,
+   "runs": 4,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 824075 (2026-08-18)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 0,
+   "h": 2,
+   "hr": 0,
+   "id": 669620,
+   "ip": "2.1",
+   "k": 1,
+   "name": "Brady Basso",
+   "pitches": 32,
+   "r": 0,
+   "strikes": 23
+  },
+  "royals_bullpen": [
+   {
+    "bb": 3,
+    "er": 2,
+    "h": 2,
+    "hr": 0,
+    "id": 696131,
+    "ip": "3.0",
+    "k": 1,
+    "name": "Mason Black",
+    "pitches": 51,
+    "r": 2,
+    "strikes": 30
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Alex Lange",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 679922,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Carlos Duran",
+    "pitches": 12,
+    "r": 0,
+    "strikes": 8
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 1,
+   "h": 2,
+   "hr": 0,
+   "id": 663738,
+   "ip": "4.0",
+   "k": 1,
+   "name": "Daniel Lynch IV",
+   "pitches": 45,
+   "r": 1,
+   "strikes": 27
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 5,
+   "run_diff": -1,
+   "run_diff_excl_blowouts": 7,
+   "runs_allowed": 43,
+   "runs_scored": 42,
+   "top_game_run_share": 0.2143,
+   "top_game_runs": 9,
+   "wins": 5
+  },
+  "season": {
+   "games_played": 127,
+   "last10": "5-5",
+   "losses": 74,
+   "run_diff": -106,
+   "streak": "W3",
+   "wins": 53
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 824075 (2026-08-18)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 73,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 60,
+   "description": "Bobby Witt Jr. singles on a fly ball to left fielder Carlos Cortes. Carter Jensen scores. Tyler Tolbert to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 9,
+   "pitcher": "Elvis Alvarado",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 4
+   },
+   "wp_royals_after": 1.0,
+   "wpa_royals": 0.386
+  },
+  {
+   "at_bat_index": 71,
+   "batter": "Tyler Tolbert",
+   "captivating_index": 70,
+   "description": "Tyler Tolbert singles on a ground ball to left fielder Carlos Cortes. John Rave scores. Michael Massey scores. Carter Jensen to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 9,
+   "pitcher": "Hogan Harris",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 3,
+    "royals": 3
+   },
+   "wp_royals_after": 0.71,
+   "wpa_royals": 0.37
+  },
+  {
+   "at_bat_index": 62,
+   "batter": "Maikel Garcia",
+   "captivating_index": 0,
+   "description": "Maikel Garcia lines out to right fielder Lawrence Butler.",
+   "event": "Lineout",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Hogan Harris",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 3,
+    "royals": 1
+   },
+   "wp_royals_after": 0.076,
+   "wpa_royals": -0.158
+  },
+  {
+   "at_bat_index": 58,
+   "batter": "Kyle Isbel",
+   "captivating_index": 24,
+   "description": "Kyle Isbel grounds into a double play, pitcher Luis Medina to shortstop Darell Hernaiz to first baseman Jeff McNeil. Carter Jensen out at 2nd. Kyle Isbel out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Luis Medina",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 3,
+    "royals": 1
+   },
+   "wp_royals_after": 0.093,
+   "wpa_royals": -0.156
+  },
+  {
+   "at_bat_index": 34,
+   "batter": "Carter Jensen",
+   "captivating_index": 24,
+   "description": "Carter Jensen grounds into a double play, second baseman Alika Williams to shortstop Darell Hernaiz to first baseman Jeff McNeil. Michael Massey out at 2nd. Carter Jensen out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Jack Perkins",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.34,
+   "wpa_royals": -0.136
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
