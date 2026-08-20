@@ -1,0 +1,361 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 7
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Vinnie Pasquantino"
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Maikel Garcia"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-4, HR, BB, 3 R, 2 RBI",
+   "name": "Vinnie Pasquantino"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 680723,
+   "name": "Drew Rom"
+  },
+  "save": null,
+  "winner": {
+   "id": 518886,
+   "name": "Craig Kimbrel"
+  }
+ },
+ "game": {
+  "date": "2026-08-19",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824076,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "ATH",
+   "id": 133,
+   "name": "Athletics"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 54
+  },
+  "score": {
+   "opponent": 7,
+   "royals": 9
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-20T09:05:05Z",
+ "linescore": {
+  "away": {
+   "abbrev": "ATH",
+   "errors": 0,
+   "hits": 11,
+   "runs": 7,
+   "runs_by_inning": [
+    2,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 11,
+   "runs": 9,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    7
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 148"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 2,
+   "h": 5,
+   "hr": 1,
+   "id": 605488,
+   "ip": "5.2",
+   "k": 1,
+   "name": "Jeffrey Springs",
+   "pitches": 85,
+   "r": 2,
+   "strikes": 52
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Alex Lange",
+    "pitches": 10,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Craig Kimbrel",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 2,
+    "h": 2,
+    "hr": 1,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Steven Cruz",
+    "pitches": 17,
+    "r": 2,
+    "strikes": 12
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 5,
+   "h": 9,
+   "hr": 0,
+   "id": 607625,
+   "ip": "6.0",
+   "k": 3,
+   "name": "Seth Lugo",
+   "pitches": 96,
+   "r": 5,
+   "strikes": 60
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 5,
+   "run_diff": -2,
+   "run_diff_excl_blowouts": 6,
+   "runs_allowed": 47,
+   "runs_scored": 45,
+   "top_game_run_share": 0.2,
+   "top_game_runs": 9,
+   "wins": 5
+  },
+  "season": {
+   "games_played": 128,
+   "last10": "5-5",
+   "losses": 74,
+   "run_diff": -104,
+   "streak": "W4",
+   "wins": 54
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Carter Jensen",
+    "distance": 378,
+    "event": "field_out",
+    "exit_velocity": 110.3,
+    "inning": 8,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": 0.831
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 331,
+    "event": "double",
+    "exit_velocity": 109.2,
+    "inning": 4,
+    "launch_angle": 16.0,
+    "team": "KC",
+    "xba": 0.626
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 368,
+    "event": "single",
+    "exit_velocity": 108.9,
+    "inning": 8,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": 0.766
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 294,
+    "event": "field_out",
+    "exit_velocity": 106.6,
+    "inning": 6,
+    "launch_angle": 17.0,
+    "team": "KC",
+    "xba": 0.551
+   },
+   {
+    "batter": "John Rave",
+    "distance": 201,
+    "event": "double",
+    "exit_velocity": 106.5,
+    "inning": 8,
+    "launch_angle": 10.0,
+    "team": "KC",
+    "xba": 0.863
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Carter Jensen",
+    "description": "Carter Jensen flies out to center fielder Henry Bolte. Vinnie Pasquantino to 3rd.",
+    "event": "field_out",
+    "exit_velocity": 110.3,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.831
+   }
+  ],
+  "royals_pitchers": []
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 70,
+   "batter": "John Rave",
+   "captivating_index": 71,
+   "description": "John Rave doubles (5) on a sharp line drive to right fielder Lawrence Butler. Tyler Tolbert scores. Kyle Isbel scores. Bobby Witt Jr. scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Drew Rom",
+   "rank": 1,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 5,
+    "royals": 8
+   },
+   "wp_royals_after": 0.971,
+   "wpa_royals": 0.333
+  },
+  {
+   "at_bat_index": 67,
+   "batter": "Kyle Isbel",
+   "captivating_index": 33,
+   "description": "Kyle Isbel singles on a ground ball to left fielder Zack Gelof. Vinnie Pasquantino scores. Salvador Perez to 3rd. Tyler Tolbert to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Drew Rom",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 5,
+    "royals": 4
+   },
+   "wp_royals_after": 0.562,
+   "wpa_royals": 0.18
+  },
+  {
+   "at_bat_index": 36,
+   "batter": "Henry Bolte",
+   "captivating_index": 70,
+   "description": "Henry Bolte singles on a ground ball to left fielder Tyler Tolbert. Donovan Walton scores. Max Muncy to 3rd. Henry Bolte to 2nd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Seth Lugo",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 1
+   },
+   "wp_royals_after": 0.181,
+   "wpa_royals": -0.14
+  },
+  {
+   "at_bat_index": 29,
+   "batter": "Salvador Perez",
+   "captivating_index": 34,
+   "description": "Salvador Perez doubles (18) on a sharp line drive to center fielder Henry Bolte. Vinnie Pasquantino scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Jeffrey Springs",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.509,
+   "wpa_royals": 0.122
+  },
+  {
+   "at_bat_index": 64,
+   "batter": "Salvador Perez",
+   "captivating_index": 0,
+   "description": "Salvador Perez walks. Vinnie Pasquantino to 2nd.",
+   "event": "Walk",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Hayden Juenger",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 5,
+    "royals": 3
+   },
+   "wp_royals_after": 0.37,
+   "wpa_royals": 0.121
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

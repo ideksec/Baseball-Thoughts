@@ -53,7 +53,7 @@
   "venue": "Kauffman Stadium",
   "walk_off": true
  },
- "generated_at": "2026-08-19T09:03:24Z",
+ "generated_at": "2026-08-20T09:05:06Z",
  "linescore": {
   "away": {
    "abbrev": "ATH",
@@ -91,7 +91,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 824075 (2026-08-18)"
+  "statcast rows: 268"
  ],
  "pitching": {
   "opponent_starter": {
@@ -188,13 +188,104 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 824075 (2026-08-18)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 364,
+    "event": "field_out",
+    "exit_velocity": 107.6,
+    "inning": 1,
+    "launch_angle": 16.0,
+    "team": "KC",
+    "xba": 0.629
+   },
+   {
+    "batter": "Tommy White",
+    "distance": 47,
+    "event": "single",
+    "exit_velocity": 106.2,
+    "inning": 1,
+    "launch_angle": -1.0,
+    "team": "ATH",
+    "xba": 0.466
+   },
+   {
+    "batter": "Henry Bolte",
+    "distance": 18,
+    "event": "single",
+    "exit_velocity": 104.5,
+    "inning": 6,
+    "launch_angle": -8.0,
+    "team": "ATH",
+    "xba": 0.405
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 224,
+    "event": "double",
+    "exit_velocity": 103.3,
+    "inning": 7,
+    "launch_angle": 11.0,
+    "team": "KC",
+    "xba": 0.94
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 353,
+    "event": "double",
+    "exit_velocity": 103.3,
+    "inning": 7,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": 0.437
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.255,
+    "max_velo": 95.1,
+    "name": "Mason Black",
+    "pitches": 51,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.5,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.156,
+    "max_velo": 95.5,
+    "name": "Daniel Lynch IV",
+    "pitches": 45,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.25,
+    "max_velo": 95.9,
+    "name": "Carlos Duran",
+    "pitches": 12,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 94.8,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.273,
+    "max_velo": 96.6,
+    "name": "Alex Lange",
+    "pitches": 11,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 87.8,
+    "whiffs": 2
+   }
+  ]
  },
  "top_plays": [
   {
