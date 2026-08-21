@@ -1,0 +1,328 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Bobby Witt Jr.",
+    "season_total": 16
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 3,
+    "name": "Salvador Perez"
+   },
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Michael Massey"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-5, R, RBI",
+   "name": "Salvador Perez"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 695611,
+   "name": "Gage Jump"
+  },
+  "save": null,
+  "winner": {
+   "id": 671162,
+   "name": "Connor Thomas"
+  }
+ },
+ "game": {
+  "date": "2026-08-20",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824074,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "ATH",
+   "id": 133,
+   "name": "Athletics"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 55
+  },
+  "score": {
+   "opponent": 2,
+   "royals": 6
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-21T09:06:44Z",
+ "linescore": {
+  "away": {
+   "abbrev": "ATH",
+   "errors": 2,
+   "hits": 8,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 12,
+   "runs": 6,
+   "runs_by_inning": [
+    1,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 824074 (2026-08-20)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 5,
+   "h": 8,
+   "hr": 1,
+   "id": 695611,
+   "ip": "4.0",
+   "k": 3,
+   "name": "Gage Jump",
+   "pitches": 86,
+   "r": 5,
+   "strikes": 55
+  },
+  "royals_bullpen": [
+   {
+    "bb": 3,
+    "er": 2,
+    "h": 1,
+    "hr": 0,
+    "id": 679922,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Carlos Duran",
+    "pitches": 23,
+    "r": 2,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.2",
+    "k": 2,
+    "name": "Connor Thomas",
+    "pitches": 20,
+    "r": 0,
+    "strikes": 14
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Craig Kimbrel",
+    "pitches": 12,
+    "r": 0,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 670167,
+    "ip": "1.0",
+    "k": 0,
+    "name": "John Schreiber",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Nate Pearson",
+    "pitches": 6,
+    "r": 0,
+    "strikes": 4
+   }
+  ],
+  "royals_starter": {
+   "bb": 4,
+   "er": 0,
+   "h": 6,
+   "hr": 0,
+   "id": 677976,
+   "ip": "4.0",
+   "k": 4,
+   "name": "Randy Dobnak",
+   "pitches": 96,
+   "r": 0,
+   "strikes": 57
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 4,
+   "run_diff": 10,
+   "run_diff_excl_blowouts": 10,
+   "runs_allowed": 39,
+   "runs_scored": 49,
+   "top_game_run_share": 0.1837,
+   "top_game_runs": 9,
+   "wins": 6
+  },
+  "season": {
+   "games_played": 129,
+   "last10": "6-4",
+   "losses": 74,
+   "run_diff": -100,
+   "streak": "W5",
+   "wins": 55
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 824074 (2026-08-20)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 30,
+   "batter": "Isaac Collins",
+   "captivating_index": 70,
+   "description": "Isaac Collins singles on a line drive to left fielder Zack Gelof. Bobby Witt Jr. scores. Salvador Perez scores. Vinnie Pasquantino to 3rd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Gage Jump",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 0,
+    "royals": 3
+   },
+   "wp_royals_after": 0.839,
+   "wpa_royals": 0.149
+  },
+  {
+   "at_bat_index": 34,
+   "batter": "Henry Bolte",
+   "captivating_index": 24,
+   "description": "Henry Bolte grounds into a double play, pitcher Randy Dobnak to second baseman Michael Massey to first baseman Salvador Perez. Donovan Walton to 3rd. Darell Hernaiz out at 2nd. Henry Bolte out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Randy Dobnak",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 3
+   },
+   "wp_royals_after": 0.828,
+   "wpa_royals": 0.115
+  },
+  {
+   "at_bat_index": 6,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 65,
+   "description": "Bobby Witt Jr. homers (16) on a fly ball to left center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Gage Jump",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.626,
+   "wpa_royals": 0.1
+  },
+  {
+   "at_bat_index": 14,
+   "batter": "Henry Bolte",
+   "captivating_index": 14,
+   "description": "Henry Bolte called out on strikes.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Randy Dobnak",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.575,
+   "wpa_royals": 0.083
+  },
+  {
+   "at_bat_index": 15,
+   "batter": "Jeff McNeil",
+   "captivating_index": 0,
+   "description": "Jeff McNeil grounds out, first baseman Salvador Perez to pitcher Randy Dobnak.",
+   "event": "Groundout",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Randy Dobnak",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.656,
+   "wpa_royals": 0.081
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
