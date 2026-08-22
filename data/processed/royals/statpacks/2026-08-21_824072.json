@@ -1,0 +1,328 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 17
+   },
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 8
+   },
+   {
+    "count": 1,
+    "name": "Kyle Isbel",
+    "season_total": 5
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Vinnie Pasquantino"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Kyle Isbel"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2B, HR, R, 2 RBI",
+   "name": "Kyle Isbel"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 675512,
+   "name": "Troy Melton"
+  },
+  "save": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  },
+  "winner": {
+   "id": 702070,
+   "name": "Noah Cameron"
+  }
+ },
+ "game": {
+  "date": "2026-08-21",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824072,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "DET",
+   "id": 116,
+   "name": "Detroit Tigers"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 56
+  },
+  "score": {
+   "opponent": 2,
+   "royals": 5
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-22T08:56:12Z",
+ "linescore": {
+  "away": {
+   "abbrev": "DET",
+   "errors": 1,
+   "hits": 6,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 10,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 824072 (2026-08-21)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 2,
+   "h": 6,
+   "hr": 2,
+   "id": 675512,
+   "ip": "5.2",
+   "k": 3,
+   "name": "Troy Melton",
+   "pitches": 94,
+   "r": 3,
+   "strikes": 58
+  },
+  "royals_bullpen": [
+   {
+    "bb": 2,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Jose Cuas",
+    "pitches": 21,
+    "r": 0,
+    "strikes": 11
+   },
+   {
+    "bb": 1,
+    "er": 2,
+    "h": 1,
+    "hr": 0,
+    "id": 670167,
+    "ip": "0.2",
+    "k": 1,
+    "name": "John Schreiber",
+    "pitches": 15,
+    "r": 2,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.1",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 20,
+    "r": 0,
+    "strikes": 12
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 21,
+    "r": 0,
+    "strikes": 11
+   }
+  ],
+  "royals_starter": {
+   "bb": 3,
+   "er": 0,
+   "h": 2,
+   "hr": 0,
+   "id": 702070,
+   "ip": "5.0",
+   "k": 2,
+   "name": "Noah Cameron",
+   "pitches": 85,
+   "r": 0,
+   "strikes": 50
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 3,
+   "run_diff": 14,
+   "run_diff_excl_blowouts": 14,
+   "runs_allowed": 35,
+   "runs_scored": 49,
+   "top_game_run_share": 0.1837,
+   "top_game_runs": 9,
+   "wins": 7
+  },
+  "season": {
+   "games_played": 130,
+   "last10": "7-3",
+   "losses": 74,
+   "run_diff": -97,
+   "streak": "W6",
+   "wins": 56
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 824072 (2026-08-21)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 32,
+   "batter": "Michael Massey",
+   "captivating_index": 0,
+   "description": "Michael Massey reaches on a fielding error by shortstop Kevin McGonigle. Vinnie Pasquantino scores.",
+   "event": "Field Error",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Troy Melton",
+   "rank": 1,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.66,
+   "wpa_royals": 0.118
+  },
+  {
+   "at_bat_index": 37,
+   "batter": "Kyle Isbel",
+   "captivating_index": 75,
+   "description": "Kyle Isbel homers (5) on a fly ball to right center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Troy Melton",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.812,
+   "wpa_royals": 0.104
+  },
+  {
+   "at_bat_index": 56,
+   "batter": "Kevin McGonigle",
+   "captivating_index": 33,
+   "description": "Kevin McGonigle singles on a sharp line drive to right fielder Jac Caglianone. Zach McKinstry scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Steven Cruz",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 3
+   },
+   "wp_royals_after": 0.743,
+   "wpa_royals": -0.1
+  },
+  {
+   "at_bat_index": 58,
+   "batter": "Carter Jensen",
+   "captivating_index": 75,
+   "description": "Carter Jensen homers (17) on a fly ball to center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Tyler Holton",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 4
+   },
+   "wp_royals_after": 0.887,
+   "wpa_royals": 0.098
+  },
+  {
+   "at_bat_index": 63,
+   "batter": "Colt Keith",
+   "captivating_index": 34,
+   "description": "Colt Keith doubles (16) on a sharp line drive to right fielder Jac Caglianone.",
+   "event": "Double",
+   "half": "top",
+   "inning": 8,
+   "pitcher": "Steven Cruz",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 4
+   },
+   "wp_royals_after": 0.767,
+   "wpa_royals": -0.095
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

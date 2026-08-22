@@ -64,7 +64,7 @@
   "venue": "Kauffman Stadium",
   "walk_off": false
  },
- "generated_at": "2026-08-21T09:06:44Z",
+ "generated_at": "2026-08-22T08:56:13Z",
  "linescore": {
   "away": {
    "abbrev": "ATH",
@@ -101,7 +101,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 824074 (2026-08-20)"
+  "statcast rows: 327"
  ],
  "pitching": {
   "opponent_starter": {
@@ -224,13 +224,122 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 824074 (2026-08-20)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Henry Bolte",
+    "distance": 5,
+    "event": "single",
+    "exit_velocity": 108.4,
+    "inning": 1,
+    "launch_angle": -15.0,
+    "team": "ATH",
+    "xba": 0.266
+   },
+   {
+    "batter": "Michael Massey",
+    "distance": 301,
+    "event": null,
+    "exit_velocity": 106.1,
+    "inning": 7,
+    "launch_angle": 20.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Henry Bolte",
+    "distance": 6,
+    "event": "field_out",
+    "exit_velocity": 105.7,
+    "inning": 9,
+    "launch_angle": -20.0,
+    "team": "ATH",
+    "xba": 0.245
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 402,
+    "event": "home_run",
+    "exit_velocity": 104.3,
+    "inning": 1,
+    "launch_angle": 31.0,
+    "team": "KC",
+    "xba": 0.76
+   },
+   {
+    "batter": "Nick Loftin",
+    "distance": 230,
+    "event": "triple",
+    "exit_velocity": 102.6,
+    "inning": 4,
+    "launch_angle": 10.0,
+    "team": "KC",
+    "xba": 0.849
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.281,
+    "max_velo": 92.8,
+    "name": "Randy Dobnak",
+    "pitches": 96,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.2,
+    "whiffs": 12
+   },
+   {
+    "csw_pct": 0.217,
+    "max_velo": 97.7,
+    "name": "Carlos Duran",
+    "pitches": 23,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.35,
+    "max_velo": 92.1,
+    "name": "Connor Thomas",
+    "pitches": 20,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 86.2,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.308,
+    "max_velo": 94.5,
+    "name": "John Schreiber",
+    "pitches": 13,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.8,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.167,
+    "max_velo": 94.7,
+    "name": "Craig Kimbrel",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.5,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.167,
+    "max_velo": 98.8,
+    "name": "Nate Pearson",
+    "pitches": 6,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.7,
+    "whiffs": 0
+   }
+  ]
  },
  "top_plays": [
   {

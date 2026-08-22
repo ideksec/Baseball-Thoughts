@@ -128,3 +128,4 @@ game_pk,date,game_number,doubleheader,home_away,opponent_abbrev,opponent_name,re
 824075,2026-08-18,1,N,home,ATH,Athletics,W,4,3,9,True,9.0,0.0,5.0,1.0,Carlos Duran,Hogan Harris,,Daniel Lynch IV,4.0,1.0,53,74,data/processed/royals/statpacks/2026-08-18_824075.json
 824076,2026-08-19,1,N,home,ATH,Athletics,W,9,7,9,False,11.0,0.0,11.0,0.0,Craig Kimbrel,Drew Rom,,Seth Lugo,6.0,5.0,54,74,data/processed/royals/statpacks/2026-08-19_824076.json
 824074,2026-08-20,1,N,home,ATH,Athletics,W,6,2,9,False,12.0,0.0,8.0,2.0,Connor Thomas,Gage Jump,,Randy Dobnak,4.0,0.0,55,74,data/processed/royals/statpacks/2026-08-20_824074.json
+824072,2026-08-21,1,N,home,DET,Detroit Tigers,W,5,2,9,False,10.0,0.0,6.0,1.0,Noah Cameron,Troy Melton,Nate Pearson,Noah Cameron,5.0,0.0,56,74,data/processed/royals/statpacks/2026-08-21_824072.json
