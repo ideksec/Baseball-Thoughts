@@ -1,0 +1,373 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Salvador Perez",
+    "season_total": 17
+   },
+   {
+    "count": 1,
+    "name": "Kyle Isbel",
+    "season_total": 6
+   }
+  ],
+  "royals_multi_hit": [],
+  "royals_top_line": {
+   "line": "1-3, HR, R, RBI",
+   "name": "Salvador Perez"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 623454,
+   "name": "Drew Anderson"
+  },
+  "save": {
+   "id": 518886,
+   "name": "Craig Kimbrel"
+  },
+  "winner": {
+   "id": 608379,
+   "name": "Michael Wacha"
+  }
+ },
+ "game": {
+  "date": "2026-08-22",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824073,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "DET",
+   "id": 116,
+   "name": "Detroit Tigers"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 57
+  },
+  "score": {
+   "opponent": 1,
+   "royals": 3
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-23T08:56:51Z",
+ "linescore": {
+  "away": {
+   "abbrev": "DET",
+   "errors": 0,
+   "hits": 3,
+   "runs": 1,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 5,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 237"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 3,
+   "h": 5,
+   "hr": 2,
+   "id": 623454,
+   "ip": "5.0",
+   "k": 4,
+   "name": "Drew Anderson",
+   "pitches": 75,
+   "r": 3,
+   "strikes": 53
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Alex Lange",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 7
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Craig Kimbrel",
+    "pitches": 20,
+    "r": 0,
+    "strikes": 14
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 1,
+   "h": 3,
+   "hr": 1,
+   "id": 608379,
+   "ip": "7.0",
+   "k": 6,
+   "name": "Michael Wacha",
+   "pitches": 96,
+   "r": 1,
+   "strikes": 64
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 2,
+   "run_diff": 17,
+   "run_diff_excl_blowouts": 17,
+   "runs_allowed": 31,
+   "runs_scored": 48,
+   "top_game_run_share": 0.1875,
+   "top_game_runs": 9,
+   "wins": 8
+  },
+  "season": {
+   "games_played": 131,
+   "last10": "8-2",
+   "losses": 74,
+   "run_diff": -95,
+   "streak": "W7",
+   "wins": 57
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 83,
+    "event": "field_out",
+    "exit_velocity": 112.3,
+    "inning": 5,
+    "launch_angle": 2.0,
+    "team": "KC",
+    "xba": 0.617
+   },
+   {
+    "batter": "Hao-Yu Lee",
+    "distance": 446,
+    "event": "home_run",
+    "exit_velocity": 110.0,
+    "inning": 5,
+    "launch_angle": 27.0,
+    "team": "DET",
+    "xba": 0.994
+   },
+   {
+    "batter": "Brett Callahan",
+    "distance": 224,
+    "event": null,
+    "exit_velocity": 109.1,
+    "inning": 9,
+    "launch_angle": 11.0,
+    "team": "DET",
+    "xba": null
+   },
+   {
+    "batter": "Colt Keith",
+    "distance": 299,
+    "event": "field_out",
+    "exit_velocity": 108.0,
+    "inning": 4,
+    "launch_angle": 13.0,
+    "team": "DET",
+    "xba": 0.831
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 424,
+    "event": "home_run",
+    "exit_velocity": 106.3,
+    "inning": 4,
+    "launch_angle": 27.0,
+    "team": "KC",
+    "xba": 0.931
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Colt Keith",
+    "description": "Colt Keith lines out sharply to center fielder Kyle Isbel.",
+    "event": "field_out",
+    "exit_velocity": 108.0,
+    "kind": "out_above_xba",
+    "team": "DET",
+    "xba": 0.831
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.24,
+    "max_velo": 94.0,
+    "name": "Michael Wacha",
+    "pitches": 96,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 80.5,
+    "whiffs": 8
+   },
+   {
+    "csw_pct": 0.15,
+    "max_velo": 94.9,
+    "name": "Craig Kimbrel",
+    "pitches": 20,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.8,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.273,
+    "max_velo": 95.0,
+    "name": "Alex Lange",
+    "pitches": 11,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 87.3,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 19,
+   "batter": "Kyle Isbel",
+   "captivating_index": 65,
+   "description": "Kyle Isbel homers (6) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Drew Anderson",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.669,
+   "wpa_royals": 0.114
+  },
+  {
+   "at_bat_index": 34,
+   "batter": "Hao-Yu Lee",
+   "captivating_index": 38,
+   "description": "Hao-Yu Lee homers (7) on a fly ball to left center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Michael Wacha",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 2
+   },
+   "wp_royals_after": 0.693,
+   "wpa_royals": -0.107
+  },
+  {
+   "at_bat_index": 27,
+   "batter": "Salvador Perez",
+   "captivating_index": 75,
+   "description": "Salvador Perez homers (17) on a fly ball to center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Drew Anderson",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.786,
+   "wpa_royals": 0.101
+  },
+  {
+   "at_bat_index": 44,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 0,
+   "description": "Vinnie Pasquantino grounds out to first baseman Spencer Torkelson.",
+   "event": "Groundout",
+   "half": "bottom",
+   "inning": 6,
+   "pitcher": "Tanner Rainey",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 2
+   },
+   "wp_royals_after": 0.732,
+   "wpa_royals": -0.061
+  },
+  {
+   "at_bat_index": 47,
+   "batter": "Brett Callahan",
+   "captivating_index": 34,
+   "description": "Brett Callahan doubles (1) on a sharp line drive to right fielder Jac Caglianone.",
+   "event": "Double",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Michael Wacha",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 3
+   },
+   "wp_royals_after": 0.79,
+   "wpa_royals": -0.059
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

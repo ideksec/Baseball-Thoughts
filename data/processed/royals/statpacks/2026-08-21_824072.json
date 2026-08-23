@@ -77,7 +77,7 @@
   "venue": "Kauffman Stadium",
   "walk_off": false
  },
- "generated_at": "2026-08-22T08:56:12Z",
+ "generated_at": "2026-08-23T08:56:54Z",
  "linescore": {
   "away": {
    "abbrev": "DET",
@@ -114,7 +114,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 824072 (2026-08-21)"
+  "statcast rows: 288"
  ],
  "pitching": {
   "opponent_starter": {
@@ -224,13 +224,123 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 824072 (2026-08-21)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 60,
+    "event": "field_out",
+    "exit_velocity": 112.0,
+    "inning": 7,
+    "launch_angle": 1.0,
+    "team": "KC",
+    "xba": 0.583
+   },
+   {
+    "batter": "Colt Keith",
+    "distance": 265,
+    "event": "double",
+    "exit_velocity": 111.2,
+    "inning": 8,
+    "launch_angle": 15.0,
+    "team": "DET",
+    "xba": 0.663
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 6,
+    "event": "single",
+    "exit_velocity": 110.1,
+    "inning": 2,
+    "launch_angle": -16.0,
+    "team": "KC",
+    "xba": 0.198
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 23,
+    "event": "single",
+    "exit_velocity": 109.2,
+    "inning": 5,
+    "launch_angle": -4.0,
+    "team": "KC",
+    "xba": 0.429
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 443,
+    "event": "home_run",
+    "exit_velocity": 107.5,
+    "inning": 7,
+    "launch_angle": 25.0,
+    "team": "KC",
+    "xba": 1.0
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Jac Caglianone",
+    "description": "Jac Caglianone flies out sharply to center fielder Max Clark.",
+    "event": "field_out",
+    "exit_velocity": 106.7,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.723
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.2,
+    "max_velo": 93.6,
+    "name": "Noah Cameron",
+    "pitches": 85,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 89.4,
+    "whiffs": 8
+   },
+   {
+    "csw_pct": 0.238,
+    "max_velo": 92.2,
+    "name": "Jose Cuas",
+    "pitches": 21,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 82.0,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.238,
+    "max_velo": 99.3,
+    "name": "Nate Pearson",
+    "pitches": 21,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.2,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.15,
+    "max_velo": 99.1,
+    "name": "Steven Cruz",
+    "pitches": 20,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 94.3,
+    "name": "John Schreiber",
+    "pitches": 15,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.0,
+    "whiffs": 0
+   }
+  ]
  },
  "top_plays": [
   {
