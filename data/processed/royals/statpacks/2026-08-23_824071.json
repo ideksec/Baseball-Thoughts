@@ -1,0 +1,488 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Nick Loftin",
+    "season_total": 6
+   },
+   {
+    "count": 1,
+    "name": "John Rave",
+    "season_total": 3
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Nick Loftin"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Salvador Perez"
+   },
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "John Rave"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Kyle Isbel"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-4, HR, BB, 2 R, 4 RBI",
+   "name": "Nick Loftin"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 808825,
+   "name": "Andrew Sears"
+  },
+  "save": null,
+  "winner": {
+   "id": 670167,
+   "name": "John Schreiber"
+  }
+ },
+ "game": {
+  "date": "2026-08-23",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824071,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "DET",
+   "id": 116,
+   "name": "Detroit Tigers"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 58
+  },
+  "score": {
+   "opponent": 7,
+   "royals": 11
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-24T09:12:23Z",
+ "linescore": {
+  "away": {
+   "abbrev": "DET",
+   "errors": 0,
+   "hits": 10,
+   "runs": 7,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    4,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 12,
+   "runs": 11,
+   "runs_by_inning": [
+    0,
+    5,
+    0,
+    0,
+    4,
+    0,
+    0,
+    2
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 327"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 2,
+   "h": 1,
+   "hr": 0,
+   "id": 621097,
+   "ip": "1.1",
+   "k": 1,
+   "name": "Jacob Waguespack",
+   "pitches": 30,
+   "r": 2,
+   "strikes": 14
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 3,
+    "h": 3,
+    "hr": 1,
+    "id": 696131,
+    "ip": "0.2",
+    "k": 0,
+    "name": "Mason Black",
+    "pitches": 25,
+    "r": 4,
+    "strikes": 16
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 671162,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Connor Thomas",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 670167,
+    "ip": "0.2",
+    "k": 1,
+    "name": "John Schreiber",
+    "pitches": 14,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 2,
+    "er": 1,
+    "h": 2,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Jose Cuas",
+    "pitches": 26,
+    "r": 1,
+    "strikes": 14
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 16,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Steven Cruz",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 10
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 2,
+   "h": 4,
+   "hr": 0,
+   "id": 663738,
+   "ip": "4.1",
+   "k": 2,
+   "name": "Daniel Lynch IV",
+   "pitches": 59,
+   "r": 2,
+   "strikes": 38
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 1,
+   "losses": 1,
+   "run_diff": 23,
+   "run_diff_excl_blowouts": 23,
+   "runs_allowed": 34,
+   "runs_scored": 57,
+   "top_game_run_share": 0.193,
+   "top_game_runs": 11,
+   "wins": 9
+  },
+  "season": {
+   "games_played": 132,
+   "last10": "9-1",
+   "losses": 74,
+   "run_diff": -91,
+   "streak": "W8",
+   "wins": 58
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 408,
+    "event": "double",
+    "exit_velocity": 107.5,
+    "inning": 5,
+    "launch_angle": 21.0,
+    "team": "KC",
+    "xba": 0.851
+   },
+   {
+    "batter": "Kyle Isbel",
+    "distance": 130,
+    "event": "single",
+    "exit_velocity": 106.6,
+    "inning": 8,
+    "launch_angle": 5.0,
+    "team": "KC",
+    "xba": 0.637
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 262,
+    "event": "double",
+    "exit_velocity": 105.2,
+    "inning": 5,
+    "launch_angle": 16.0,
+    "team": "KC",
+    "xba": 0.551
+   },
+   {
+    "batter": "Nick Loftin",
+    "distance": 121,
+    "event": "single",
+    "exit_velocity": 104.8,
+    "inning": 6,
+    "launch_angle": 5.0,
+    "team": "KC",
+    "xba": 0.637
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 299,
+    "event": "single",
+    "exit_velocity": 103.8,
+    "inning": 7,
+    "launch_angle": 12.0,
+    "team": "KC",
+    "xba": 0.94
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Colt Keith",
+    "description": "Colt Keith lines out to left fielder Isaac Collins.",
+    "event": "field_out",
+    "exit_velocity": 88.9,
+    "kind": "out_above_xba",
+    "team": "DET",
+    "xba": 0.877
+   },
+   {
+    "batter": "Colt Keith",
+    "description": "Colt Keith lines out sharply to first baseman Vinnie Pasquantino.",
+    "event": "field_out",
+    "exit_velocity": 102.6,
+    "kind": "out_above_xba",
+    "team": "DET",
+    "xba": 0.849
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.237,
+    "max_velo": 94.6,
+    "name": "Daniel Lynch IV",
+    "pitches": 59,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.5,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.192,
+    "max_velo": 93.0,
+    "name": "Jose Cuas",
+    "pitches": 26,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 92.1,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.16,
+    "max_velo": 95.1,
+    "name": "Mason Black",
+    "pitches": 25,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.0,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.235,
+    "max_velo": 99.2,
+    "name": "Steven Cruz",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.3,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.188,
+    "max_velo": 98.6,
+    "name": "Nate Pearson",
+    "pitches": 16,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.4,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.286,
+    "max_velo": 94.4,
+    "name": "John Schreiber",
+    "pitches": 14,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.4,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.111,
+    "max_velo": 91.8,
+    "name": "Connor Thomas",
+    "pitches": 9,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 82.6,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 39,
+   "batter": "Kevin McGonigle",
+   "captivating_index": 75,
+   "description": "Kevin McGonigle homers (14) on a fly ball to right center field. Hao-Yu Lee scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Mason Black",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 5,
+    "royals": 5
+   },
+   "wp_royals_after": 0.552,
+   "wpa_royals": -0.232
+  },
+  {
+   "at_bat_index": 18,
+   "batter": "Nick Loftin",
+   "captivating_index": 38,
+   "description": "Nick Loftin homers (6) on a fly ball to left center field. Tyler Tolbert scores. Kyle Isbel scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Ty Madden",
+   "rank": 2,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 1,
+    "royals": 5
+   },
+   "wp_royals_after": 0.863,
+   "wpa_royals": 0.212
+  },
+  {
+   "at_bat_index": 17,
+   "batter": "Kyle Isbel",
+   "captivating_index": 60,
+   "description": "Kyle Isbel singles on a fly ball to left fielder Javier B\u00e1ez. Salvador Perez scores. John Rave scores. Tyler Tolbert to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Ty Madden",
+   "rank": 3,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 1,
+    "royals": 2
+   },
+   "wp_royals_after": 0.651,
+   "wpa_royals": 0.179
+  },
+  {
+   "at_bat_index": 43,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 61,
+   "description": "Vinnie Pasquantino doubles (15) on a sharp line drive to center fielder Max Clark. Nick Loftin scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Andrew Sears",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 5,
+    "royals": 6
+   },
+   "wp_royals_after": 0.728,
+   "wpa_royals": 0.159
+  },
+  {
+   "at_bat_index": 64,
+   "batter": "Max Clark",
+   "captivating_index": 0,
+   "description": "Max Clark pops out to third baseman Nick Loftin in foul territory.",
+   "event": "Pop Out",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Jose Cuas",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 7,
+    "royals": 9
+   },
+   "wp_royals_after": 0.887,
+   "wpa_royals": 0.121
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
