@@ -1,0 +1,305 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Isaac Collins"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "John Rave"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, BB, R, RBI",
+   "name": "John Rave"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 453286,
+   "name": "Max Scherzer"
+  },
+  "save": null,
+  "winner": {
+   "id": 607625,
+   "name": "Seth Lugo"
+  }
+ },
+ "game": {
+  "date": "2026-08-25",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 822773,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "TOR",
+   "id": 141,
+   "name": "Toronto Blue Jays"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 74,
+   "wins": 59
+  },
+  "score": {
+   "opponent": 3,
+   "royals": 5
+  },
+  "venue": "Rogers Centre",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-26T09:10:17Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 10,
+   "runs": 5,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  "home": {
+   "abbrev": "TOR",
+   "errors": 1,
+   "hits": 10,
+   "runs": 3,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  }
+ },
+ "notes": [
+  "statcast unavailable: Savant returned no rows for game 822773 (2026-08-25)"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 5,
+   "er": 2,
+   "h": 4,
+   "hr": 0,
+   "id": 453286,
+   "ip": "5.0",
+   "k": 4,
+   "name": "Max Scherzer",
+   "pitches": 92,
+   "r": 2,
+   "strikes": 51
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 670167,
+    "ip": "1.0",
+    "k": 1,
+    "name": "John Schreiber",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Connor Thomas",
+    "pitches": 10,
+    "r": 0,
+    "strikes": 5
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 25,
+    "r": 0,
+    "strikes": 13
+   },
+   {
+    "bb": 0,
+    "er": 2,
+    "h": 3,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Steven Cruz",
+    "pitches": 12,
+    "r": 2,
+    "strikes": 9
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 1,
+   "h": 6,
+   "hr": 0,
+   "id": 607625,
+   "ip": "5.0",
+   "k": 5,
+   "name": "Seth Lugo",
+   "pitches": 89,
+   "r": 1,
+   "strikes": 53
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 1,
+   "losses": 1,
+   "run_diff": 24,
+   "run_diff_excl_blowouts": 24,
+   "runs_allowed": 31,
+   "runs_scored": 55,
+   "top_game_run_share": 0.2,
+   "top_game_runs": 11,
+   "wins": 9
+  },
+  "season": {
+   "games_played": 133,
+   "last10": "9-1",
+   "losses": 74,
+   "run_diff": -89,
+   "streak": "W9",
+   "wins": 59
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": false,
+  "statcast_error": "Savant returned no rows for game 822773 (2026-08-25)",
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": false
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 33,
+   "batter": "Brandon Valenzuela",
+   "captivating_index": 24,
+   "description": "Brandon Valenzuela grounds into a double play, second baseman Michael Massey to shortstop Bobby Witt Jr. to first baseman Vinnie Pasquantino. Andr\u00e9s Gim\u00e9nez out at 2nd. Brandon Valenzuela out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Seth Lugo",
+   "rank": 1,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.5,
+   "wpa_royals": 0.141
+  },
+  {
+   "at_bat_index": 38,
+   "batter": "Salvador Perez",
+   "captivating_index": 60,
+   "description": "Salvador Perez singles on a line drive to left fielder Myles Straw. Bobby Witt Jr. scores. Vinnie Pasquantino to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Max Scherzer",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 2
+   },
+   "wp_royals_after": 0.638,
+   "wpa_royals": 0.138
+  },
+  {
+   "at_bat_index": 47,
+   "batter": "Kyle Isbel",
+   "captivating_index": 41,
+   "description": "Kyle Isbel hits a sacrifice bunt. Throwing error by first baseman Vladimir Guerrero Jr. Nick Loftin scores. John Rave to 3rd. Kyle Isbel to 2nd.",
+   "event": "Sac Bunt",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Mason Fluharty",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 3
+   },
+   "wp_royals_after": 0.844,
+   "wpa_royals": 0.11
+  },
+  {
+   "at_bat_index": 72,
+   "batter": "Ernie Clement",
+   "captivating_index": 0,
+   "description": "Ernie Clement flies out to center fielder Kyle Isbel.",
+   "event": "Flyout",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Nate Pearson",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 4
+   },
+   "wp_royals_after": 0.966,
+   "wpa_royals": 0.104
+  },
+  {
+   "at_bat_index": 69,
+   "batter": "Vladimir Guerrero Jr.",
+   "captivating_index": 34,
+   "description": "Vladimir Guerrero Jr. doubles (20) on a sharp line drive to right fielder John Rave. Nathan Lukes to 3rd.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Nate Pearson",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 4
+   },
+   "wp_royals_after": 0.805,
+   "wpa_royals": -0.103
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

@@ -131,3 +131,4 @@ game_pk,date,game_number,doubleheader,home_away,opponent_abbrev,opponent_name,re
 824072,2026-08-21,1,N,home,DET,Detroit Tigers,W,5,2,9,False,10.0,0.0,6.0,1.0,Noah Cameron,Troy Melton,Nate Pearson,Noah Cameron,5.0,0.0,56,74,data/processed/royals/statpacks/2026-08-21_824072.json
 824073,2026-08-22,1,N,home,DET,Detroit Tigers,W,3,1,9,False,5.0,0.0,3.0,0.0,Michael Wacha,Drew Anderson,Craig Kimbrel,Michael Wacha,7.0,1.0,57,74,data/processed/royals/statpacks/2026-08-22_824073.json
 824071,2026-08-23,1,N,home,DET,Detroit Tigers,W,11,7,9,False,12.0,1.0,10.0,0.0,John Schreiber,Andrew Sears,,Daniel Lynch IV,4.1,2.0,58,74,data/processed/royals/statpacks/2026-08-23_824071.json
+822773,2026-08-25,1,N,away,TOR,Toronto Blue Jays,W,5,3,9,False,10.0,1.0,10.0,1.0,Seth Lugo,Max Scherzer,,Seth Lugo,5.0,1.0,59,74,data/processed/royals/statpacks/2026-08-25_822773.json
