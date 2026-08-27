@@ -53,7 +53,7 @@
   "venue": "Rogers Centre",
   "walk_off": false
  },
- "generated_at": "2026-08-26T09:10:17Z",
+ "generated_at": "2026-08-27T19:11:26Z",
  "linescore": {
   "away": {
    "abbrev": "KC",
@@ -91,7 +91,7 @@
   }
  },
  "notes": [
-  "statcast unavailable: Savant returned no rows for game 822773 (2026-08-25)"
+  "statcast rows: 327"
  ],
  "pitching": {
   "opponent_starter": {
@@ -201,13 +201,123 @@
  },
  "schema_version": 1,
  "sources": {
-  "statcast": false,
-  "statcast_error": "Savant returned no rows for game 822773 (2026-08-25)",
+  "statcast": true,
+  "statcast_error": null,
   "statsapi_gumbo": true,
   "win_probability_endpoint": true
  },
  "statcast": {
-  "available": false
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 374,
+    "event": null,
+    "exit_velocity": 108.7,
+    "inning": 3,
+    "launch_angle": 31.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 88,
+    "event": "single",
+    "exit_velocity": 107.7,
+    "inning": 5,
+    "launch_angle": 4.0,
+    "team": "KC",
+    "xba": 0.637
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 61,
+    "event": "single",
+    "exit_velocity": 107.4,
+    "inning": 1,
+    "launch_angle": 2.0,
+    "team": "KC",
+    "xba": 0.571
+   },
+   {
+    "batter": "Kyle Isbel",
+    "distance": 5,
+    "event": "single",
+    "exit_velocity": 104.1,
+    "inning": 9,
+    "launch_angle": -20.0,
+    "team": "KC",
+    "xba": 0.186
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 145,
+    "event": "single",
+    "exit_velocity": 103.7,
+    "inning": 2,
+    "launch_angle": 7.0,
+    "team": "KC",
+    "xba": 0.646
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Nick Loftin",
+    "description": "Nick Loftin singles on a ground ball to second baseman Ernie Clement.",
+    "event": "single",
+    "exit_velocity": 80.5,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.065
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.236,
+    "max_velo": 94.0,
+    "name": "Seth Lugo",
+    "pitches": 89,
+    "primary_pitch": "CU",
+    "primary_pitch_avg_velo": 78.2,
+    "whiffs": 11
+   },
+   {
+    "csw_pct": 0.16,
+    "max_velo": 99.5,
+    "name": "Nate Pearson",
+    "pitches": 25,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.0,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.385,
+    "max_velo": 93.1,
+    "name": "John Schreiber",
+    "pitches": 13,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.167,
+    "max_velo": 100.5,
+    "name": "Steven Cruz",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 99.4,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 92.0,
+    "name": "Connor Thomas",
+    "pitches": 10,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 91.6,
+    "whiffs": 0
+   }
+  ]
  },
  "top_plays": [
   {

@@ -1,0 +1,355 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Carter Jensen"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-3, BB",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 677976,
+   "name": "Randy Dobnak"
+  },
+  "save": {
+   "id": 686973,
+   "name": "Louis Varland"
+  },
+  "winner": {
+   "id": 689149,
+   "name": "Chad Dallas"
+  }
+ },
+ "game": {
+  "date": "2026-08-26",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 822772,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "TOR",
+   "id": 141,
+   "name": "Toronto Blue Jays"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 75,
+   "wins": 59
+  },
+  "score": {
+   "opponent": 3,
+   "royals": 0
+  },
+  "venue": "Rogers Centre",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-27T19:11:24Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 6,
+   "runs": 0,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "TOR",
+   "errors": 0,
+   "hits": 6,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 252"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 0,
+   "h": 2,
+   "hr": 0,
+   "id": 693686,
+   "ip": "2.0",
+   "k": 1,
+   "name": "Spencer Miles",
+   "pitches": 33,
+   "r": 0,
+   "strikes": 20
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 696131,
+    "ip": "2.0",
+    "k": 0,
+    "name": "Mason Black",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 12
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 3,
+   "h": 6,
+   "hr": 1,
+   "id": 677976,
+   "ip": "6.0",
+   "k": 5,
+   "name": "Randy Dobnak",
+   "pitches": 92,
+   "r": 3,
+   "strikes": 56
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 1,
+   "losses": 1,
+   "run_diff": 22,
+   "run_diff_excl_blowouts": 22,
+   "runs_allowed": 33,
+   "runs_scored": 55,
+   "top_game_run_share": 0.2,
+   "top_game_runs": 11,
+   "wins": 9
+  },
+  "season": {
+   "games_played": 134,
+   "last10": "9-1",
+   "losses": 75,
+   "run_diff": -92,
+   "streak": "L1",
+   "wins": 59
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jes\u00fas S\u00e1nchez",
+    "distance": 126,
+    "event": "double",
+    "exit_velocity": 110.6,
+    "inning": 2,
+    "launch_angle": 6.0,
+    "team": "TOR",
+    "xba": 0.72
+   },
+   {
+    "batter": "George Springer",
+    "distance": 10,
+    "event": "single",
+    "exit_velocity": 107.2,
+    "inning": 4,
+    "launch_angle": -11.0,
+    "team": "TOR",
+    "xba": 0.354
+   },
+   {
+    "batter": "Alejandro Kirk",
+    "distance": 348,
+    "event": "field_out",
+    "exit_velocity": 106.4,
+    "inning": 5,
+    "launch_angle": 17.0,
+    "team": "TOR",
+    "xba": 0.531
+   },
+   {
+    "batter": "John Rave",
+    "distance": 380,
+    "event": "field_out",
+    "exit_velocity": 105.1,
+    "inning": 7,
+    "launch_angle": 20.0,
+    "team": "KC",
+    "xba": 0.594
+   },
+   {
+    "batter": "John Rave",
+    "distance": 66,
+    "event": "field_out",
+    "exit_velocity": 103.2,
+    "inning": 4,
+    "launch_angle": 2.0,
+    "team": "KC",
+    "xba": 0.514
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Carter Jensen",
+    "description": "Carter Jensen singles on a ground ball to right fielder Nathan Lukes.",
+    "event": "single",
+    "exit_velocity": 82.2,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.076
+   },
+   {
+    "batter": "Tyler Tolbert",
+    "description": "Tyler Tolbert singles on a ground ball to shortstop Andr\u00e9s Gim\u00e9nez, deflected by pitcher Spencer Miles.",
+    "event": "single",
+    "exit_velocity": 77.4,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.081
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.217,
+    "max_velo": 93.8,
+    "name": "Randy Dobnak",
+    "pitches": 92,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.4,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.176,
+    "max_velo": 94.2,
+    "name": "Mason Black",
+    "pitches": 17,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.4,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 31,
+   "batter": "Nathan Lukes",
+   "captivating_index": 75,
+   "description": "Nathan Lukes homers (9) on a fly ball to right center field. Jes\u00fas S\u00e1nchez scores. Kazuma Okamoto scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Randy Dobnak",
+   "rank": 1,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.15,
+   "wpa_royals": -0.243
+  },
+  {
+   "at_bat_index": 20,
+   "batter": "Salvador Perez",
+   "captivating_index": 14,
+   "description": "Salvador Perez strikes out swinging.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Chad Dallas",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.445,
+   "wpa_royals": -0.083
+  },
+  {
+   "at_bat_index": 19,
+   "batter": "Jac Caglianone",
+   "captivating_index": 14,
+   "description": "Jac Caglianone strikes out swinging.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Brendon Little",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.528,
+   "wpa_royals": -0.083
+  },
+  {
+   "at_bat_index": 11,
+   "batter": "Jes\u00fas S\u00e1nchez",
+   "captivating_index": 34,
+   "description": "Jes\u00fas S\u00e1nchez doubles (18) on a ground ball to right fielder Jac Caglianone.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Randy Dobnak",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.386,
+   "wpa_royals": -0.063
+  },
+  {
+   "at_bat_index": 29,
+   "batter": "Jes\u00fas S\u00e1nchez",
+   "captivating_index": 33,
+   "description": "Jes\u00fas S\u00e1nchez singles on a line drive to left fielder John Rave. George Springer to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Randy Dobnak",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.335,
+   "wpa_royals": -0.062
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
