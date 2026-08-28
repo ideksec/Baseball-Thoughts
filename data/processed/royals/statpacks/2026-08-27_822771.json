@@ -1,0 +1,423 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 18
+   },
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 9
+   },
+   {
+    "count": 1,
+    "name": "Jac Caglianone",
+    "season_total": 23
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 6,
+    "hits": 5,
+    "name": "Jac Caglianone"
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Vinnie Pasquantino"
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "5-6, 2B, HR, 3 R, 6 RBI",
+   "name": "Jac Caglianone"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 681293,
+   "name": "Spencer Arrighetti"
+  },
+  "save": null,
+  "winner": {
+   "id": 702070,
+   "name": "Noah Cameron"
+  }
+ },
+ "game": {
+  "date": "2026-08-27",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 822771,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "TOR",
+   "id": 141,
+   "name": "Toronto Blue Jays"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 75,
+   "wins": 60
+  },
+  "score": {
+   "opponent": 2,
+   "royals": 13
+  },
+  "venue": "Rogers Centre",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-28T20:17:50Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 16,
+   "runs": 13,
+   "runs_by_inning": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    6,
+    0,
+    1,
+    2
+   ]
+  },
+  "home": {
+   "abbrev": "TOR",
+   "errors": 1,
+   "hits": 8,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 309"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 3,
+   "h": 5,
+   "hr": 1,
+   "id": 681293,
+   "ip": "4.0",
+   "k": 4,
+   "name": "Spencer Arrighetti",
+   "pitches": 79,
+   "r": 4,
+   "strikes": 49
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Alex Lange",
+    "pitches": 15,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Jose Cuas",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 12,
+    "r": 0,
+    "strikes": 7
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 2,
+   "h": 6,
+   "hr": 1,
+   "id": 702070,
+   "ip": "6.0",
+   "k": 3,
+   "name": "Noah Cameron",
+   "pitches": 81,
+   "r": 2,
+   "strikes": 55
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 1,
+   "losses": 1,
+   "run_diff": 30,
+   "run_diff_excl_blowouts": 19,
+   "runs_allowed": 35,
+   "runs_scored": 65,
+   "top_game_run_share": 0.2,
+   "top_game_runs": 13,
+   "wins": 9
+  },
+  "season": {
+   "games_played": 135,
+   "last10": "9-1",
+   "losses": 75,
+   "run_diff": -81,
+   "streak": "W1",
+   "wins": 60
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 16,
+    "event": "field_out",
+    "exit_velocity": 114.7,
+    "inning": 7,
+    "launch_angle": -5.0,
+    "team": "TOR",
+    "xba": 0.449
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 306,
+    "event": "single",
+    "exit_velocity": 112.3,
+    "inning": 6,
+    "launch_angle": 15.0,
+    "team": "KC",
+    "xba": 0.706
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 205,
+    "event": "double",
+    "exit_velocity": 108.1,
+    "inning": 8,
+    "launch_angle": 8.0,
+    "team": "KC",
+    "xba": 0.686
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 421,
+    "event": "home_run",
+    "exit_velocity": 107.5,
+    "inning": 1,
+    "launch_angle": 34.0,
+    "team": "KC",
+    "xba": 0.869
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 3,
+    "event": null,
+    "exit_velocity": 107.1,
+    "inning": 6,
+    "launch_angle": -31.0,
+    "team": "KC",
+    "xba": null
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Matthew Lugo",
+    "description": "Matthew Lugo singles on a pop up to second baseman Charles McAdoo.",
+    "event": "single",
+    "exit_velocity": 69.2,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.003
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "description": "Vinnie Pasquantino homers (9) on a fly ball to right field. Jac Caglianone scores.",
+    "event": "home_run",
+    "exit_velocity": 95.6,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.137
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.333,
+    "max_velo": 93.7,
+    "name": "Noah Cameron",
+    "pitches": 81,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 89.6,
+    "whiffs": 10
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 96.0,
+    "name": "Alex Lange",
+    "pitches": 15,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 87.8,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.167,
+    "max_velo": 95.4,
+    "name": "Anthony Gose",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.0,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.111,
+    "max_velo": 92.2,
+    "name": "Jose Cuas",
+    "pitches": 9,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.8,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 16,
+   "batter": "Jac Caglianone",
+   "captivating_index": 33,
+   "description": "Jac Caglianone singles on a line drive to right fielder Nathan Lukes. Josh Rojas scores. Bobby Witt Jr. scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 0,
+    "royals": 4
+   },
+   "wp_royals_after": 0.83,
+   "wpa_royals": 0.126
+  },
+  {
+   "at_bat_index": 0,
+   "batter": "Carter Jensen",
+   "captivating_index": 38,
+   "description": "Carter Jensen homers (18) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.596,
+   "wpa_royals": 0.096
+  },
+  {
+   "at_bat_index": 2,
+   "batter": "Jac Caglianone",
+   "captivating_index": 33,
+   "description": "Jac Caglianone singles on a ground ball to right fielder Nathan Lukes. Bobby Witt Jr. to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.702,
+   "wpa_royals": 0.074
+  },
+  {
+   "at_bat_index": 4,
+   "batter": "Salvador Perez",
+   "captivating_index": 9,
+   "description": "Salvador Perez reaches on a fielder's choice. Bobby Witt Jr. scores. Jac Caglianone to 2nd. Fielding error by pitcher Spencer Arrighetti.",
+   "event": "Fielders Choice",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.716,
+   "wpa_royals": 0.06
+  },
+  {
+   "at_bat_index": 3,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 14,
+   "description": "Vinnie Pasquantino called out on strikes.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.656,
+   "wpa_royals": -0.046
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
