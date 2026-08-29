@@ -1,0 +1,348 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 19
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Isaac Collins"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-3, 2B, BB",
+   "name": "Isaac Collins"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 676440,
+   "name": "Tanner Bibee"
+  },
+  "save": {
+   "id": 674444,
+   "name": "Steven Cruz"
+  },
+  "winner": {
+   "id": 608379,
+   "name": "Michael Wacha"
+  }
+ },
+ "game": {
+  "date": "2026-08-28",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824396,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CLE",
+   "id": 114,
+   "name": "Cleveland Guardians"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 75,
+   "wins": 61
+  },
+  "score": {
+   "opponent": 0,
+   "royals": 3
+  },
+  "venue": "Progressive Field",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-29T13:54:52Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 9,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  "home": {
+   "abbrev": "CLE",
+   "errors": 1,
+   "hits": 6,
+   "runs": 0,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 252"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 1,
+   "h": 7,
+   "hr": 0,
+   "id": 676440,
+   "ip": "6.0",
+   "k": 5,
+   "name": "Tanner Bibee",
+   "pitches": 93,
+   "r": 1,
+   "strikes": 57
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Steven Cruz",
+    "pitches": 22,
+    "r": 0,
+    "strikes": 16
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 0,
+   "h": 4,
+   "hr": 0,
+   "id": 608379,
+   "ip": "8.0",
+   "k": 10,
+   "name": "Michael Wacha",
+   "pitches": 103,
+   "r": 0,
+   "strikes": 75
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 1,
+   "losses": 1,
+   "run_diff": 29,
+   "run_diff_excl_blowouts": 18,
+   "runs_allowed": 30,
+   "runs_scored": 59,
+   "top_game_run_share": 0.2203,
+   "top_game_runs": 13,
+   "wins": 9
+  },
+  "season": {
+   "games_played": 136,
+   "last10": "9-1",
+   "losses": 75,
+   "run_diff": -78,
+   "streak": "W2",
+   "wins": 61
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 388,
+    "event": "double",
+    "exit_velocity": 109.2,
+    "inning": 5,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": 0.766
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 4,
+    "event": "field_out",
+    "exit_velocity": 107.2,
+    "inning": 7,
+    "launch_angle": -23.0,
+    "team": "KC",
+    "xba": 0.14
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 70,
+    "event": null,
+    "exit_velocity": 107.1,
+    "inning": 4,
+    "launch_angle": 2.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Patrick Bailey",
+    "distance": 242,
+    "event": "single",
+    "exit_velocity": 102.9,
+    "inning": 3,
+    "launch_angle": 13.0,
+    "team": "CLE",
+    "xba": 0.906
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 389,
+    "event": "field_out",
+    "exit_velocity": 102.5,
+    "inning": 9,
+    "launch_angle": 30.0,
+    "team": "KC",
+    "xba": 0.614
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.34,
+    "max_velo": 97.8,
+    "name": "Michael Wacha",
+    "pitches": 103,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.7,
+    "whiffs": 13
+   },
+   {
+    "csw_pct": 0.318,
+    "max_velo": 101.1,
+    "name": "Steven Cruz",
+    "pitches": 22,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 94.2,
+    "whiffs": 6
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 64,
+   "batter": "Carter Jensen",
+   "captivating_index": 75,
+   "description": "Carter Jensen homers (19) on a fly ball to right center field. Tyler Tolbert scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Craig Yoho",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 0,
+    "royals": 3
+   },
+   "wp_royals_after": 0.959,
+   "wpa_royals": 0.129
+  },
+  {
+   "at_bat_index": 71,
+   "batter": "Angel Genao",
+   "captivating_index": 0,
+   "description": "Angel Genao grounds out softly, pitcher Steven Cruz to first baseman Vinnie Pasquantino.",
+   "event": "Groundout",
+   "half": "bottom",
+   "inning": 9,
+   "pitcher": "Steven Cruz",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 3
+   },
+   "wp_royals_after": 1.0,
+   "wpa_royals": 0.099
+  },
+  {
+   "at_bat_index": 20,
+   "batter": "Nick Loftin",
+   "captivating_index": 0,
+   "description": "Nick Loftin flies out to center fielder Petey Halpin.",
+   "event": "Flyout",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Tanner Bibee",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.445,
+   "wpa_royals": -0.083
+  },
+  {
+   "at_bat_index": 59,
+   "batter": "Brayan Rocchio",
+   "captivating_index": 0,
+   "description": "Brayan Rocchio flies out to right fielder Jac Caglianone.",
+   "event": "Flyout",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Michael Wacha",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.767,
+   "wpa_royals": 0.083
+  },
+  {
+   "at_bat_index": 33,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 34,
+   "description": "Bobby Witt Jr. doubles (28) on a sharp line drive to left fielder Steven Kwan.",
+   "event": "Double",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Tanner Bibee",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.581,
+   "wpa_royals": 0.081
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
