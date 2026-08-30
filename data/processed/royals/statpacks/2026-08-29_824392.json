@@ -1,0 +1,462 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Josh Rojas",
+    "season_total": 2
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 2,
+    "hits": 2,
+    "name": "Josh Rojas"
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Salvador Perez"
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Nick Loftin"
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-2, HR, R, 4 RBI",
+   "name": "Josh Rojas"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 670059,
+   "name": "Colin Holderman"
+  },
+  "save": null,
+  "winner": {
+   "id": 543238,
+   "name": "Anthony Gose"
+  }
+ },
+ "game": {
+  "date": "2026-08-29",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824392,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CLE",
+   "id": 114,
+   "name": "Cleveland Guardians"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 75,
+   "wins": 62
+  },
+  "score": {
+   "opponent": 3,
+   "royals": 8
+  },
+  "venue": "Progressive Field",
+  "walk_off": false
+ },
+ "generated_at": "2026-08-30T13:54:00Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 2,
+   "hits": 12,
+   "runs": 8,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    0,
+    2,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "CLE",
+   "errors": 1,
+   "hits": 5,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 287"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 2,
+   "h": 4,
+   "hr": 0,
+   "id": 656492,
+   "ip": "5.0",
+   "k": 4,
+   "name": "Foster Griffin",
+   "pitches": 82,
+   "r": 2,
+   "strikes": 50
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.2",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 18,
+    "r": 0,
+    "strikes": 14
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Craig Kimbrel",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 670167,
+    "ip": "1.0",
+    "k": 0,
+    "name": "John Schreiber",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 2,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Alex Lange",
+    "pitches": 22,
+    "r": 1,
+    "strikes": 14
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 2,
+   "h": 3,
+   "hr": 1,
+   "id": 663738,
+   "ip": "3.1",
+   "k": 3,
+   "name": "Daniel Lynch IV",
+   "pitches": 70,
+   "r": 2,
+   "strikes": 43
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 1,
+   "losses": 1,
+   "run_diff": 33,
+   "run_diff_excl_blowouts": 22,
+   "runs_allowed": 30,
+   "runs_scored": 63,
+   "top_game_run_share": 0.2063,
+   "top_game_runs": 13,
+   "wins": 9
+  },
+  "season": {
+   "games_played": 137,
+   "last10": "9-1",
+   "losses": 75,
+   "run_diff": -73,
+   "streak": "W3",
+   "wins": 62
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 23,
+    "event": "single",
+    "exit_velocity": 111.8,
+    "inning": 6,
+    "launch_angle": -4.0,
+    "team": "KC",
+    "xba": 0.431
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 93,
+    "event": "single",
+    "exit_velocity": 110.3,
+    "inning": 6,
+    "launch_angle": 2.0,
+    "team": "KC",
+    "xba": 0.58
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 335,
+    "event": "double",
+    "exit_velocity": 107.6,
+    "inning": 6,
+    "launch_angle": 15.0,
+    "team": "KC",
+    "xba": 0.686
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 333,
+    "event": "field_out",
+    "exit_velocity": 107.5,
+    "inning": 1,
+    "launch_angle": 15.0,
+    "team": "KC",
+    "xba": 0.686
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 120,
+    "event": "single",
+    "exit_velocity": 106.8,
+    "inning": 9,
+    "launch_angle": 5.0,
+    "team": "KC",
+    "xba": 0.637
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Josh Rojas",
+    "description": "Josh Rojas homers (2) on a fly ball to right field. John Rave scores.",
+    "event": "home_run",
+    "exit_velocity": 92.4,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.054
+   },
+   {
+    "batter": "Nick Loftin",
+    "description": "Nick Loftin doubles (22) on a fly ball to center fielder Steven Kwan.",
+    "event": "double",
+    "exit_velocity": 93.8,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.06
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.243,
+    "max_velo": 95.7,
+    "name": "Daniel Lynch IV",
+    "pitches": 70,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.5,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.273,
+    "max_velo": 97.8,
+    "name": "Alex Lange",
+    "pitches": 22,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 91.2,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 98.3,
+    "name": "Anthony Gose",
+    "pitches": 18,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.1,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.176,
+    "max_velo": 95.2,
+    "name": "John Schreiber",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.2,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.231,
+    "max_velo": 101.2,
+    "name": "Nate Pearson",
+    "pitches": 13,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.9,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 95.4,
+    "name": "Craig Kimbrel",
+    "pitches": 10,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.8,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 32,
+   "batter": "Isaac Collins",
+   "captivating_index": 71,
+   "description": "Isaac Collins doubles (23) on a ground ball to left fielder Angel Mart\u00ednez. Nick Loftin scores. Tyler Tolbert scores.",
+   "event": "Double",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Foster Griffin",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.581,
+   "wpa_royals": 0.176
+  },
+  {
+   "at_bat_index": 11,
+   "batter": "Angel Mart\u00ednez",
+   "captivating_index": 75,
+   "description": "Angel Mart\u00ednez homers (13) on a fly ball to left field. Jo Adell scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 0
+   },
+   "wp_royals_after": 0.253,
+   "wpa_royals": -0.158
+  },
+  {
+   "at_bat_index": 41,
+   "batter": "Salvador Perez",
+   "captivating_index": 61,
+   "description": "Salvador Perez doubles (21) on a sharp line drive to center fielder Steven Kwan. Bobby Witt Jr. scores. Jac Caglianone to 3rd.",
+   "event": "Double",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Colin Holderman",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 3
+   },
+   "wp_royals_after": 0.804,
+   "wpa_royals": 0.128
+  },
+  {
+   "at_bat_index": 40,
+   "batter": "Jac Caglianone",
+   "captivating_index": 33,
+   "description": "Jac Caglianone singles on a ground ball to right fielder Jo Adell. Bobby Witt Jr. to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Colin Holderman",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.676,
+   "wpa_royals": 0.123
+  },
+  {
+   "at_bat_index": 9,
+   "batter": "Isaac Collins",
+   "captivating_index": 24,
+   "description": "Isaac Collins grounds into a double play, second baseman Angel Genao to first baseman David Fry. Tyler Tolbert out at 2nd. Isaac Collins out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Foster Griffin",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.449,
+   "wpa_royals": -0.093
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
