@@ -1,0 +1,389 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Nick Loftin",
+    "season_total": 7
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Carter Jensen"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Josh Rojas"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2B, RBI",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 677976,
+   "name": "Randy Dobnak"
+  },
+  "save": null,
+  "winner": {
+   "id": 663969,
+   "name": "Tyler Phillips"
+  }
+ },
+ "game": {
+  "date": "2026-09-01",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824070,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "MIA",
+   "id": 146,
+   "name": "Miami Marlins"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 77,
+   "wins": 62
+  },
+  "score": {
+   "opponent": 6,
+   "royals": 3
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-02T12:52:31Z",
+ "linescore": {
+  "away": {
+   "abbrev": "MIA",
+   "errors": 1,
+   "hits": 8,
+   "runs": 6,
+   "runs_by_inning": [
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 6,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 253"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 0,
+   "h": 1,
+   "hr": 0,
+   "id": 663969,
+   "ip": "5.0",
+   "k": 4,
+   "name": "Tyler Phillips",
+   "pitches": 69,
+   "r": 0,
+   "strikes": 44
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 15,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 676510,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nolan Hoffman",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 668834,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Easton McGee",
+    "pitches": 15,
+    "r": 0,
+    "strikes": 10
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 6,
+   "h": 7,
+   "hr": 2,
+   "id": 677976,
+   "ip": "6.0",
+   "k": 6,
+   "name": "Randy Dobnak",
+   "pitches": 87,
+   "r": 6,
+   "strikes": 54
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 3,
+   "run_diff": 14,
+   "run_diff_excl_blowouts": 13,
+   "runs_allowed": 38,
+   "runs_scored": 52,
+   "top_game_run_share": 0.25,
+   "top_game_runs": 13,
+   "wins": 7
+  },
+  "season": {
+   "games_played": 139,
+   "last10": "7-3",
+   "losses": 77,
+   "run_diff": -86,
+   "streak": "L2",
+   "wins": 62
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Kyle Stowers",
+    "distance": 412,
+    "event": "home_run",
+    "exit_velocity": 110.4,
+    "inning": 5,
+    "launch_angle": 27.0,
+    "team": "MIA",
+    "xba": 0.994
+   },
+   {
+    "batter": "Owen Caissie",
+    "distance": 76,
+    "event": "single",
+    "exit_velocity": 109.9,
+    "inning": 2,
+    "launch_angle": 3.0,
+    "team": "MIA",
+    "xba": 0.614
+   },
+   {
+    "batter": "Isaac Collins",
+    "distance": 6,
+    "event": null,
+    "exit_velocity": 108.8,
+    "inning": 5,
+    "launch_angle": -16.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Heriberto Hern\u00e1ndez",
+    "distance": 330,
+    "event": "field_out",
+    "exit_velocity": 108.6,
+    "inning": 7,
+    "launch_angle": 17.0,
+    "team": "MIA",
+    "xba": 0.649
+   },
+   {
+    "batter": "Graham Pauley",
+    "distance": 193,
+    "event": "triple",
+    "exit_velocity": 107.9,
+    "inning": 7,
+    "launch_angle": 8.0,
+    "team": "MIA",
+    "xba": 0.686
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.23,
+    "max_velo": 93.8,
+    "name": "Randy Dobnak",
+    "pitches": 87,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.3,
+    "whiffs": 8
+   },
+   {
+    "csw_pct": 0.133,
+    "max_velo": 94.0,
+    "name": "Easton McGee",
+    "pitches": 15,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.0,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 97.5,
+    "name": "Anthony Gose",
+    "pitches": 15,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 96.0,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.154,
+    "max_velo": 93.2,
+    "name": "Nolan Hoffman",
+    "pitches": 13,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 88.6,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 10,
+   "batter": "Graham Pauley",
+   "captivating_index": 75,
+   "description": "Graham Pauley homers (2) on a fly ball to right field. Owen Caissie scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Randy Dobnak",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 0
+   },
+   "wp_royals_after": 0.333,
+   "wpa_royals": -0.195
+  },
+  {
+   "at_bat_index": 32,
+   "batter": "Kyle Stowers",
+   "captivating_index": 75,
+   "description": "Kyle Stowers homers (17) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Randy Dobnak",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.185,
+   "wpa_royals": -0.095
+  },
+  {
+   "at_bat_index": 5,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 24,
+   "description": "Bobby Witt Jr. grounds into a double play, shortstop Otto Lopez to second baseman Javier Sanoja to first baseman Griffin Conine. Carter Jensen out at 2nd. Bobby Witt Jr. out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Tyler Phillips",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.51,
+   "wpa_royals": -0.073
+  },
+  {
+   "at_bat_index": 34,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 0,
+   "description": "Vinnie Pasquantino walks.",
+   "event": "Walk",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Tyler Phillips",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.237,
+   "wpa_royals": 0.045
+  },
+  {
+   "at_bat_index": 35,
+   "batter": "Nick Loftin",
+   "captivating_index": 0,
+   "description": "Nick Loftin flies out to center fielder Jakob Marsee.",
+   "event": "Flyout",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Tyler Phillips",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.195,
+   "wpa_royals": -0.042
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
