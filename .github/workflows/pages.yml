@@ -9,10 +9,11 @@ on:
       - "scripts/build_site.py"
       - ".github/workflows/pages.yml"
   schedule:
-    # 14:00 UTC, an hour after the daily report Routine's 13:00 run. The
-    # Routine commits with [skip ci], which suppresses the push trigger above,
-    # so new reports would otherwise never reach the site.
-    - cron: "0 14 * * *"
+    # 16:00 UTC. The Routine commits with [skip ci], which suppresses the push
+    # trigger above, so new reports reach the site only on this rebuild. Its
+    # 13:00 run has fired as late as 13:48 and pushed at 13:59, so the old
+    # 14:00 slot left a one-minute margin; 16:00 gives the Routine ~3 hours.
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 permissions:

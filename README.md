@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/ci.yml/badge.svg)](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/ci.yml)
 [![Publish reports site](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/pages.yml/badge.svg)](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/pages.yml)
+[![Pipeline health](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/health.yml/badge.svg)](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/health.yml)
 
 An analytics lab for learning baseball and Python through analysis, reusable code, and small apps. The side project to my side projects.
 
@@ -41,7 +42,7 @@ data/           raw/ and interim/ are local-only (gitignored); processed/ for sm
 notebooks/      templates/, exploration/, analysis/, modeling/, viz/
 reports/        royals/ (incl. daily/), league/, publishable/
 src/            baseball_lab Python package (io, clean, metrics, statpack, models, viz, utils)
-scripts/        Small executable utilities, incl. the nightly pull and the site builder
+scripts/        Small executable utilities: the nightly pull, site builder, health check
 apps/           dashboards/, services/
 tests/          pytest tests for src/ and scripts/
 scratch/        Temporary work — promote, archive, or delete
@@ -93,6 +94,19 @@ Every Royals game produces a published write-up automatically, in three stages:
 2. **Morning narrative** — a scheduled Claude session reads any stat pack that lacks a report and writes a themed write-up to `reports/royals/daily/`, following [`docs/ROUTINE_PROMPT.md`](docs/ROUTINE_PROMPT.md). It works entirely from committed data — every number traces back to the stat pack — and pushes the report to `main`.
 3. **Published site** — [`pages.yml`](.github/workflows/pages.yml) renders the daily reports to GitHub Pages via [`scripts/build_site.py`](scripts/build_site.py), and deploys to
    **[ideksec.github.io/Baseball-Thoughts](https://ideksec.github.io/Baseball-Thoughts/)**. Stage 2 commits with `[skip ci]`, so the site also rebuilds on a daily schedule rather than relying on the push trigger alone.
+
+Each stage fails quietly on its own — a broken pull writes no stat pack, stage 2 ends
+quietly when there are no packs, and a failed deploy just leaves the last good site up.
+All three look like a Royals off day, so a fourth workflow watches the seams:
+[`health.yml`](.github/workflows/health.yml) runs [`scripts/pipeline_health.py`](scripts/pipeline_health.py)
+daily and fails loudly if the game log has gone stale in-season, a logged game has no
+stat pack, a stat pack has no report, or the published site is missing the newest report.
+Run it yourself any time:
+
+```bash
+python scripts/pipeline_health.py            # all four checks
+python scripts/pipeline_health.py --offline  # skip the published-site check
+```
 
 Design details in [`docs/data_pipeline.md`](docs/data_pipeline.md).
 
