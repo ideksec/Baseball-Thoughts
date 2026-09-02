@@ -1,32 +1,49 @@
 # Baseball-Thoughts
 
 [![CI](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/ci.yml/badge.svg)](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/ci.yml)
+[![Publish reports site](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/pages.yml/badge.svg)](https://github.com/ideksec/Baseball-Thoughts/actions/workflows/pages.yml)
 
 An analytics lab for learning baseball and Python through analysis, reusable code, and small apps. The side project to my side projects.
 
-See [spec.md](spec.md) for the full operating spec, standards, and data policies.
+**📊 Read the daily Royals reports: [ideksec.github.io/Baseball-Thoughts](https://ideksec.github.io/Baseball-Thoughts/)**
+
+Every Royals game is pulled, packaged, and narrated automatically overnight, and the
+write-ups are published to that site. See [spec.md](spec.md) for the full operating
+spec, standards, and data policies.
 
 ## What's here
 
 - **`baseball_lab`** — a Python package of tested, reusable analysis code:
   - `metrics.batting`: AVG, OBP, SLG, OPS, ISO, BABIP
   - `metrics.pitching`: ERA, WHIP, K/9, BB/9, K/BB, FIP, plus innings-notation conversion
-  - `io`, `clean`, `models`, `viz`, `utils`: placeholders for future modules
+  - `metrics.rolling`: rolling and season summaries over the game log — blowout-adjusted
+    run differential, feast-or-famine share, streaks
+  - `io`: cache-first fetching from the MLB Stats API and Baseball Savant (Statcast)
+  - `clean`: GUMBO live-feed and Statcast parsers, plus idempotent season game-log upserts
+  - `statpack`: assembles the compact per-game JSON that the daily reports are written from
+  - `models`, `viz`, `utils`: placeholders for future modules
+- **Reports** — durable written answers to specific questions (see `reports/`):
+  - `reports/royals/daily/` — the automated per-game write-ups, also served as the
+    [published site](https://ideksec.github.io/Baseball-Thoughts/)
+  - `reports/royals/` — longer standalone pieces, e.g. the
+    [last-10-games variance themes](reports/royals/2026-07-08_last-10-games-variance-themes.md)
+    and the [seven-inning season counterfactual](reports/royals/2026-07-30_seven-inning-season-counterfactual.md)
 - **Notebooks** — narrative analyses that use the package (see `notebooks/analysis/`), plus a reusable [template](notebooks/templates/analysis_template.ipynb)
-- **Reports** — durable written answers to specific questions (see `reports/`)
-- **Docs** — a [metrics glossary](docs/glossary.md) and a [data source catalog](docs/data_sources.md)
+- **Docs** — a [metrics glossary](docs/glossary.md), a [data source catalog](docs/data_sources.md),
+  the [pipeline design](docs/data_pipeline.md), and the daily reporter's
+  [Routine instructions](docs/ROUTINE_PROMPT.md)
 
 ## Structure
 
 ```
-docs/           Durable notes: glossary, sources, conventions
+docs/           Durable notes: glossary, sources, pipeline design, conventions
 data/           raw/ and interim/ are local-only (gitignored); processed/ for small derivatives
 notebooks/      templates/, exploration/, analysis/, modeling/, viz/
-reports/        royals/, league/, publishable/
-src/            baseball_lab Python package (io, clean, metrics, models, viz, utils)
-scripts/        Small executable utilities
+reports/        royals/ (incl. daily/), league/, publishable/
+src/            baseball_lab Python package (io, clean, metrics, statpack, models, viz, utils)
+scripts/        Small executable utilities, incl. the nightly pull and the site builder
 apps/           dashboards/, services/
-tests/          pytest tests for src/
+tests/          pytest tests for src/ and scripts/
 scratch/        Temporary work — promote, archive, or delete
 ```
 
@@ -44,6 +61,10 @@ pip install -e ".[dev]"
 pytest
 ruff check .
 ```
+
+Tests are offline by default — network-touching tests are marked `live` and deselected.
+Run them explicitly with `pytest -m live`. CI runs `pytest` and `ruff check .` on Python
+3.10 through 3.13.
 
 Quick example:
 
@@ -66,11 +87,12 @@ era(earned_runs=3, innings_pitched=innings_from_notation(6.1))  # 4.26...
 
 ## Automation
 
-Every Royals game produces analysis automatically, in two stages:
+Every Royals game produces a published write-up automatically, in three stages:
 
 1. **Nightly stat pack** — [`nightly-royals.yml`](.github/workflows/nightly-royals.yml) runs after each game day, pulls the game from the MLB Stats API and Baseball Savant, and commits a compact per-game JSON to `data/processed/royals/statpacks/` plus a season game-log row. Deterministic Python (`scripts/nightly_royals.py`), fully covered by offline fixture tests.
-2. **Morning narrative** — a scheduled Claude session reads the newest stat pack and writes a themed report to `reports/royals/daily/`, following [`docs/ROUTINE_PROMPT.md`](docs/ROUTINE_PROMPT.md). It works entirely from committed data — every number traces back to the stat pack.
-3. **Published site** — [`pages.yml`](.github/workflows/pages.yml) renders the daily reports to GitHub Pages via [`scripts/build_site.py`](scripts/build_site.py). Stage 2 commits with `[skip ci]`, so the site also rebuilds on a daily schedule rather than relying on the push trigger alone.
+2. **Morning narrative** — a scheduled Claude session reads any stat pack that lacks a report and writes a themed write-up to `reports/royals/daily/`, following [`docs/ROUTINE_PROMPT.md`](docs/ROUTINE_PROMPT.md). It works entirely from committed data — every number traces back to the stat pack — and pushes the report to `main`.
+3. **Published site** — [`pages.yml`](.github/workflows/pages.yml) renders the daily reports to GitHub Pages via [`scripts/build_site.py`](scripts/build_site.py), and deploys to
+   **[ideksec.github.io/Baseball-Thoughts](https://ideksec.github.io/Baseball-Thoughts/)**. Stage 2 commits with `[skip ci]`, so the site also rebuilds on a daily schedule rather than relying on the push trigger alone.
 
 Design details in [`docs/data_pipeline.md`](docs/data_pipeline.md).
 
