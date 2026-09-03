@@ -1,0 +1,451 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 2,
+    "name": "Carter Jensen",
+    "season_total": 21
+   },
+   {
+    "count": 1,
+    "name": "Salvador Perez",
+    "season_total": 18
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Carter Jensen"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Michael Massey"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2 HR, BB, 2 R, 2 RBI",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 621016,
+   "name": "Jose Cuas"
+  },
+  "save": {
+   "id": 676534,
+   "name": "Calvin Faucher"
+  },
+  "winner": {
+   "id": 806188,
+   "name": "Cade Gibson"
+  }
+ },
+ "game": {
+  "date": "2026-09-02",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824068,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "MIA",
+   "id": 146,
+   "name": "Miami Marlins"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 78,
+   "wins": 62
+  },
+  "score": {
+   "opponent": 9,
+   "royals": 6
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-03T12:55:58Z",
+ "linescore": {
+  "away": {
+   "abbrev": "MIA",
+   "errors": 0,
+   "hits": 13,
+   "runs": 9,
+   "runs_by_inning": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    3,
+    0,
+    0,
+    2
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 9,
+   "runs": 6,
+   "runs_by_inning": [
+    5,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 321"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 6,
+   "h": 9,
+   "hr": 3,
+   "id": 691587,
+   "ip": "4.2",
+   "k": 3,
+   "name": "Eury P\u00e9rez",
+   "pitches": 102,
+   "r": 6,
+   "strikes": 64
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 2,
+    "h": 2,
+    "hr": 0,
+    "id": 621016,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Jose Cuas",
+    "pitches": 22,
+    "r": 3,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "0.2",
+    "k": 1,
+    "name": "Connor Thomas",
+    "pitches": 14,
+    "r": 0,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Craig Kimbrel",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 14,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 0,
+    "er": 2,
+    "h": 2,
+    "hr": 2,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Alex Lange",
+    "pitches": 21,
+    "r": 2,
+    "strikes": 13
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 4,
+   "h": 5,
+   "hr": 1,
+   "id": 702070,
+   "ip": "5.0",
+   "k": 7,
+   "name": "Noah Cameron",
+   "pitches": 86,
+   "r": 4,
+   "strikes": 54
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 4,
+   "run_diff": 8,
+   "run_diff_excl_blowouts": 7,
+   "runs_allowed": 45,
+   "runs_scored": 53,
+   "top_game_run_share": 0.2453,
+   "top_game_runs": 13,
+   "wins": 6
+  },
+  "season": {
+   "games_played": 140,
+   "last10": "6-4",
+   "losses": 78,
+   "run_diff": -89,
+   "streak": "L3",
+   "wins": 62
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 23,
+    "event": "field_out",
+    "exit_velocity": 112.2,
+    "inning": 8,
+    "launch_angle": -7.0,
+    "team": "KC",
+    "xba": 0.393
+   },
+   {
+    "batter": "Griffin Conine",
+    "distance": 123,
+    "event": "single",
+    "exit_velocity": 111.7,
+    "inning": 6,
+    "launch_angle": 5.0,
+    "team": "MIA",
+    "xba": 0.691
+   },
+   {
+    "batter": "Agust\u00edn Ram\u00edrez",
+    "distance": 171,
+    "event": null,
+    "exit_velocity": 111.0,
+    "inning": 1,
+    "launch_angle": 5.0,
+    "team": "MIA",
+    "xba": null
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 398,
+    "event": "home_run",
+    "exit_velocity": 110.0,
+    "inning": 4,
+    "launch_angle": 24.0,
+    "team": "KC",
+    "xba": 0.983
+   },
+   {
+    "batter": "Jared Serna",
+    "distance": 4,
+    "event": "field_out",
+    "exit_velocity": 109.2,
+    "inning": 2,
+    "launch_angle": -21.0,
+    "team": "MIA",
+    "xba": 0.114
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Carter Jensen",
+    "description": "Carter Jensen flies out sharply to center fielder Jakob Marsee.",
+    "event": "field_out",
+    "exit_velocity": 104.9,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.843
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.302,
+    "max_velo": 94.8,
+    "name": "Noah Cameron",
+    "pitches": 86,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 90.4,
+    "whiffs": 14
+   },
+   {
+    "csw_pct": 0.227,
+    "max_velo": 92.7,
+    "name": "Jose Cuas",
+    "pitches": 22,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.6,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.286,
+    "max_velo": 96.7,
+    "name": "Alex Lange",
+    "pitches": 21,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 87.2,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.357,
+    "max_velo": 91.9,
+    "name": "Connor Thomas",
+    "pitches": 14,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 82.6,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.286,
+    "max_velo": 98.9,
+    "name": "Nate Pearson",
+    "pitches": 14,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.5,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 94.9,
+    "name": "Craig Kimbrel",
+    "pitches": 9,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.8,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 51,
+   "batter": "Griffin Conine",
+   "captivating_index": 33,
+   "description": "Griffin Conine singles on a line drive to right fielder Jac Caglianone. Javier Sanoja scores. Jakob Marsee to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Jose Cuas",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 5,
+    "royals": 6
+   },
+   "wp_royals_after": 0.465,
+   "wpa_royals": -0.175
+  },
+  {
+   "at_bat_index": 54,
+   "batter": "Heriberto Hern\u00e1ndez",
+   "captivating_index": 61,
+   "description": "Heriberto Hern\u00e1ndez doubles (16) on a sharp fly ball to center fielder Kyle Isbel. Griffin Conine scores.",
+   "event": "Double",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Connor Thomas",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 7,
+    "royals": 6
+   },
+   "wp_royals_after": 0.357,
+   "wpa_royals": -0.166
+  },
+  {
+   "at_bat_index": 40,
+   "batter": "Heriberto Hern\u00e1ndez",
+   "captivating_index": 34,
+   "description": "Heriberto Hern\u00e1ndez hits a ground-rule double (15) on a fly ball to left-center field. Jared Serna scores. Joe Mack to 3rd.",
+   "event": "Double",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Noah Cameron",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 6
+   },
+   "wp_royals_after": 0.567,
+   "wpa_royals": -0.163
+  },
+  {
+   "at_bat_index": 1,
+   "batter": "Otto Lopez",
+   "captivating_index": 35,
+   "description": "Otto Lopez triples (8) on a ground ball to left fielder John Rave. Heriberto Hern\u00e1ndez scores.",
+   "event": "Triple",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Noah Cameron",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.328,
+   "wpa_royals": -0.136
+  },
+  {
+   "at_bat_index": 9,
+   "batter": "Salvador Perez",
+   "captivating_index": 75,
+   "description": "Salvador Perez homers (18) on a line drive to left center field. Jac Caglianone scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Eury P\u00e9rez",
+   "rank": 5,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 4
+   },
+   "wp_royals_after": 0.732,
+   "wpa_royals": 0.125
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
