@@ -1,0 +1,403 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 22
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Carter Jensen"
+   },
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Kyle Isbel"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-4, 2B, 3B, HR, 3 R, 3 RBI",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 645261,
+   "name": "Sandy Alcantara"
+  },
+  "save": null,
+  "winner": {
+   "id": 608379,
+   "name": "Michael Wacha"
+  }
+ },
+ "game": {
+  "date": "2026-09-03",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824069,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "MIA",
+   "id": 146,
+   "name": "Miami Marlins"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 78,
+   "wins": 63
+  },
+  "score": {
+   "opponent": 3,
+   "royals": 7
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-04T12:49:44Z",
+ "linescore": {
+  "away": {
+   "abbrev": "MIA",
+   "errors": 0,
+   "hits": 6,
+   "runs": 3,
+   "runs_by_inning": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 11,
+   "runs": 7,
+   "runs_by_inning": [
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    3
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 265"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 4,
+   "h": 6,
+   "hr": 1,
+   "id": 645261,
+   "ip": "6.0",
+   "k": 2,
+   "name": "Sandy Alcantara",
+   "pitches": 98,
+   "r": 4,
+   "strikes": 66
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 518886,
+    "ip": "0.2",
+    "k": 1,
+    "name": "Craig Kimbrel",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 5
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.1",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 18,
+    "r": 0,
+    "strikes": 10
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 3,
+   "h": 6,
+   "hr": 2,
+   "id": 608379,
+   "ip": "6.0",
+   "k": 7,
+   "name": "Michael Wacha",
+   "pitches": 96,
+   "r": 3,
+   "strikes": 62
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 4,
+   "run_diff": 10,
+   "run_diff_excl_blowouts": 9,
+   "runs_allowed": 47,
+   "runs_scored": 57,
+   "top_game_run_share": 0.2281,
+   "top_game_runs": 13,
+   "wins": 6
+  },
+  "season": {
+   "games_played": 141,
+   "last10": "6-4",
+   "losses": 78,
+   "run_diff": -85,
+   "streak": "W1",
+   "wins": 63
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Salvador Perez",
+    "distance": 244,
+    "event": "double",
+    "exit_velocity": 111.3,
+    "inning": 8,
+    "launch_angle": 13.0,
+    "team": "KC",
+    "xba": 0.789
+   },
+   {
+    "batter": "Graham Pauley",
+    "distance": 229,
+    "event": null,
+    "exit_velocity": 110.6,
+    "inning": 9,
+    "launch_angle": 12.0,
+    "team": "MIA",
+    "xba": null
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 144,
+    "event": "triple",
+    "exit_velocity": 110.2,
+    "inning": 3,
+    "launch_angle": 7.0,
+    "team": "KC",
+    "xba": 0.689
+   },
+   {
+    "batter": "Jakob Marsee",
+    "distance": 338,
+    "event": "double",
+    "exit_velocity": 108.7,
+    "inning": 2,
+    "launch_angle": 16.0,
+    "team": "MIA",
+    "xba": 0.626
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 440,
+    "event": "home_run",
+    "exit_velocity": 108.4,
+    "inning": 5,
+    "launch_angle": 28.0,
+    "team": "KC",
+    "xba": 0.971
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Joe Mack",
+    "description": "Joe Mack singles on a ground ball to right fielder Jac Caglianone. Jakob Marsee scores.",
+    "event": "single",
+    "exit_velocity": 84.6,
+    "kind": "hit_below_xba",
+    "team": "MIA",
+    "xba": 0.041
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.333,
+    "max_velo": 94.8,
+    "name": "Michael Wacha",
+    "pitches": 96,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.3,
+    "whiffs": 20
+   },
+   {
+    "csw_pct": 0.111,
+    "max_velo": 99.9,
+    "name": "Steven Cruz",
+    "pitches": 18,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 94.5,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.273,
+    "max_velo": 98.2,
+    "name": "Nate Pearson",
+    "pitches": 11,
+    "primary_pitch": "CU",
+    "primary_pitch_avg_velo": 81.8,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.3,
+    "max_velo": 94.0,
+    "name": "Craig Kimbrel",
+    "pitches": 10,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.4,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 40,
+   "batter": "Carter Jensen",
+   "captivating_index": 65,
+   "description": "Carter Jensen homers (22) on a fly ball to right center field. Kyle Isbel scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Sandy Alcantara",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 3,
+    "royals": 4
+   },
+   "wp_royals_after": 0.687,
+   "wpa_royals": 0.267
+  },
+  {
+   "at_bat_index": 24,
+   "batter": "Carter Jensen",
+   "captivating_index": 35,
+   "description": "Carter Jensen triples (2) on a ground ball to center fielder Jakob Marsee. Kyle Isbel scores.",
+   "event": "Triple",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Sandy Alcantara",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.493,
+   "wpa_royals": 0.162
+  },
+  {
+   "at_bat_index": 28,
+   "batter": "Agust\u00edn Ram\u00edrez",
+   "captivating_index": 65,
+   "description": "Agust\u00edn Ram\u00edrez homers (3) on a line drive to center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Michael Wacha",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 2
+   },
+   "wp_royals_after": 0.377,
+   "wpa_royals": -0.123
+  },
+  {
+   "at_bat_index": 26,
+   "batter": "Jac Caglianone",
+   "captivating_index": 71,
+   "description": "Jac Caglianone doubles (27) on a sharp line drive to right fielder Griffin Conine. Carter Jensen scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Sandy Alcantara",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.538,
+   "wpa_royals": 0.116
+  },
+  {
+   "at_bat_index": 0,
+   "batter": "Heriberto Hern\u00e1ndez",
+   "captivating_index": 38,
+   "description": "Heriberto Hern\u00e1ndez homers (23) on a fly ball to left center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Michael Wacha",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.404,
+   "wpa_royals": -0.096
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
