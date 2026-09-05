@@ -1,0 +1,398 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 10
+   },
+   {
+    "count": 1,
+    "name": "Bobby Witt Jr.",
+    "season_total": 17
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Salvador Perez"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-3",
+   "name": "Salvador Perez"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663738,
+   "name": "Daniel Lynch IV"
+  },
+  "save": {
+   "id": 547179,
+   "name": "Michael Lorenzen"
+  },
+  "winner": {
+   "id": 573009,
+   "name": "Joe Mantiply"
+  }
+ },
+ "game": {
+  "date": "2026-09-04",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824067,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "TOR",
+   "id": 141,
+   "name": "Toronto Blue Jays"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 79,
+   "wins": 63
+  },
+  "score": {
+   "opponent": 9,
+   "royals": 2
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-05T11:54:59Z",
+ "linescore": {
+  "away": {
+   "abbrev": "TOR",
+   "errors": 0,
+   "hits": 13,
+   "runs": 9,
+   "runs_by_inning": [
+    4,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    1
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 6,
+   "runs": 2,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 264"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 1,
+   "h": 2,
+   "hr": 1,
+   "id": 592791,
+   "ip": "2.0",
+   "k": 1,
+   "name": "Jameson Taillon",
+   "pitches": 29,
+   "r": 1,
+   "strikes": 18
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 3,
+    "h": 3,
+    "hr": 0,
+    "id": 676510,
+    "ip": "2.0",
+    "k": 2,
+    "name": "Nolan Hoffman",
+    "pitches": 31,
+    "r": 3,
+    "strikes": 21
+   },
+   {
+    "bb": 1,
+    "er": 1,
+    "h": 3,
+    "hr": 1,
+    "id": 668834,
+    "ip": "2.0",
+    "k": 1,
+    "name": "Easton McGee",
+    "pitches": 33,
+    "r": 1,
+    "strikes": 19
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 5,
+   "h": 7,
+   "hr": 0,
+   "id": 663738,
+   "ip": "5.0",
+   "k": 0,
+   "name": "Daniel Lynch IV",
+   "pitches": 70,
+   "r": 5,
+   "strikes": 46
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 3,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 5,
+   "run_diff": -1,
+   "run_diff_excl_blowouts": 5,
+   "runs_allowed": 49,
+   "runs_scored": 48,
+   "top_game_run_share": 0.2708,
+   "top_game_runs": 13,
+   "wins": 5
+  },
+  "season": {
+   "games_played": 142,
+   "last10": "5-5",
+   "losses": 79,
+   "run_diff": -92,
+   "streak": "L1",
+   "wins": 63
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 172,
+    "event": "field_out",
+    "exit_velocity": 115.8,
+    "inning": 6,
+    "launch_angle": 6.0,
+    "team": "TOR",
+    "xba": 0.703
+   },
+   {
+    "batter": "George Springer",
+    "distance": 278,
+    "event": "double",
+    "exit_velocity": 110.7,
+    "inning": 6,
+    "launch_angle": 12.0,
+    "team": "TOR",
+    "xba": 0.857
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 147,
+    "event": "field_out",
+    "exit_velocity": 110.0,
+    "inning": 1,
+    "launch_angle": 8.0,
+    "team": "KC",
+    "xba": 0.763
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 223,
+    "event": "double",
+    "exit_velocity": 109.3,
+    "inning": 8,
+    "launch_angle": 13.0,
+    "team": "KC",
+    "xba": 0.809
+   },
+   {
+    "batter": "George Springer",
+    "distance": 17,
+    "event": "field_out",
+    "exit_velocity": 108.4,
+    "inning": 4,
+    "launch_angle": -6.0,
+    "team": "TOR",
+    "xba": 0.403
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Nathan Lukes",
+    "description": "Nathan Lukes singles on a ground ball to center fielder Kyle Isbel. Ernie Clement to 3rd.",
+    "event": "single",
+    "exit_velocity": 96.1,
+    "kind": "hit_below_xba",
+    "team": "TOR",
+    "xba": 0.139
+   },
+   {
+    "batter": "Jac Caglianone",
+    "description": "Jac Caglianone lines out sharply to second baseman Charles McAdoo.",
+    "event": "field_out",
+    "exit_velocity": 110.0,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.763
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "description": "Vladimir Guerrero Jr. lines out sharply to third baseman Nick Loftin.",
+    "event": "field_out",
+    "exit_velocity": 115.8,
+    "kind": "out_above_xba",
+    "team": "TOR",
+    "xba": 0.703
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.229,
+    "max_velo": 94.8,
+    "name": "Daniel Lynch IV",
+    "pitches": 70,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.9,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.121,
+    "max_velo": 92.9,
+    "name": "Easton McGee",
+    "pitches": 33,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 86.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.194,
+    "max_velo": 94.0,
+    "name": "Nolan Hoffman",
+    "pitches": 31,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 92.8,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 6,
+   "batter": "Ernie Clement",
+   "captivating_index": 34,
+   "description": "Ernie Clement doubles (30) on a line drive to left fielder Isaac Collins. Alejandro Kirk scores. Charles McAdoo scores.",
+   "event": "Double",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 0
+   },
+   "wp_royals_after": 0.179,
+   "wpa_royals": -0.135
+  },
+  {
+   "at_bat_index": 3,
+   "batter": "Alejandro Kirk",
+   "captivating_index": 33,
+   "description": "Alejandro Kirk singles on a line drive to right fielder Jac Caglianone. Brett Bateman scores. Vladimir Guerrero Jr. to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.344,
+   "wpa_royals": -0.091
+  },
+  {
+   "at_bat_index": 9,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 38,
+   "description": "Bobby Witt Jr. homers (17) on a fly ball to left field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Jameson Taillon",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 1
+   },
+   "wp_royals_after": 0.246,
+   "wpa_royals": 0.068
+  },
+  {
+   "at_bat_index": 16,
+   "batter": "Alejandro Kirk",
+   "captivating_index": 34,
+   "description": "Alejandro Kirk doubles (7) on a line drive to center fielder Kyle Isbel. Myles Straw scores. Vladimir Guerrero Jr. to 3rd.",
+   "event": "Double",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 5,
+    "royals": 1
+   },
+   "wp_royals_after": 0.154,
+   "wpa_royals": -0.068
+  },
+  {
+   "at_bat_index": 2,
+   "batter": "Vladimir Guerrero Jr.",
+   "captivating_index": 33,
+   "description": "Vladimir Guerrero Jr. singles on a sharp line drive to right fielder Jac Caglianone. Brett Bateman to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.435,
+   "wpa_royals": -0.063
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
