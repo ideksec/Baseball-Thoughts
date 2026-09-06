@@ -141,3 +141,4 @@ game_pk,date,game_number,doubleheader,home_away,opponent_abbrev,opponent_name,re
 824068,2026-09-02,1,N,home,MIA,Miami Marlins,L,6,9,9,False,9.0,0.0,13.0,0.0,Cade Gibson,Jose Cuas,Calvin Faucher,Noah Cameron,5.0,4.0,62,78,data/processed/royals/statpacks/2026-09-02_824068.json
 824069,2026-09-03,1,N,home,MIA,Miami Marlins,W,7,3,9,False,11.0,0.0,6.0,0.0,Michael Wacha,Sandy Alcantara,,Michael Wacha,6.0,3.0,63,78,data/processed/royals/statpacks/2026-09-03_824069.json
 824067,2026-09-04,1,N,home,TOR,Toronto Blue Jays,L,2,9,9,False,6.0,0.0,13.0,0.0,Joe Mantiply,Daniel Lynch IV,Michael Lorenzen,Daniel Lynch IV,5.0,5.0,63,79,data/processed/royals/statpacks/2026-09-04_824067.json
+824066,2026-09-05,1,N,home,TOR,Toronto Blue Jays,L,3,4,9,False,7.0,2.0,13.0,0.0,Mason Fluharty,Craig Kimbrel,Louis Varland,Seth Lugo,5.0,3.0,63,80,data/processed/royals/statpacks/2026-09-05_824066.json

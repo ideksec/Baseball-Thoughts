@@ -1,0 +1,468 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "John Rave",
+    "season_total": 4
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Salvador Perez"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, RBI",
+   "name": "Salvador Perez"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 518886,
+   "name": "Craig Kimbrel"
+  },
+  "save": {
+   "id": 686973,
+   "name": "Louis Varland"
+  },
+  "winner": {
+   "id": 689254,
+   "name": "Mason Fluharty"
+  }
+ },
+ "game": {
+  "date": "2026-09-05",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824066,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "TOR",
+   "id": 141,
+   "name": "Toronto Blue Jays"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 80,
+   "wins": 63
+  },
+  "score": {
+   "opponent": 4,
+   "royals": 3
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-06T12:14:00Z",
+ "linescore": {
+  "away": {
+   "abbrev": "TOR",
+   "errors": 0,
+   "hits": 13,
+   "runs": 4,
+   "runs_by_inning": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 2,
+   "hits": 7,
+   "runs": 3,
+   "runs_by_inning": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 287"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 3,
+   "h": 5,
+   "hr": 1,
+   "id": 453286,
+   "ip": "5.2",
+   "k": 2,
+   "name": "Max Scherzer",
+   "pitches": 76,
+   "r": 3,
+   "strikes": 50
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 621016,
+    "ip": "0.2",
+    "k": 2,
+    "name": "Jose Cuas",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 14
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 671162,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Connor Thomas",
+    "pitches": 2,
+    "r": 0,
+    "strikes": 2
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Craig Kimbrel",
+    "pitches": 22,
+    "r": 1,
+    "strikes": 14
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 14,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Alex Lange",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 6
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 3,
+   "h": 8,
+   "hr": 0,
+   "id": 607625,
+   "ip": "5.0",
+   "k": 1,
+   "name": "Seth Lugo",
+   "pitches": 95,
+   "r": 3,
+   "strikes": 61
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 3,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 6,
+   "run_diff": -4,
+   "run_diff_excl_blowouts": 2,
+   "runs_allowed": 50,
+   "runs_scored": 46,
+   "top_game_run_share": 0.2826,
+   "top_game_runs": 13,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 143,
+   "last10": "4-6",
+   "losses": 80,
+   "run_diff": -93,
+   "streak": "L2",
+   "wins": 63
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 340,
+    "event": "double",
+    "exit_velocity": 111.9,
+    "inning": 1,
+    "launch_angle": 15.0,
+    "team": "KC",
+    "xba": 0.706
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 338,
+    "event": "field_out",
+    "exit_velocity": 109.8,
+    "inning": 5,
+    "launch_angle": 13.0,
+    "team": "TOR",
+    "xba": 0.783
+   },
+   {
+    "batter": "Andr\u00e9s Gim\u00e9nez",
+    "distance": 348,
+    "event": null,
+    "exit_velocity": 106.6,
+    "inning": 7,
+    "launch_angle": 19.0,
+    "team": "TOR",
+    "xba": null
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 19,
+    "event": "single",
+    "exit_velocity": 106.4,
+    "inning": 1,
+    "launch_angle": -7.0,
+    "team": "TOR",
+    "xba": 0.347
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 51,
+    "event": "field_out",
+    "exit_velocity": 104.5,
+    "inning": 9,
+    "launch_angle": 0.0,
+    "team": "TOR",
+    "xba": 0.466
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Myles Straw",
+    "description": "Myles Straw singles on a ground ball to third baseman Nick Loftin.",
+    "event": "single",
+    "exit_velocity": 86.1,
+    "kind": "hit_below_xba",
+    "team": "TOR",
+    "xba": 0.061
+   },
+   {
+    "batter": "Ernie Clement",
+    "description": "Ernie Clement singles on a ground ball to shortstop Bobby Witt Jr.",
+    "event": "single",
+    "exit_velocity": 51.1,
+    "kind": "hit_below_xba",
+    "team": "TOR",
+    "xba": 0.127
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "description": "Vinnie Pasquantino lines out sharply to center fielder Brett Bateman.",
+    "event": "field_out",
+    "exit_velocity": 102.6,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.906
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "description": "Vladimir Guerrero Jr. lines out sharply to center fielder John Rave.",
+    "event": "field_out",
+    "exit_velocity": 109.8,
+    "kind": "out_above_xba",
+    "team": "TOR",
+    "xba": 0.783
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.263,
+    "max_velo": 93.8,
+    "name": "Seth Lugo",
+    "pitches": 95,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 90.5,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.136,
+    "max_velo": 95.6,
+    "name": "Craig Kimbrel",
+    "pitches": 22,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.4,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.235,
+    "max_velo": 92.2,
+    "name": "Jose Cuas",
+    "pitches": 17,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.8,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.286,
+    "max_velo": 97.1,
+    "name": "Anthony Gose",
+    "pitches": 14,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.7,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.222,
+    "max_velo": 95.5,
+    "name": "Alex Lange",
+    "pitches": 9,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 86.9,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.5,
+    "max_velo": 91.3,
+    "name": "Connor Thomas",
+    "pitches": 2,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.3,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 69,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 24,
+   "description": "Vinnie Pasquantino grounds into a double play, pitcher Tyler Rogers to shortstop Andr\u00e9s Gim\u00e9nez to first baseman Vladimir Guerrero Jr. Nick Loftin to 3rd. Matthew Lugo out at 2nd. Vinnie Pasquantino out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Tyler Rogers",
+   "rank": 1,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.281,
+   "wpa_royals": -0.259
+  },
+  {
+   "at_bat_index": 57,
+   "batter": "Kazuma Okamoto",
+   "captivating_index": 60,
+   "description": "Kazuma Okamoto singles on a ground ball to center fielder John Rave. George Springer scores. Nathan Lukes to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Craig Kimbrel",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.308,
+   "wpa_royals": -0.192
+  },
+  {
+   "at_bat_index": 35,
+   "batter": "John Rave",
+   "captivating_index": 75,
+   "description": "John Rave homers (4) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Max Scherzer",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 3
+   },
+   "wp_royals_after": 0.533,
+   "wpa_royals": 0.135
+  },
+  {
+   "at_bat_index": 68,
+   "batter": "Salvador Perez",
+   "captivating_index": 33,
+   "description": "Salvador Perez singles on a ground ball to right fielder Nathan Lukes. Nick Loftin to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Tyler Rogers",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.54,
+   "wpa_royals": 0.134
+  },
+  {
+   "at_bat_index": 70,
+   "batter": "Michael Massey",
+   "captivating_index": 0,
+   "description": "Michael Massey grounds out to first baseman Vladimir Guerrero Jr.",
+   "event": "Groundout",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Tyler Rogers",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.165,
+   "wpa_royals": -0.116
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
