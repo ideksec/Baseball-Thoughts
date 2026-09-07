@@ -1,0 +1,415 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Salvador Perez",
+    "season_total": 19
+   },
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 11
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Nick Loftin"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, RBI",
+   "name": "Nick Loftin"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 681293,
+   "name": "Spencer Arrighetti"
+  },
+  "save": null,
+  "winner": {
+   "id": 677976,
+   "name": "Randy Dobnak"
+  }
+ },
+ "game": {
+  "date": "2026-09-06",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824065,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "TOR",
+   "id": 141,
+   "name": "Toronto Blue Jays"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 80,
+   "wins": 64
+  },
+  "score": {
+   "opponent": 1,
+   "royals": 6
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-07T14:21:32Z",
+ "linescore": {
+  "away": {
+   "abbrev": "TOR",
+   "errors": 1,
+   "hits": 8,
+   "runs": 1,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 7,
+   "runs": 6,
+   "runs_by_inning": [
+    3,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 287"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 6,
+   "h": 6,
+   "hr": 2,
+   "id": 681293,
+   "ip": "4.2",
+   "k": 3,
+   "name": "Spencer Arrighetti",
+   "pitches": 91,
+   "r": 6,
+   "strikes": 56
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 543238,
+    "ip": "0.2",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 15,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 621016,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Jose Cuas",
+    "pitches": 7,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Connor Thomas",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 12
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 676510,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Nolan Hoffman",
+    "pitches": 15,
+    "r": 0,
+    "strikes": 9
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 1,
+   "h": 4,
+   "hr": 1,
+   "id": 677976,
+   "ip": "6.0",
+   "k": 3,
+   "name": "Randy Dobnak",
+   "pitches": 83,
+   "r": 1,
+   "strikes": 53
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 3,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 5,
+   "run_diff": 4,
+   "run_diff_excl_blowouts": 10,
+   "runs_allowed": 48,
+   "runs_scored": 52,
+   "top_game_run_share": 0.25,
+   "top_game_runs": 13,
+   "wins": 5
+  },
+  "season": {
+   "games_played": 144,
+   "last10": "5-5",
+   "losses": 80,
+   "run_diff": -88,
+   "streak": "W1",
+   "wins": 64
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 375,
+    "event": "double",
+    "exit_velocity": 112.5,
+    "inning": 3,
+    "launch_angle": 17.0,
+    "team": "KC",
+    "xba": 0.766
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 90,
+    "event": "grounded_into_double_play",
+    "exit_velocity": 110.1,
+    "inning": 4,
+    "launch_angle": 3.0,
+    "team": "TOR",
+    "xba": 0.614
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 29,
+    "event": "field_out",
+    "exit_velocity": 110.0,
+    "inning": 1,
+    "launch_angle": -3.0,
+    "team": "TOR",
+    "xba": 0.466
+   },
+   {
+    "batter": "Vladimir Guerrero Jr.",
+    "distance": 5,
+    "event": "field_out",
+    "exit_velocity": 108.7,
+    "inning": 6,
+    "launch_angle": -25.0,
+    "team": "TOR",
+    "xba": 0.104
+   },
+   {
+    "batter": "Brandon Valenzuela",
+    "distance": 115,
+    "event": "field_out",
+    "exit_velocity": 107.2,
+    "inning": 8,
+    "launch_angle": 3.0,
+    "team": "TOR",
+    "xba": 0.551
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.253,
+    "max_velo": 93.6,
+    "name": "Randy Dobnak",
+    "pitches": 83,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.4,
+    "whiffs": 8
+   },
+   {
+    "csw_pct": 0.412,
+    "max_velo": 92.8,
+    "name": "Connor Thomas",
+    "pitches": 17,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 87.5,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.133,
+    "max_velo": 93.4,
+    "name": "Nolan Hoffman",
+    "pitches": 15,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.6,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 96.8,
+    "name": "Anthony Gose",
+    "pitches": 15,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.2,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.286,
+    "max_velo": 92.3,
+    "name": "Jose Cuas",
+    "pitches": 7,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 83.5,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 5,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 75,
+   "description": "Vinnie Pasquantino homers (11) on a fly ball to right center field. John Rave scores. Bobby Witt Jr. scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 1,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 0,
+    "royals": 3
+   },
+   "wp_royals_after": 0.805,
+   "wpa_royals": 0.169
+  },
+  {
+   "at_bat_index": 21,
+   "batter": "Salvador Perez",
+   "captivating_index": 38,
+   "description": "Salvador Perez homers (19) on a fly ball to left center field. Bobby Witt Jr. scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 0,
+    "royals": 5
+   },
+   "wp_royals_after": 0.927,
+   "wpa_royals": 0.077
+  },
+  {
+   "at_bat_index": 1,
+   "batter": "Nathan Lukes",
+   "captivating_index": 24,
+   "description": "Nathan Lukes grounds into a double play, shortstop Bobby Witt Jr. to first baseman Vinnie Pasquantino. Brett Bateman out at 2nd. Nathan Lukes out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Randy Dobnak",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.538,
+   "wpa_royals": 0.074
+  },
+  {
+   "at_bat_index": 4,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 0,
+   "description": "Bobby Witt Jr. walks. John Rave to 2nd.",
+   "event": "Walk",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Spencer Arrighetti",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.636,
+   "wpa_royals": 0.053
+  },
+  {
+   "at_bat_index": 0,
+   "batter": "Brett Bateman",
+   "captivating_index": 11,
+   "description": "Brett Bateman hit by pitch.",
+   "event": "Hit By Pitch",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Randy Dobnak",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.464,
+   "wpa_royals": -0.036
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
