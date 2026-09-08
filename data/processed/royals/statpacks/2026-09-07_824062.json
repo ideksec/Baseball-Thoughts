@@ -1,0 +1,398 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 3,
+    "name": "Salvador Perez"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Vinnie Pasquantino"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-5, 2B, 3 RBI",
+   "name": "Salvador Perez"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 518886,
+   "name": "Craig Kimbrel"
+  },
+  "save": {
+   "id": 642701,
+   "name": "Dennis Santana"
+  },
+  "winner": {
+   "id": 679885,
+   "name": "Justin Martinez"
+  }
+ },
+ "game": {
+  "date": "2026-09-07",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824062,
+  "home_away": "home",
+  "innings": 10,
+  "opponent": {
+   "abbrev": "AZ",
+   "id": 109,
+   "name": "Arizona Diamondbacks"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 81,
+   "wins": 64
+  },
+  "score": {
+   "opponent": 5,
+   "royals": 4
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-08T12:58:07Z",
+ "linescore": {
+  "away": {
+   "abbrev": "AZ",
+   "errors": 1,
+   "hits": 10,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 8,
+   "runs": 4,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 326"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 0,
+   "h": 1,
+   "hr": 0,
+   "id": 571882,
+   "ip": "2.0",
+   "k": 0,
+   "name": "Derek Law",
+   "pitches": 19,
+   "r": 0,
+   "strikes": 10
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "2.0",
+    "k": 3,
+    "name": "Nate Pearson",
+    "pitches": 20,
+    "r": 0,
+    "strikes": 15
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 13
+   },
+   {
+    "bb": 1,
+    "er": 4,
+    "h": 5,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Craig Kimbrel",
+    "pitches": 25,
+    "r": 5,
+    "strikes": 17
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 0,
+   "h": 3,
+   "hr": 0,
+   "id": 702070,
+   "ip": "6.0",
+   "k": 7,
+   "name": "Noah Cameron",
+   "pitches": 99,
+   "r": 0,
+   "strikes": 66
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 6,
+   "run_diff": -8,
+   "run_diff_excl_blowouts": 9,
+   "runs_allowed": 51,
+   "runs_scored": 43,
+   "top_game_run_share": 0.186,
+   "top_game_runs": 8,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 145,
+   "last10": "4-6",
+   "losses": 81,
+   "run_diff": -89,
+   "streak": "L1",
+   "wins": 64
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Corbin Carroll",
+    "distance": 431,
+    "event": null,
+    "exit_velocity": 112.4,
+    "inning": 10,
+    "launch_angle": 29.0,
+    "team": "AZ",
+    "xba": null
+   },
+   {
+    "batter": "Ketel Marte",
+    "distance": 4,
+    "event": null,
+    "exit_velocity": 107.8,
+    "inning": 4,
+    "launch_angle": -15.0,
+    "team": "AZ",
+    "xba": null
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 244,
+    "event": "double",
+    "exit_velocity": 107.4,
+    "inning": 10,
+    "launch_angle": 14.0,
+    "team": "KC",
+    "xba": 0.697
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 383,
+    "event": null,
+    "exit_velocity": 106.6,
+    "inning": 6,
+    "launch_angle": 41.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 376,
+    "event": null,
+    "exit_velocity": 105.6,
+    "inning": 10,
+    "launch_angle": 27.0,
+    "team": "KC",
+    "xba": null
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "John Rave",
+    "description": "John Rave doubles (6) on a line drive to left fielder Ryan Waldschmidt.",
+    "event": "double",
+    "exit_velocity": 86.3,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.069
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.253,
+    "max_velo": 94.1,
+    "name": "Noah Cameron",
+    "pitches": 99,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 90.1,
+    "whiffs": 11
+   },
+   {
+    "csw_pct": 0.172,
+    "max_velo": 94.6,
+    "name": "Craig Kimbrel",
+    "pitches": 29,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.7,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.4,
+    "max_velo": 100.1,
+    "name": "Nate Pearson",
+    "pitches": 20,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.8,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.353,
+    "max_velo": 100.0,
+    "name": "Steven Cruz",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.8,
+    "whiffs": 3
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 61,
+   "batter": "Nolan Arenado",
+   "captivating_index": 25,
+   "description": "Nolan Arenado lines into an unassisted double play, third baseman Nick Loftin. Ketel Marte out at 3rd.",
+   "event": "Double Play",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Steven Cruz",
+   "rank": 1,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.574,
+   "wpa_royals": 0.373
+  },
+  {
+   "at_bat_index": 71,
+   "batter": "Geraldo Perdomo",
+   "captivating_index": 70,
+   "description": "Geraldo Perdomo singles on a line drive to right fielder John Rave. Ildemaro Vargas scores. Ryan Waldschmidt scores. Fielding error by right fielder John Rave.",
+   "event": "Single",
+   "half": "top",
+   "inning": 10,
+   "pitcher": "Craig Kimbrel",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.092,
+   "wpa_royals": -0.283
+  },
+  {
+   "at_bat_index": 60,
+   "batter": "Gabriel Moreno",
+   "captivating_index": 33,
+   "description": "Gabriel Moreno singles on a ground ball to right fielder John Rave. Ketel Marte to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Steven Cruz",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.201,
+   "wpa_royals": -0.218
+  },
+  {
+   "at_bat_index": 80,
+   "batter": "Salvador Perez",
+   "captivating_index": 34,
+   "description": "Salvador Perez doubles (23) on a sharp fly ball to center fielder Tommy Troy. Kyle Isbel scores. Carter Jensen scores. Bobby Witt Jr. scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 10,
+   "pitcher": "Gerardo Carrillo",
+   "rank": 4,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 5,
+    "royals": 4
+   },
+   "wp_royals_after": 0.29,
+   "wpa_royals": 0.174
+  },
+  {
+   "at_bat_index": 82,
+   "batter": "Nick Loftin",
+   "captivating_index": 14,
+   "description": "Nick Loftin called out on strikes.",
+   "event": "Strikeout",
+   "half": "bottom",
+   "inning": 10,
+   "pitcher": "Dennis Santana",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 5,
+    "royals": 4
+   },
+   "wp_royals_after": 0.0,
+   "wpa_royals": -0.169
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
