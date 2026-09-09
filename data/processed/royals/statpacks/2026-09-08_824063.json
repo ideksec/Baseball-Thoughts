@@ -1,0 +1,473 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "John Rave",
+    "season_total": 5
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Michael Massey"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2B, BB",
+   "name": "Michael Massey"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 543238,
+   "name": "Anthony Gose"
+  },
+  "save": null,
+  "winner": {
+   "id": 686796,
+   "name": "Blake Walston"
+  }
+ },
+ "game": {
+  "date": "2026-09-08",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824063,
+  "home_away": "home",
+  "innings": 11,
+  "opponent": {
+   "abbrev": "AZ",
+   "id": 109,
+   "name": "Arizona Diamondbacks"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 82,
+   "wins": 64
+  },
+  "score": {
+   "opponent": 5,
+   "royals": 3
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-09T13:03:59Z",
+ "linescore": {
+  "away": {
+   "abbrev": "AZ",
+   "errors": 1,
+   "hits": 9,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 7,
+   "runs": 3,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 367"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 0,
+   "h": 2,
+   "hr": 0,
+   "id": 669203,
+   "ip": "3.0",
+   "k": 2,
+   "name": "Corbin Burnes",
+   "pitches": 57,
+   "r": 0,
+   "strikes": 35
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 621016,
+    "ip": "0.2",
+    "k": 0,
+    "name": "Jose Cuas",
+    "pitches": 14,
+    "r": 0,
+    "strikes": 11
+   },
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 2,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Connor Thomas",
+    "pitches": 18,
+    "r": 1,
+    "strikes": 13
+   },
+   {
+    "bb": 2,
+    "er": 1,
+    "h": 1,
+    "hr": 1,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Alex Lange",
+    "pitches": 32,
+    "r": 1,
+    "strikes": 18
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 676510,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Nolan Hoffman",
+    "pitches": 6,
+    "r": 0,
+    "strikes": 5
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Steven Cruz",
+    "pitches": 16,
+    "r": 1,
+    "strikes": 11
+   },
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 1,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 12,
+    "r": 2,
+    "strikes": 11
+   }
+  ],
+  "royals_starter": {
+   "bb": 4,
+   "er": 0,
+   "h": 3,
+   "hr": 0,
+   "id": 608379,
+   "ip": "6.0",
+   "k": 4,
+   "name": "Michael Wacha",
+   "pitches": 93,
+   "r": 0,
+   "strikes": 58
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 7,
+   "run_diff": -13,
+   "run_diff_excl_blowouts": 4,
+   "runs_allowed": 56,
+   "runs_scored": 43,
+   "top_game_run_share": 0.186,
+   "top_game_runs": 8,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 146,
+   "last10": "3-7",
+   "losses": 82,
+   "run_diff": -91,
+   "streak": "L2",
+   "wins": 64
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Ketel Marte",
+    "distance": 37,
+    "event": "single",
+    "exit_velocity": 111.3,
+    "inning": 8,
+    "launch_angle": -2.0,
+    "team": "AZ",
+    "xba": 0.463
+   },
+   {
+    "batter": "Nolan Arenado",
+    "distance": 6,
+    "event": null,
+    "exit_velocity": 109.9,
+    "inning": 4,
+    "launch_angle": -17.0,
+    "team": "AZ",
+    "xba": null
+   },
+   {
+    "batter": "Nolan Arenado",
+    "distance": 309,
+    "event": "field_out",
+    "exit_velocity": 108.5,
+    "inning": 2,
+    "launch_angle": 15.0,
+    "team": "AZ",
+    "xba": 0.686
+   },
+   {
+    "batter": "Michael Massey",
+    "distance": 238,
+    "event": "double",
+    "exit_velocity": 106.7,
+    "inning": 2,
+    "launch_angle": 14.0,
+    "team": "KC",
+    "xba": 0.697
+   },
+   {
+    "batter": "Gabriel Moreno",
+    "distance": 80,
+    "event": "single",
+    "exit_velocity": 106.6,
+    "inning": 8,
+    "launch_angle": 3.0,
+    "team": "AZ",
+    "xba": 0.551
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Lourdes Gurriel Jr.",
+    "description": "Lourdes Gurriel Jr. triples (1) on a fly ball to center fielder Kyle Isbel. Ildemaro Vargas scores.",
+    "event": "triple",
+    "exit_velocity": 89.1,
+    "kind": "hit_below_xba",
+    "team": "AZ",
+    "xba": 0.057
+   },
+   {
+    "batter": "Carter Jensen",
+    "description": "Carter Jensen lines out to second baseman Ketel Marte.",
+    "event": "field_out",
+    "exit_velocity": 82.4,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.977
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.258,
+    "max_velo": 95.2,
+    "name": "Michael Wacha",
+    "pitches": 93,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 80.6,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.281,
+    "max_velo": 96.9,
+    "name": "Alex Lange",
+    "pitches": 32,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 88.2,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.278,
+    "max_velo": 92.7,
+    "name": "Connor Thomas",
+    "pitches": 18,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 87.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.125,
+    "max_velo": 99.0,
+    "name": "Steven Cruz",
+    "pitches": 16,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.3,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.286,
+    "max_velo": 92.2,
+    "name": "Jose Cuas",
+    "pitches": 14,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.6,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.25,
+    "max_velo": 96.7,
+    "name": "Anthony Gose",
+    "pitches": 12,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.7,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 92.9,
+    "name": "Nolan Hoffman",
+    "pitches": 6,
+    "primary_pitch": "CU",
+    "primary_pitch_avg_velo": 78.0,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 73,
+   "batter": "John Rave",
+   "captivating_index": 75,
+   "description": "John Rave homers (5) on a fly ball to right center field. Nick Loftin scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 9,
+   "pitcher": "Juan Morillo",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.536,
+   "wpa_royals": 0.485
+  },
+  {
+   "at_bat_index": 78,
+   "batter": "Tim Tawa",
+   "captivating_index": 60,
+   "description": "Tim Tawa singles on a ground ball to center fielder Kyle Isbel. Gabriel Moreno scores. Nolan Arenado to 2nd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 10,
+   "pitcher": "Steven Cruz",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 2
+   },
+   "wp_royals_after": 0.375,
+   "wpa_royals": -0.292
+  },
+  {
+   "at_bat_index": 87,
+   "batter": "Lourdes Gurriel Jr.",
+   "captivating_index": 62,
+   "description": "Lourdes Gurriel Jr. triples (1) on a fly ball to center fielder Kyle Isbel. Ildemaro Vargas scores.",
+   "event": "Triple",
+   "half": "top",
+   "inning": 11,
+   "pitcher": "Anthony Gose",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.265,
+   "wpa_royals": -0.248
+  },
+  {
+   "at_bat_index": 77,
+   "batter": "Jordan Lawlar",
+   "captivating_index": 0,
+   "description": "Jordan Lawlar lines out to shortstop Bobby Witt Jr.",
+   "event": "Lineout",
+   "half": "top",
+   "inning": 10,
+   "pitcher": "Steven Cruz",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.667,
+   "wpa_royals": 0.183
+  },
+  {
+   "at_bat_index": 57,
+   "batter": "Gabriel Moreno",
+   "captivating_index": 33,
+   "description": "Gabriel Moreno singles on a sharp ground ball to right fielder John Rave. Ketel Marte to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 8,
+   "pitcher": "Connor Thomas",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.261,
+   "wpa_royals": -0.171
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
