@@ -1,0 +1,441 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 23
+   },
+   {
+    "count": 1,
+    "name": "Bobby Witt Jr.",
+    "season_total": 18
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, HR, R, 3 RBI",
+   "name": "Bobby Witt Jr."
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 647336,
+   "name": "Michael Soroka"
+  },
+  "save": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  },
+  "winner": {
+   "id": 663738,
+   "name": "Daniel Lynch IV"
+  }
+ },
+ "game": {
+  "date": "2026-09-09",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824064,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "AZ",
+   "id": 109,
+   "name": "Arizona Diamondbacks"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 82,
+   "wins": 65
+  },
+  "score": {
+   "opponent": 2,
+   "royals": 5
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-10T13:00:22Z",
+ "linescore": {
+  "away": {
+   "abbrev": "AZ",
+   "errors": 1,
+   "hits": 9,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 7,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    1,
+    1,
+    0,
+    3,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 283"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 1,
+   "h": 4,
+   "hr": 1,
+   "id": 668678,
+   "ip": "3.1",
+   "k": 1,
+   "name": "Zac Gallen",
+   "pitches": 68,
+   "r": 2,
+   "strikes": 42
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Jose Cuas",
+    "pitches": 20,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Craig Kimbrel",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 19,
+    "r": 0,
+    "strikes": 10
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 2,
+   "h": 4,
+   "hr": 1,
+   "id": 663738,
+   "ip": "5.0",
+   "k": 3,
+   "name": "Daniel Lynch IV",
+   "pitches": 81,
+   "r": 2,
+   "strikes": 50
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 2,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 7,
+   "run_diff": -15,
+   "run_diff_excl_blowouts": 2,
+   "runs_allowed": 55,
+   "runs_scored": 40,
+   "top_game_run_share": 0.175,
+   "top_game_runs": 7,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 147,
+   "last10": "3-7",
+   "losses": 82,
+   "run_diff": -88,
+   "streak": "W1",
+   "wins": 65
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Ketel Marte",
+    "distance": 294,
+    "event": "field_out",
+    "exit_velocity": 110.2,
+    "inning": 3,
+    "launch_angle": 13.0,
+    "team": "AZ",
+    "xba": 0.783
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 416,
+    "event": "home_run",
+    "exit_velocity": 108.6,
+    "inning": 3,
+    "launch_angle": 29.0,
+    "team": "KC",
+    "xba": 0.989
+   },
+   {
+    "batter": "Nolan Arenado",
+    "distance": 430,
+    "event": "home_run",
+    "exit_velocity": 106.5,
+    "inning": 4,
+    "launch_angle": 28.0,
+    "team": "AZ",
+    "xba": 0.923
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 317,
+    "event": "field_out",
+    "exit_velocity": 106.5,
+    "inning": 1,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": 0.626
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 5,
+    "event": null,
+    "exit_velocity": 106.4,
+    "inning": 1,
+    "launch_angle": -15.0,
+    "team": "KC",
+    "xba": null
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Ildemaro Vargas",
+    "description": "Ildemaro Vargas singles on a ground ball to shortstop Bobby Witt Jr.",
+    "event": "single",
+    "exit_velocity": 98.6,
+    "kind": "hit_below_xba",
+    "team": "AZ",
+    "xba": 0.133
+   },
+   {
+    "batter": "Ketel Marte",
+    "description": "Ketel Marte lines out sharply to left fielder Isaac Collins.",
+    "event": "field_out",
+    "exit_velocity": 110.2,
+    "kind": "out_above_xba",
+    "team": "AZ",
+    "xba": 0.783
+   },
+   {
+    "batter": "Lourdes Gurriel Jr.",
+    "description": "Lourdes Gurriel Jr. lines out to right fielder John Rave.",
+    "event": "field_out",
+    "exit_velocity": 68.2,
+    "kind": "out_above_xba",
+    "team": "AZ",
+    "xba": 0.729
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.21,
+    "max_velo": 95.5,
+    "name": "Daniel Lynch IV",
+    "pitches": 81,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.9,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 92.6,
+    "name": "Jose Cuas",
+    "pitches": 20,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.6,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.211,
+    "max_velo": 98.3,
+    "name": "Nate Pearson",
+    "pitches": 19,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.1,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.385,
+    "max_velo": 94.8,
+    "name": "Craig Kimbrel",
+    "pitches": 13,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.0,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.077,
+    "max_velo": 97.2,
+    "name": "Anthony Gose",
+    "pitches": 13,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.5,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 41,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 75,
+   "description": "Bobby Witt Jr. homers (18) on a fly ball to left center field. Isaac Collins scores. Carter Jensen scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Michael Soroka",
+   "rank": 1,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 2,
+    "royals": 5
+   },
+   "wp_royals_after": 0.875,
+   "wpa_royals": 0.258
+  },
+  {
+   "at_bat_index": 36,
+   "batter": "Ketel Marte",
+   "captivating_index": 70,
+   "description": "Ketel Marte singles on a line drive to left fielder Isaac Collins. Jordan Lawlar scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.536,
+   "wpa_royals": -0.119
+  },
+  {
+   "at_bat_index": 25,
+   "batter": "Nolan Arenado",
+   "captivating_index": 38,
+   "description": "Nolan Arenado homers (23) on a fly ball to left field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 2
+   },
+   "wp_royals_after": 0.623,
+   "wpa_royals": -0.106
+  },
+  {
+   "at_bat_index": 21,
+   "batter": "Carter Jensen",
+   "captivating_index": 75,
+   "description": "Carter Jensen homers (23) on a fly ball to right center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Zac Gallen",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.764,
+   "wpa_royals": 0.095
+  },
+  {
+   "at_bat_index": 70,
+   "batter": "Ketel Marte",
+   "captivating_index": 24,
+   "description": "Ketel Marte grounds into a double play, second baseman Michael Massey to shortstop Bobby Witt Jr. to first baseman Vinnie Pasquantino. Lars Nootbaar out at 2nd. Ketel Marte out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Nate Pearson",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 5
+   },
+   "wp_royals_after": 1.0,
+   "wpa_royals": 0.09
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
