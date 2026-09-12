@@ -1,0 +1,441 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Carter Jensen"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Salvador Perez"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Michael Massey"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-5, 2 2B, 2 R, RBI",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 543243,
+   "name": "Sonny Gray"
+  },
+  "save": {
+   "id": 674444,
+   "name": "Steven Cruz"
+  },
+  "winner": {
+   "id": 607625,
+   "name": "Seth Lugo"
+  }
+ },
+ "game": {
+  "date": "2026-09-11",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824711,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "BOS",
+   "id": 111,
+   "name": "Boston Red Sox"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 82,
+   "wins": 66
+  },
+  "score": {
+   "opponent": 2,
+   "royals": 3
+  },
+  "venue": "Fenway Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-12T12:16:36Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 10,
+   "runs": 3,
+   "runs_by_inning": [
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "BOS",
+   "errors": 0,
+   "hits": 8,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 297"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 3,
+   "h": 6,
+   "hr": 0,
+   "id": 543243,
+   "ip": "6.0",
+   "k": 5,
+   "name": "Sonny Gray",
+   "pitches": 90,
+   "r": 3,
+   "strikes": 60
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 676510,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nolan Hoffman",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 8
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Connor Thomas",
+    "pitches": 13,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 11
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 10,
+    "r": 0,
+    "strikes": 6
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 2,
+   "h": 7,
+   "hr": 1,
+   "id": 607625,
+   "ip": "5.0",
+   "k": 7,
+   "name": "Seth Lugo",
+   "pitches": 95,
+   "r": 2,
+   "strikes": 62
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 1,
+   "losses": 6,
+   "run_diff": -4,
+   "run_diff_excl_blowouts": 3,
+   "runs_allowed": 46,
+   "runs_scored": 42,
+   "top_game_run_share": 0.1667,
+   "top_game_runs": 7,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 148,
+   "last10": "4-6",
+   "losses": 82,
+   "run_diff": -87,
+   "streak": "W2",
+   "wins": 66
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Roman Anthony",
+    "distance": 247,
+    "event": "single",
+    "exit_velocity": 113.6,
+    "inning": 1,
+    "launch_angle": 14.0,
+    "team": "BOS",
+    "xba": 0.74
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 423,
+    "event": "double",
+    "exit_velocity": 110.0,
+    "inning": 1,
+    "launch_angle": 22.0,
+    "team": "KC",
+    "xba": 0.954
+   },
+   {
+    "batter": "Mickey Gasper",
+    "distance": 392,
+    "event": "home_run",
+    "exit_velocity": 104.8,
+    "inning": 5,
+    "launch_angle": 23.0,
+    "team": "BOS",
+    "xba": 0.843
+   },
+   {
+    "batter": "Wilyer Abreu",
+    "distance": 11,
+    "event": "field_out",
+    "exit_velocity": 104.7,
+    "inning": 8,
+    "launch_angle": -10.0,
+    "team": "BOS",
+    "xba": 0.338
+   },
+   {
+    "batter": "Trevor Story",
+    "distance": 354,
+    "event": "double",
+    "exit_velocity": 104.6,
+    "inning": 8,
+    "launch_angle": 23.0,
+    "team": "BOS",
+    "xba": 0.843
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Caleb Durbin",
+    "description": "Caleb Durbin singles on a ground ball to left fielder Isaac Collins.",
+    "event": "single",
+    "exit_velocity": 76.8,
+    "kind": "hit_below_xba",
+    "team": "BOS",
+    "xba": 0.042
+   },
+   {
+    "batter": "Jarren Duran",
+    "description": "Jarren Duran singles on a ground ball to left fielder Isaac Collins.",
+    "event": "single",
+    "exit_velocity": 72.9,
+    "kind": "hit_below_xba",
+    "team": "BOS",
+    "xba": 0.056
+   },
+   {
+    "batter": "John Rave",
+    "description": "John Rave lines out to left fielder Roman Anthony.",
+    "event": "field_out",
+    "exit_velocity": 101.0,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.957
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.347,
+    "max_velo": 92.6,
+    "name": "Seth Lugo",
+    "pitches": 95,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 90.1,
+    "whiffs": 7
+   },
+   {
+    "csw_pct": 0.294,
+    "max_velo": 99.2,
+    "name": "Nate Pearson",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.7,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.308,
+    "max_velo": 93.1,
+    "name": "Connor Thomas",
+    "pitches": 13,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 92.8,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.364,
+    "max_velo": 93.6,
+    "name": "Nolan Hoffman",
+    "pitches": 11,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.5,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.4,
+    "max_velo": 99.8,
+    "name": "Steven Cruz",
+    "pitches": 10,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 99.1,
+    "whiffs": 3
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 41,
+   "batter": "Wilyer Abreu",
+   "captivating_index": 34,
+   "description": "Wilyer Abreu doubles (35) on a fly ball to center fielder Kyle Isbel. Adley Rutschman scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Seth Lugo",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 3
+   },
+   "wp_royals_after": 0.555,
+   "wpa_royals": -0.152
+  },
+  {
+   "at_bat_index": 66,
+   "batter": "Trevor Story",
+   "captivating_index": 34,
+   "description": "Royals challenged (tag play), call on the field was upheld: Trevor Story doubles (13) on a fly ball to left fielder Isaac Collins.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Nate Pearson",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 3
+   },
+   "wp_royals_after": 0.632,
+   "wpa_royals": -0.123
+  },
+  {
+   "at_bat_index": 68,
+   "batter": "Caleb Durbin",
+   "captivating_index": 14,
+   "description": "Caleb Durbin strikes out swinging, catcher Carter Jensen to first baseman Vinnie Pasquantino.",
+   "event": "Strikeout",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Nate Pearson",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 3
+   },
+   "wp_royals_after": 0.835,
+   "wpa_royals": 0.116
+  },
+  {
+   "at_bat_index": 39,
+   "batter": "Mickey Gasper",
+   "captivating_index": 38,
+   "description": "Mickey Gasper homers (9) on a fly ball to right center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Seth Lugo",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 3
+   },
+   "wp_royals_after": 0.743,
+   "wpa_royals": -0.092
+  },
+  {
+   "at_bat_index": 19,
+   "batter": "Carter Jensen",
+   "captivating_index": 71,
+   "description": "Carter Jensen doubles (31) on a sharp fly ball to left fielder Roman Anthony. Isaac Collins scores.",
+   "event": "Double",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Sonny Gray",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.76,
+   "wpa_royals": 0.089
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
