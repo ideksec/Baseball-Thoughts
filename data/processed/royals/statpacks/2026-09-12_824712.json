@@ -1,0 +1,405 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 24
+   }
+  ],
+  "royals_multi_hit": [],
+  "royals_top_line": {
+   "line": "1-4, HR, R, RBI",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 677976,
+   "name": "Randy Dobnak"
+  },
+  "save": null,
+  "winner": {
+   "id": 624133,
+   "name": "Ranger Suarez"
+  }
+ },
+ "game": {
+  "date": "2026-09-12",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824712,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "BOS",
+   "id": 111,
+   "name": "Boston Red Sox"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 83,
+   "wins": 66
+  },
+  "score": {
+   "opponent": 5,
+   "royals": 1
+  },
+  "venue": "Fenway Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-13T13:23:32Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 5,
+   "runs": 1,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "BOS",
+   "errors": 1,
+   "hits": 10,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    1,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 255"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 1,
+   "h": 5,
+   "hr": 1,
+   "id": 624133,
+   "ip": "7.0",
+   "k": 8,
+   "name": "Ranger Suarez",
+   "pitches": 96,
+   "r": 1,
+   "strikes": 69
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 543238,
+    "ip": "0.1",
+    "k": 1,
+    "name": "Anthony Gose",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 1,
+    "er": 1,
+    "h": 3,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Alex Lange",
+    "pitches": 25,
+    "r": 1,
+    "strikes": 13
+   },
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 2,
+    "hr": 0,
+    "id": 668834,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Easton McGee",
+    "pitches": 17,
+    "r": 1,
+    "strikes": 12
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 3,
+   "h": 4,
+   "hr": 0,
+   "id": 677976,
+   "ip": "5.2",
+   "k": 4,
+   "name": "Randy Dobnak",
+   "pitches": 81,
+   "r": 3,
+   "strikes": 51
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 6,
+   "run_diff": -5,
+   "run_diff_excl_blowouts": 2,
+   "runs_allowed": 45,
+   "runs_scored": 40,
+   "top_game_run_share": 0.175,
+   "top_game_runs": 7,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 149,
+   "last10": "4-6",
+   "losses": 83,
+   "run_diff": -91,
+   "streak": "L1",
+   "wins": 66
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Carter Jensen",
+    "distance": 386,
+    "event": "home_run",
+    "exit_velocity": 108.4,
+    "inning": 6,
+    "launch_angle": 29.0,
+    "team": "KC",
+    "xba": 0.963
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 203,
+    "event": "single",
+    "exit_velocity": 108.1,
+    "inning": 6,
+    "launch_angle": 11.0,
+    "team": "KC",
+    "xba": 0.946
+   },
+   {
+    "batter": "Wilyer Abreu",
+    "distance": 202,
+    "event": "field_out",
+    "exit_velocity": 108.1,
+    "inning": 2,
+    "launch_angle": 9.0,
+    "team": "BOS",
+    "xba": 0.78
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 355,
+    "event": "double",
+    "exit_velocity": 105.7,
+    "inning": 4,
+    "launch_angle": 19.0,
+    "team": "KC",
+    "xba": 0.626
+   },
+   {
+    "batter": "Wilyer Abreu",
+    "distance": 408,
+    "event": "double",
+    "exit_velocity": 104.9,
+    "inning": 6,
+    "launch_angle": 25.0,
+    "team": "BOS",
+    "xba": 0.894
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Nick Sogard",
+    "description": "Nick Sogard doubles (12) on a fly ball to left fielder Matthew Lugo.",
+    "event": "double",
+    "exit_velocity": 90.9,
+    "kind": "hit_below_xba",
+    "team": "BOS",
+    "xba": 0.029
+   },
+   {
+    "batter": "Wilyer Abreu",
+    "description": "Wilyer Abreu lines out sharply to second baseman Michael Massey.",
+    "event": "field_out",
+    "exit_velocity": 108.1,
+    "kind": "out_above_xba",
+    "team": "BOS",
+    "xba": 0.78
+   },
+   {
+    "batter": "Wilyer Abreu",
+    "description": "Wilyer Abreu lines out to first baseman Vinnie Pasquantino.",
+    "event": "field_out",
+    "exit_velocity": 95.3,
+    "kind": "out_above_xba",
+    "team": "BOS",
+    "xba": 0.717
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.296,
+    "max_velo": 92.9,
+    "name": "Randy Dobnak",
+    "pitches": 81,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.2,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.12,
+    "max_velo": 96.9,
+    "name": "Alex Lange",
+    "pitches": 25,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 88.3,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.235,
+    "max_velo": 92.9,
+    "name": "Easton McGee",
+    "pitches": 17,
+    "primary_pitch": "CU",
+    "primary_pitch_avg_velo": 81.2,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.444,
+    "max_velo": 96.7,
+    "name": "Anthony Gose",
+    "pitches": 9,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.9,
+    "whiffs": 2
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 44,
+   "batter": "Wilyer Abreu",
+   "captivating_index": 71,
+   "description": "Wilyer Abreu doubles (36) on a sharp fly ball to right fielder John Rave. Mickey Gasper scores. Adley Rutschman scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 6,
+   "pitcher": "Anthony Gose",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 3,
+    "royals": 1
+   },
+   "wp_royals_after": 0.163,
+   "wpa_royals": -0.271
+  },
+  {
+   "at_bat_index": 36,
+   "batter": "Carter Jensen",
+   "captivating_index": 75,
+   "description": "Carter Jensen homers (24) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Ranger Suarez",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.466,
+   "wpa_royals": 0.162
+  },
+  {
+   "at_bat_index": 25,
+   "batter": "Adley Rutschman",
+   "captivating_index": 60,
+   "description": "Adley Rutschman singles on a ground ball to center fielder Kyle Isbel. Roman Anthony scores.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Randy Dobnak",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.313,
+   "wpa_royals": -0.102
+  },
+  {
+   "at_bat_index": 48,
+   "batter": "John Rave",
+   "captivating_index": 14,
+   "description": "John Rave strikes out swinging.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Ranger Suarez",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 3,
+    "royals": 1
+   },
+   "wp_royals_after": 0.157,
+   "wpa_royals": -0.053
+  },
+  {
+   "at_bat_index": 49,
+   "batter": "Matthew Lugo",
+   "captivating_index": 14,
+   "description": "Matthew Lugo strikes out swinging, catcher Adley Rutschman to first baseman Nick Sogard.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Ranger Suarez",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 3,
+    "royals": 1
+   },
+   "wp_royals_after": 0.113,
+   "wpa_royals": -0.044
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
