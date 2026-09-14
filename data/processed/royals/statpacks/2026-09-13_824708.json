@@ -1,0 +1,393 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [],
+  "royals_top_line": {
+   "line": "1-2, RBI",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 518886,
+   "name": "Craig Kimbrel"
+  },
+  "save": {
+   "id": 547973,
+   "name": "Aroldis Chapman"
+  },
+  "winner": {
+   "id": 676477,
+   "name": "Garrett Whitlock"
+  }
+ },
+ "game": {
+  "date": "2026-09-13",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824708,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "BOS",
+   "id": 111,
+   "name": "Boston Red Sox"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 84,
+   "wins": 66
+  },
+  "score": {
+   "opponent": 4,
+   "royals": 1
+  },
+  "venue": "Fenway Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-14T15:09:28Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 2,
+   "hits": 5,
+   "runs": 1,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "BOS",
+   "errors": 0,
+   "hits": 8,
+   "runs": 4,
+   "runs_by_inning": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 292"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 0,
+   "h": 4,
+   "hr": 0,
+   "id": 801139,
+   "ip": "6.0",
+   "k": 7,
+   "name": "Payton Tolle",
+   "pitches": 96,
+   "r": 0,
+   "strikes": 70
+  },
+  "royals_bullpen": [
+   {
+    "bb": 2,
+    "er": 1,
+    "h": 0,
+    "hr": 0,
+    "id": 518886,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Craig Kimbrel",
+    "pitches": 16,
+    "r": 1,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "0.2",
+    "k": 2,
+    "name": "Connor Thomas",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 2,
+    "h": 3,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Nate Pearson",
+    "pitches": 22,
+    "r": 2,
+    "strikes": 16
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 1,
+   "h": 4,
+   "hr": 1,
+   "id": 702070,
+   "ip": "6.0",
+   "k": 4,
+   "name": "Noah Cameron",
+   "pitches": 85,
+   "r": 1,
+   "strikes": 57
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 6,
+   "run_diff": -5,
+   "run_diff_excl_blowouts": 2,
+   "runs_allowed": 40,
+   "runs_scored": 35,
+   "top_game_run_share": 0.2,
+   "top_game_runs": 7,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 150,
+   "last10": "4-6",
+   "losses": 84,
+   "run_diff": -94,
+   "streak": "L2",
+   "wins": 66
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jahmai Jones",
+    "distance": 359,
+    "event": null,
+    "exit_velocity": 112.3,
+    "inning": 5,
+    "launch_angle": 21.0,
+    "team": "BOS",
+    "xba": null
+   },
+   {
+    "batter": "Willson Contreras",
+    "distance": 163,
+    "event": null,
+    "exit_velocity": 106.7,
+    "inning": 1,
+    "launch_angle": 9.0,
+    "team": "BOS",
+    "xba": null
+   },
+   {
+    "batter": "Adley Rutschman",
+    "distance": 63,
+    "event": "grounded_into_double_play",
+    "exit_velocity": 105.9,
+    "inning": 6,
+    "launch_angle": 2.0,
+    "team": "BOS",
+    "xba": 0.52
+   },
+   {
+    "batter": "Luke Maile",
+    "distance": 55,
+    "event": "single",
+    "exit_velocity": 105.9,
+    "inning": 5,
+    "launch_angle": 0.0,
+    "team": "KC",
+    "xba": 0.511
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 305,
+    "event": null,
+    "exit_velocity": 105.2,
+    "inning": 9,
+    "launch_angle": 22.0,
+    "team": "KC",
+    "xba": null
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Michael Massey",
+    "description": "Michael Massey singles on a ground ball to first baseman Willson Contreras.",
+    "event": "single",
+    "exit_velocity": 76.7,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.074
+   },
+   {
+    "batter": "Tyler Tolbert",
+    "description": "Royals challenged (force play), call on the field was upheld: Tyler Tolbert flies into a force out, center fielder Nate Eaton to third baseman Caleb Durbin. Isaac Collins out at 3rd. John Rave to 2nd. Tyler Tolbert to 1st.",
+    "event": "force_out",
+    "exit_velocity": 73.7,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.86
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.212,
+    "max_velo": 94.5,
+    "name": "Noah Cameron",
+    "pitches": 85,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 89.8,
+    "whiffs": 10
+   },
+   {
+    "csw_pct": 0.318,
+    "max_velo": 100.1,
+    "name": "Nate Pearson",
+    "pitches": 22,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.7,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.188,
+    "max_velo": 95.5,
+    "name": "Craig Kimbrel",
+    "pitches": 16,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.6,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.364,
+    "max_velo": 92.8,
+    "name": "Connor Thomas",
+    "pitches": 11,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 92.2,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 50,
+   "batter": "Carter Jensen",
+   "captivating_index": 70,
+   "description": "Carter Jensen singles on a ground ball to right fielder Wilyer Abreu. John Rave scores. Tyler Tolbert to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Garrett Whitlock",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.618,
+   "wpa_royals": 0.232
+  },
+  {
+   "at_bat_index": 57,
+   "batter": "Roman Anthony",
+   "captivating_index": 60,
+   "description": "Roman Anthony singles on a line drive to left fielder Isaac Collins. Caleb Durbin scores. Nick Sogard to 3rd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Connor Thomas",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.211,
+   "wpa_royals": -0.213
+  },
+  {
+   "at_bat_index": 30,
+   "batter": "Nick Sogard",
+   "captivating_index": 24,
+   "description": "Nick Sogard grounds into a double play, second baseman Michael Massey to first baseman Salvador Perez. Caleb Durbin out at 2nd. Nick Sogard out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Noah Cameron",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.362,
+   "wpa_royals": 0.136
+  },
+  {
+   "at_bat_index": 51,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 14,
+   "description": "Bobby Witt Jr. strikes out swinging.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Garrett Whitlock",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.5,
+   "wpa_royals": -0.118
+  },
+  {
+   "at_bat_index": 13,
+   "batter": "Caleb Durbin",
+   "captivating_index": 65,
+   "description": "Caleb Durbin homers (13) on a fly ball to left center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Noah Cameron",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.364,
+   "wpa_royals": -0.108
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
