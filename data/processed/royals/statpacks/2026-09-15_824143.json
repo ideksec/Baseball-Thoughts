@@ -1,0 +1,377 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 12
+   }
+  ],
+  "royals_multi_hit": [],
+  "royals_top_line": {
+   "line": "1-3, HR, R, RBI",
+   "name": "Vinnie Pasquantino"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 608379,
+   "name": "Michael Wacha"
+  },
+  "save": {
+   "id": 623352,
+   "name": "Josh Hader"
+  },
+  "winner": {
+   "id": 686613,
+   "name": "Hunter Brown"
+  }
+ },
+ "game": {
+  "date": "2026-09-15",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824143,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "HOU",
+   "id": 117,
+   "name": "Houston Astros"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 85,
+   "wins": 66
+  },
+  "score": {
+   "opponent": 4,
+   "royals": 2
+  },
+  "venue": "Daikin Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-16T13:38:07Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 4,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "HOU",
+   "errors": 0,
+   "hits": 4,
+   "runs": 4,
+   "runs_by_inning": [
+    1,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 270"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 1,
+   "h": 2,
+   "hr": 0,
+   "id": 686613,
+   "ip": "5.0",
+   "k": 10,
+   "name": "Hunter Brown",
+   "pitches": 91,
+   "r": 1,
+   "strikes": 51
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 668674,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Lucas Erceg",
+    "pitches": 14,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Jose Cuas",
+    "pitches": 19,
+    "r": 0,
+    "strikes": 10
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 4,
+   "h": 4,
+   "hr": 3,
+   "id": 608379,
+   "ip": "6.0",
+   "k": 2,
+   "name": "Michael Wacha",
+   "pitches": 99,
+   "r": 4,
+   "strikes": 61
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -11,
+   "run_diff_excl_blowouts": -4,
+   "runs_allowed": 41,
+   "runs_scored": 30,
+   "top_game_run_share": 0.2,
+   "top_game_runs": 6,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 151,
+   "last10": "3-7",
+   "losses": 85,
+   "run_diff": -96,
+   "streak": "L3",
+   "wins": 66
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 265,
+    "event": "single",
+    "exit_velocity": 111.4,
+    "inning": 4,
+    "launch_angle": 12.0,
+    "team": "KC",
+    "xba": 0.857
+   },
+   {
+    "batter": "Jeremy Pe\u00f1a",
+    "distance": 222,
+    "event": "single",
+    "exit_velocity": 107.7,
+    "inning": 5,
+    "launch_angle": 11.0,
+    "team": "HOU",
+    "xba": 0.946
+   },
+   {
+    "batter": "Jeremy Pe\u00f1a",
+    "distance": 440,
+    "event": "home_run",
+    "exit_velocity": 107.3,
+    "inning": 1,
+    "launch_angle": 28.0,
+    "team": "HOU",
+    "xba": 0.946
+   },
+   {
+    "batter": "Kyle Isbel",
+    "distance": 105,
+    "event": "field_out",
+    "exit_velocity": 105.9,
+    "inning": 5,
+    "launch_angle": 5.0,
+    "team": "KC",
+    "xba": 0.623
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 376,
+    "event": "home_run",
+    "exit_velocity": 104.0,
+    "inning": 6,
+    "launch_angle": 21.0,
+    "team": "KC",
+    "xba": 0.657
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Carter Jensen",
+    "description": "Carter Jensen doubles (32) on a fly ball to left fielder LaMonte Wade Jr. Isaac Collins scores.",
+    "event": "double",
+    "exit_velocity": 88.6,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.06
+   },
+   {
+    "batter": "Jac Caglianone",
+    "description": "Jac Caglianone lines out sharply to left fielder Jorge Barrosa.",
+    "event": "field_out",
+    "exit_velocity": 102.9,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.766
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.222,
+    "max_velo": 94.9,
+    "name": "Michael Wacha",
+    "pitches": 99,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 92.8,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.211,
+    "max_velo": 93.6,
+    "name": "Jose Cuas",
+    "pitches": 19,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.5,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.214,
+    "max_velo": 99.7,
+    "name": "Lucas Erceg",
+    "pitches": 14,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 99.5,
+    "whiffs": 2
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 39,
+   "batter": "Yordan Alvarez",
+   "captivating_index": 75,
+   "description": "Yordan Alvarez homers (39) on a fly ball to right field. Jeremy Pe\u00f1a scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Michael Wacha",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 1
+   },
+   "wp_royals_after": 0.132,
+   "wpa_royals": -0.186
+  },
+  {
+   "at_bat_index": 34,
+   "batter": "Carter Jensen",
+   "captivating_index": 34,
+   "description": "Carter Jensen doubles (32) on a fly ball to left fielder LaMonte Wade Jr. Isaac Collins scores.",
+   "event": "Double",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Hunter Brown",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.339,
+   "wpa_royals": 0.112
+  },
+  {
+   "at_bat_index": 19,
+   "batter": "Jeremy Pe\u00f1a",
+   "captivating_index": 75,
+   "description": "Jeremy Pe\u00f1a homers (19) on a fly ball to left field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Michael Wacha",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 0
+   },
+   "wp_royals_after": 0.251,
+   "wpa_royals": -0.101
+  },
+  {
+   "at_bat_index": 3,
+   "batter": "Jeremy Pe\u00f1a",
+   "captivating_index": 65,
+   "description": "Jeremy Pe\u00f1a homers (18) on a fly ball to left center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Michael Wacha",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.355,
+   "wpa_royals": -0.097
+  },
+  {
+   "at_bat_index": 43,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 38,
+   "description": "Vinnie Pasquantino homers (12) on a line drive to right center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Bennett Sousa",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 2
+   },
+   "wp_royals_after": 0.168,
+   "wpa_royals": 0.07
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
