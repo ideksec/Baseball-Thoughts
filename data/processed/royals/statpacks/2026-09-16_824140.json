@@ -1,0 +1,443 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "John Rave",
+    "season_total": 6
+   },
+   {
+    "count": 1,
+    "name": "Michael Massey",
+    "season_total": 12
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 3,
+    "name": "Michael Massey"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-5, HR, 2 R, RBI",
+   "name": "Michael Massey"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 664299,
+   "name": "Cristian Javier"
+  },
+  "save": null,
+  "winner": {
+   "id": 663738,
+   "name": "Daniel Lynch IV"
+  }
+ },
+ "game": {
+  "date": "2026-09-16",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824140,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "HOU",
+   "id": 117,
+   "name": "Houston Astros"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 85,
+   "wins": 67
+  },
+  "score": {
+   "opponent": 2,
+   "royals": 5
+  },
+  "venue": "Daikin Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-17T13:40:38Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 8,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "HOU",
+   "errors": 1,
+   "hits": 8,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 289"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 3,
+   "er": 2,
+   "h": 5,
+   "hr": 1,
+   "id": 664299,
+   "ip": "5.1",
+   "k": 2,
+   "name": "Cristian Javier",
+   "pitches": 85,
+   "r": 2,
+   "strikes": 53
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 518886,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Craig Kimbrel",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 676510,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Nolan Hoffman",
+    "pitches": 6,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 543238,
+    "ip": "0.2",
+    "k": 1,
+    "name": "Anthony Gose",
+    "pitches": 5,
+    "r": 0,
+    "strikes": 4
+   },
+   {
+    "bb": 1,
+    "er": 1,
+    "h": 1,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Nate Pearson",
+    "pitches": 16,
+    "r": 1,
+    "strikes": 9
+   },
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 2,
+    "hr": 1,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 3,
+    "name": "Steven Cruz",
+    "pitches": 20,
+    "r": 1,
+    "strikes": 15
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 0,
+   "h": 2,
+   "hr": 0,
+   "id": 663738,
+   "ip": "5.0",
+   "k": 3,
+   "name": "Daniel Lynch IV",
+   "pitches": 72,
+   "r": 0,
+   "strikes": 49
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 6,
+   "run_diff": -1,
+   "run_diff_excl_blowouts": -1,
+   "runs_allowed": 34,
+   "runs_scored": 33,
+   "top_game_run_share": 0.1818,
+   "top_game_runs": 6,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 152,
+   "last10": "4-6",
+   "losses": 85,
+   "run_diff": -93,
+   "streak": "W1",
+   "wins": 67
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Yordan Alvarez",
+    "distance": 354,
+    "event": "double",
+    "exit_velocity": 110.7,
+    "inning": 8,
+    "launch_angle": 15.0,
+    "team": "HOU",
+    "xba": 0.663
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 379,
+    "event": null,
+    "exit_velocity": 108.9,
+    "inning": 9,
+    "launch_angle": 41.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Yordan Alvarez",
+    "distance": 12,
+    "event": "grounded_into_double_play",
+    "exit_velocity": 107.7,
+    "inning": 3,
+    "launch_angle": -10.0,
+    "team": "HOU",
+    "xba": 0.32
+   },
+   {
+    "batter": "John Rave",
+    "distance": 298,
+    "event": null,
+    "exit_velocity": 107.4,
+    "inning": 2,
+    "launch_angle": 15.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Daulton Varsho",
+    "distance": 30,
+    "event": "single",
+    "exit_velocity": 107.1,
+    "inning": 9,
+    "launch_angle": -3.0,
+    "team": "HOU",
+    "xba": 0.437
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Salvador Perez",
+    "description": "Salvador Perez lines out sharply to shortstop Jeremy Pe\u00f1a.",
+    "event": "field_out",
+    "exit_velocity": 103.2,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.717
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.25,
+    "max_velo": 95.0,
+    "name": "Daniel Lynch IV",
+    "pitches": 72,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 84.8,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.35,
+    "max_velo": 100.3,
+    "name": "Steven Cruz",
+    "pitches": 20,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.9,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.176,
+    "max_velo": 94.7,
+    "name": "Craig Kimbrel",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.1,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.312,
+    "max_velo": 99.2,
+    "name": "Nate Pearson",
+    "pitches": 16,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 91.1,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.167,
+    "max_velo": 93.4,
+    "name": "Nolan Hoffman",
+    "pitches": 6,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.9,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.6,
+    "max_velo": 96.4,
+    "name": "Anthony Gose",
+    "pitches": 5,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.4,
+    "whiffs": 2
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 26,
+   "batter": "John Rave",
+   "captivating_index": 75,
+   "description": "John Rave homers (6) on a fly ball to right field. Michael Massey scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Cristian Javier",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.711,
+   "wpa_royals": 0.208
+  },
+  {
+   "at_bat_index": 53,
+   "batter": "Yainer Diaz",
+   "captivating_index": 33,
+   "description": "Yainer Diaz singles on a line drive to center fielder John Rave. Jose Altuve to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Nolan Hoffman",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.606,
+   "wpa_royals": -0.104
+  },
+  {
+   "at_bat_index": 23,
+   "batter": "Yordan Alvarez",
+   "captivating_index": 24,
+   "description": "Yordan Alvarez grounds into a double play, second baseman Michael Massey to shortstop Bobby Witt Jr. to first baseman Vinnie Pasquantino. Jeremy Pe\u00f1a out at 2nd. Yordan Alvarez out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.5,
+   "wpa_royals": 0.099
+  },
+  {
+   "at_bat_index": 54,
+   "batter": "Christian Walker",
+   "captivating_index": 0,
+   "description": "Christian Walker flies out to right fielder Nick Loftin.",
+   "event": "Flyout",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Nolan Hoffman",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.699,
+   "wpa_royals": 0.093
+  },
+  {
+   "at_bat_index": 55,
+   "batter": "Nelson Vel\u00e1zquez",
+   "captivating_index": 14,
+   "description": "Nelson Vel\u00e1zquez strikes out swinging.",
+   "event": "Strikeout",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Anthony Gose",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 2
+   },
+   "wp_royals_after": 0.785,
+   "wpa_royals": 0.086
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
