@@ -151,3 +151,4 @@ game_pk,date,game_number,doubleheader,home_away,opponent_abbrev,opponent_name,re
 824708,2026-09-13,1,N,away,BOS,Boston Red Sox,L,1,4,9,False,5.0,2.0,8.0,0.0,Garrett Whitlock,Craig Kimbrel,Aroldis Chapman,Noah Cameron,6.0,1.0,66,84,data/processed/royals/statpacks/2026-09-13_824708.json
 824143,2026-09-15,1,N,away,HOU,Houston Astros,L,2,4,9,False,4.0,0.0,4.0,0.0,Hunter Brown,Michael Wacha,Josh Hader,Michael Wacha,6.0,4.0,66,85,data/processed/royals/statpacks/2026-09-15_824143.json
 824140,2026-09-16,1,N,away,HOU,Houston Astros,W,5,2,9,False,8.0,0.0,8.0,1.0,Daniel Lynch IV,Cristian Javier,,Daniel Lynch IV,5.0,0.0,67,85,data/processed/royals/statpacks/2026-09-16_824140.json
+824141,2026-09-17,1,N,away,HOU,Houston Astros,L,2,6,9,False,3.0,0.0,11.0,0.0,Bryan King,Seth Lugo,,Seth Lugo,5.0,4.0,67,86,data/processed/royals/statpacks/2026-09-17_824141.json

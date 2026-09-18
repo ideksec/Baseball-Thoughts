@@ -1,0 +1,387 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Carter Jensen"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-3, BB, R, RBI",
+   "name": "Carter Jensen"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 607625,
+   "name": "Seth Lugo"
+  },
+  "save": null,
+  "winner": {
+   "id": 687911,
+   "name": "Bryan King"
+  }
+ },
+ "game": {
+  "date": "2026-09-17",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824141,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "HOU",
+   "id": 117,
+   "name": "Houston Astros"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 86,
+   "wins": 67
+  },
+  "score": {
+   "opponent": 6,
+   "royals": 2
+  },
+  "venue": "Daikin Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-18T13:03:47Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 3,
+   "runs": 2,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "HOU",
+   "errors": 0,
+   "hits": 11,
+   "runs": 6,
+   "runs_by_inning": [
+    1,
+    1,
+    0,
+    0,
+    2,
+    1,
+    0,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 251"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 2,
+   "er": 1,
+   "h": 0,
+   "hr": 0,
+   "id": 699044,
+   "ip": "0.2",
+   "k": 0,
+   "name": "Miguel Ullola",
+   "pitches": 11,
+   "r": 1,
+   "strikes": 2
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 1,
+    "h": 2,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Connor Thomas",
+    "pitches": 21,
+    "r": 1,
+    "strikes": 12
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Jose Cuas",
+    "pitches": 14,
+    "r": 0,
+    "strikes": 9
+   },
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 1,
+    "hr": 1,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Alex Lange",
+    "pitches": 23,
+    "r": 1,
+    "strikes": 14
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 4,
+   "h": 8,
+   "hr": 4,
+   "id": 607625,
+   "ip": "5.0",
+   "k": 5,
+   "name": "Seth Lugo",
+   "pitches": 76,
+   "r": 4,
+   "strikes": 53
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 6,
+   "run_diff": -4,
+   "run_diff_excl_blowouts": -4,
+   "runs_allowed": 36,
+   "runs_scored": 32,
+   "top_game_run_share": 0.1875,
+   "top_game_runs": 6,
+   "wins": 4
+  },
+  "season": {
+   "games_played": 153,
+   "last10": "4-6",
+   "losses": 86,
+   "run_diff": -97,
+   "streak": "L1",
+   "wins": 67
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Salvador Perez",
+    "distance": 144,
+    "event": "field_out",
+    "exit_velocity": 108.6,
+    "inning": 2,
+    "launch_angle": 7.0,
+    "team": "KC",
+    "xba": 0.683
+   },
+   {
+    "batter": "Yordan Alvarez",
+    "distance": 385,
+    "event": "home_run",
+    "exit_velocity": 107.2,
+    "inning": 5,
+    "launch_angle": 37.0,
+    "team": "HOU",
+    "xba": 0.711
+   },
+   {
+    "batter": "Daulton Varsho",
+    "distance": 375,
+    "event": null,
+    "exit_velocity": 107.0,
+    "inning": 8,
+    "launch_angle": 36.0,
+    "team": "HOU",
+    "xba": null
+   },
+   {
+    "batter": "Taylor Trammell",
+    "distance": 359,
+    "event": "home_run",
+    "exit_velocity": 106.4,
+    "inning": 8,
+    "launch_angle": 23.0,
+    "team": "HOU",
+    "xba": 0.869
+   },
+   {
+    "batter": "Jose Altuve",
+    "distance": 267,
+    "event": "double",
+    "exit_velocity": 105.8,
+    "inning": 5,
+    "launch_angle": 16.0,
+    "team": "HOU",
+    "xba": 0.566
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Jeremy Pe\u00f1a",
+    "description": "Jeremy Pe\u00f1a singles on a ground ball to third baseman Maikel Garcia. Taylor Trammell scores. LaMonte Wade Jr. to 3rd.",
+    "event": "single",
+    "exit_velocity": 87.4,
+    "kind": "hit_below_xba",
+    "team": "HOU",
+    "xba": 0.086
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.289,
+    "max_velo": 94.1,
+    "name": "Seth Lugo",
+    "pitches": 76,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 79.9,
+    "whiffs": 10
+   },
+   {
+    "csw_pct": 0.304,
+    "max_velo": 96.7,
+    "name": "Alex Lange",
+    "pitches": 23,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 92.9,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.19,
+    "max_velo": 92.3,
+    "name": "Connor Thomas",
+    "pitches": 21,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.8,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.5,
+    "max_velo": 93.2,
+    "name": "Jose Cuas",
+    "pitches": 14,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.3,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 34,
+   "batter": "LaMonte Wade Jr.",
+   "captivating_index": 75,
+   "description": "LaMonte Wade Jr. homers (4) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Seth Lugo",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 1
+   },
+   "wp_royals_after": 0.203,
+   "wpa_royals": -0.11
+  },
+  {
+   "at_bat_index": 13,
+   "batter": "Daulton Varsho",
+   "captivating_index": 65,
+   "description": "Daulton Varsho homers (12) on a fly ball to right center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Seth Lugo",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.364,
+   "wpa_royals": -0.108
+  },
+  {
+   "at_bat_index": 5,
+   "batter": "Jeremy Pe\u00f1a",
+   "captivating_index": 75,
+   "description": "Jeremy Pe\u00f1a homers (20) on a fly ball to left field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "Seth Lugo",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.452,
+   "wpa_royals": -0.1
+  },
+  {
+   "at_bat_index": 36,
+   "batter": "Yordan Alvarez",
+   "captivating_index": 75,
+   "description": "Yordan Alvarez homers (40) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Seth Lugo",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 1
+   },
+   "wp_royals_after": 0.132,
+   "wpa_royals": -0.082
+  },
+  {
+   "at_bat_index": 3,
+   "batter": "Maikel Garcia",
+   "captivating_index": 24,
+   "description": "Maikel Garcia grounds into a double play, second baseman Jose Altuve to first baseman LaMonte Wade Jr. Carter Jensen scores. Bobby Witt Jr. to 3rd. Jac Caglianone out at 2nd. Maikel Garcia out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Miguel Ullola",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 1
+   },
+   "wp_royals_after": 0.586,
+   "wpa_royals": -0.074
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
