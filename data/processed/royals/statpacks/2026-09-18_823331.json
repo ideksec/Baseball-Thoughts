@@ -1,0 +1,432 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Michael Massey",
+    "season_total": 13
+   },
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 13
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Vinnie Pasquantino"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, HR, 2 R, 2 RBI",
+   "name": "Vinnie Pasquantino"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  },
+  "save": {
+   "id": 642397,
+   "name": "Gregory Soto"
+  },
+  "winner": {
+   "id": 670990,
+   "name": "Yohan Ram\u00edrez"
+  }
+ },
+ "game": {
+  "date": "2026-09-18",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823331,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "PIT",
+   "id": 134,
+   "name": "Pittsburgh Pirates"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 87,
+   "wins": 67
+  },
+  "score": {
+   "opponent": 8,
+   "royals": 5
+  },
+  "venue": "PNC Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-19T12:36:53Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 2,
+   "hits": 8,
+   "runs": 5,
+   "runs_by_inning": [
+    1,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "PIT",
+   "errors": 0,
+   "hits": 15,
+   "runs": 8,
+   "runs_by_inning": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    3,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 297"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 5,
+   "h": 6,
+   "hr": 2,
+   "id": 694973,
+   "ip": "6.0",
+   "k": 7,
+   "name": "Paul Skenes",
+   "pitches": 89,
+   "r": 5,
+   "strikes": 63
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 2,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.1",
+    "k": 2,
+    "name": "Connor Thomas",
+    "pitches": 19,
+    "r": 1,
+    "strikes": 16
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Anthony Gose",
+    "pitches": 22,
+    "r": 0,
+    "strikes": 15
+   },
+   {
+    "bb": 1,
+    "er": 3,
+    "h": 3,
+    "hr": 0,
+    "id": 663878,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Nate Pearson",
+    "pitches": 28,
+    "r": 3,
+    "strikes": 14
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 668674,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Lucas Erceg",
+    "pitches": 12,
+    "r": 0,
+    "strikes": 8
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 4,
+   "h": 7,
+   "hr": 1,
+   "id": 677976,
+   "ip": "3.2",
+   "k": 1,
+   "name": "Randy Dobnak",
+   "pitches": 74,
+   "r": 4,
+   "strikes": 46
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -12,
+   "run_diff_excl_blowouts": -12,
+   "runs_allowed": 43,
+   "runs_scored": 31,
+   "top_game_run_share": 0.1613,
+   "top_game_runs": 5,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 154,
+   "last10": "3-7",
+   "losses": 87,
+   "run_diff": -100,
+   "streak": "L2",
+   "wins": 67
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Konnor Griffin",
+    "distance": 126,
+    "event": "single",
+    "exit_velocity": 107.6,
+    "inning": 7,
+    "launch_angle": 7.0,
+    "team": "PIT",
+    "xba": 0.686
+   },
+   {
+    "batter": "Henry Davis",
+    "distance": 395,
+    "event": null,
+    "exit_velocity": 107.2,
+    "inning": 4,
+    "launch_angle": 31.0,
+    "team": "PIT",
+    "xba": null
+   },
+   {
+    "batter": "Vinnie Pasquantino",
+    "distance": 395,
+    "event": "home_run",
+    "exit_velocity": 106.7,
+    "inning": 1,
+    "launch_angle": 25.0,
+    "team": "KC",
+    "xba": 0.937
+   },
+   {
+    "batter": "Spencer Horwitz",
+    "distance": 364,
+    "event": null,
+    "exit_velocity": 106.1,
+    "inning": 6,
+    "launch_angle": 24.0,
+    "team": "PIT",
+    "xba": null
+   },
+   {
+    "batter": "Brandon Lowe",
+    "distance": 417,
+    "event": "home_run",
+    "exit_velocity": 105.6,
+    "inning": 3,
+    "launch_angle": 33.0,
+    "team": "PIT",
+    "xba": 0.806
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "John Rave",
+    "description": "John Rave singles on a pop up to third baseman Nick Gonzales.",
+    "event": "single",
+    "exit_velocity": 55.5,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.04
+   },
+   {
+    "batter": "Nick Loftin",
+    "description": "Nick Loftin doubles (26) on a fly ball to right fielder Bryan Reynolds.",
+    "event": "double",
+    "exit_velocity": 76.5,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.077
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.216,
+    "max_velo": 93.5,
+    "name": "Randy Dobnak",
+    "pitches": 74,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.1,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.286,
+    "max_velo": 99.3,
+    "name": "Nate Pearson",
+    "pitches": 28,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.2,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.318,
+    "max_velo": 97.3,
+    "name": "Anthony Gose",
+    "pitches": 22,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 85.3,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.4,
+    "max_velo": 92.8,
+    "name": "Connor Thomas",
+    "pitches": 20,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.7,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 99.6,
+    "name": "Lucas Erceg",
+    "pitches": 12,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 99.1,
+    "whiffs": 2
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 63,
+   "batter": "Spencer Horwitz",
+   "captivating_index": 70,
+   "description": "Spencer Horwitz singles on a line drive to left fielder John Rave. Oneil Cruz scores. Nick Gonzales scores.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Nate Pearson",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 7,
+    "royals": 5
+   },
+   "wp_royals_after": 0.126,
+   "wpa_royals": -0.277
+  },
+  {
+   "at_bat_index": 57,
+   "batter": "Carter Jensen",
+   "captivating_index": 14,
+   "description": "Carter Jensen strikes out swinging.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Brandon Eisert",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 5,
+    "royals": 5
+   },
+   "wp_royals_after": 0.512,
+   "wpa_royals": -0.136
+  },
+  {
+   "at_bat_index": 62,
+   "batter": "Ronny Simon",
+   "captivating_index": 0,
+   "description": "Ronny Simon pops out to shortstop Bobby Witt Jr.",
+   "event": "Pop Out",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Nate Pearson",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 5,
+    "royals": 5
+   },
+   "wp_royals_after": 0.403,
+   "wpa_royals": 0.135
+  },
+  {
+   "at_bat_index": 35,
+   "batter": "Henry Davis",
+   "captivating_index": 34,
+   "description": "Henry Davis doubles (6) on a line drive to right fielder Nick Loftin. Ronny Simon scores. Spencer Horwitz to 3rd.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Randy Dobnak",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 5
+   },
+   "wp_royals_after": 0.577,
+   "wpa_royals": -0.135
+  },
+  {
+   "at_bat_index": 23,
+   "batter": "Brandon Lowe",
+   "captivating_index": 38,
+   "description": "Brandon Lowe homers (32) on a fly ball to center field. Konnor Griffin scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 3,
+   "pitcher": "Randy Dobnak",
+   "rank": 5,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 4
+   },
+   "wp_royals_after": 0.672,
+   "wpa_royals": -0.131
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
