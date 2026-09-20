@@ -1,0 +1,379 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Carter Jensen",
+    "season_total": 25
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 4,
+    "name": "Nick Loftin"
+   },
+   {
+    "ab": 5,
+    "hits": 3,
+    "name": "Bobby Witt Jr."
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Vinnie Pasquantino"
+   },
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "4-5, RBI",
+   "name": "Nick Loftin"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 674444,
+   "name": "Steven Cruz"
+  },
+  "save": {
+   "id": 682254,
+   "name": "Mason Montgomery"
+  },
+  "winner": {
+   "id": 596133,
+   "name": "Luke Weaver"
+  }
+ },
+ "game": {
+  "date": "2026-09-19",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823330,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "PIT",
+   "id": 134,
+   "name": "Pittsburgh Pirates"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 88,
+   "wins": 67
+  },
+  "score": {
+   "opponent": 6,
+   "royals": 5
+  },
+  "venue": "PNC Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-20T13:09:19Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 13,
+   "runs": 5,
+   "runs_by_inning": [
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "PIT",
+   "errors": 1,
+   "hits": 9,
+   "runs": 6,
+   "runs_by_inning": [
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 295"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 3,
+   "h": 8,
+   "hr": 1,
+   "id": 696149,
+   "ip": "4.0",
+   "k": 6,
+   "name": "Bubba Chandler",
+   "pitches": 90,
+   "r": 3,
+   "strikes": 57
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 676510,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Nolan Hoffman",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 2,
+    "h": 2,
+    "hr": 1,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Steven Cruz",
+    "pitches": 17,
+    "r": 2,
+    "strikes": 12
+   }
+  ],
+  "royals_starter": {
+   "bb": 2,
+   "er": 4,
+   "h": 7,
+   "hr": 2,
+   "id": 702070,
+   "ip": "6.0",
+   "k": 6,
+   "name": "Noah Cameron",
+   "pitches": 94,
+   "r": 4,
+   "strikes": 65
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -12,
+   "run_diff_excl_blowouts": -12,
+   "runs_allowed": 44,
+   "runs_scored": 32,
+   "top_game_run_share": 0.1562,
+   "top_game_runs": 5,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 155,
+   "last10": "3-7",
+   "losses": 88,
+   "run_diff": -101,
+   "streak": "L3",
+   "wins": 67
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Brandon Lowe",
+    "distance": 359,
+    "event": "single",
+    "exit_velocity": 110.9,
+    "inning": 2,
+    "launch_angle": 20.0,
+    "team": "PIT",
+    "xba": 0.906
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 80,
+    "event": "single",
+    "exit_velocity": 107.5,
+    "inning": 7,
+    "launch_angle": 1.0,
+    "team": "KC",
+    "xba": 0.511
+   },
+   {
+    "batter": "Konnor Griffin",
+    "distance": 394,
+    "event": null,
+    "exit_velocity": 106.1,
+    "inning": 3,
+    "launch_angle": 35.0,
+    "team": "PIT",
+    "xba": null
+   },
+   {
+    "batter": "Ronny Simon",
+    "distance": 393,
+    "event": "home_run",
+    "exit_velocity": 104.7,
+    "inning": 2,
+    "launch_angle": 25.0,
+    "team": "PIT",
+    "xba": 0.894
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 8,
+    "event": "field_out",
+    "exit_velocity": 104.3,
+    "inning": 1,
+    "launch_angle": -18.0,
+    "team": "KC",
+    "xba": 0.255
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.255,
+    "max_velo": 93.7,
+    "name": "Noah Cameron",
+    "pitches": 94,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 88.9,
+    "whiffs": 12
+   },
+   {
+    "csw_pct": 0.471,
+    "max_velo": 99.3,
+    "name": "Steven Cruz",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 98.8,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 92.2,
+    "name": "Nolan Hoffman",
+    "pitches": 9,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 84.8,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 70,
+   "batter": "Brandon Lowe",
+   "captivating_index": 65,
+   "description": "Brandon Lowe homers (33) on a fly ball to right center field. Jared Triolo scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Steven Cruz",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 6,
+    "royals": 5
+   },
+   "wp_royals_after": 0.133,
+   "wpa_royals": -0.461
+  },
+  {
+   "at_bat_index": 14,
+   "batter": "Ronny Simon",
+   "captivating_index": 75,
+   "description": "Ronny Simon homers (1) on a fly ball to left field. Brandon Lowe scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Noah Cameron",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 0
+   },
+   "wp_royals_after": 0.28,
+   "wpa_royals": -0.185
+  },
+  {
+   "at_bat_index": 36,
+   "batter": "Jake Mangum",
+   "captivating_index": 75,
+   "description": "Jake Mangum homers (5) on a fly ball to left field. Nick Gonzales scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Noah Cameron",
+   "rank": 3,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 1
+   },
+   "wp_royals_after": 0.158,
+   "wpa_royals": -0.171
+  },
+  {
+   "at_bat_index": 57,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 33,
+   "description": "Vinnie Pasquantino singles on a ground ball to left fielder Bryan Reynolds. Jac Caglianone to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Camilo Doval",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 4
+   },
+   "wp_royals_after": 0.702,
+   "wpa_royals": 0.143
+  },
+  {
+   "at_bat_index": 56,
+   "batter": "Jac Caglianone",
+   "captivating_index": 70,
+   "description": "Jac Caglianone singles on a line drive to left fielder Bryan Reynolds. Bobby Witt Jr. scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Camilo Doval",
+   "rank": 5,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 4
+   },
+   "wp_royals_after": 0.559,
+   "wpa_royals": 0.134
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
