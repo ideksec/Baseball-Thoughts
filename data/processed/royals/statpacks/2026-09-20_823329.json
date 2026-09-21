@@ -1,0 +1,463 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 14
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Salvador Perez"
+   },
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, RBI",
+   "name": "Salvador Perez"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  },
+  "save": {
+   "id": 682254,
+   "name": "Mason Montgomery"
+  },
+  "winner": {
+   "id": 669387,
+   "name": "Carmen Mlodzinski"
+  }
+ },
+ "game": {
+  "date": "2026-09-20",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 823329,
+  "home_away": "away",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "PIT",
+   "id": 134,
+   "name": "Pittsburgh Pirates"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 89,
+   "wins": 67
+  },
+  "score": {
+   "opponent": 4,
+   "royals": 3
+  },
+  "venue": "PNC Park",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-21T15:14:28Z",
+ "linescore": {
+  "away": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 9,
+   "runs": 3,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "PIT",
+   "errors": 1,
+   "hits": 8,
+   "runs": 4,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    2
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 322"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 1,
+   "h": 3,
+   "hr": 0,
+   "id": 669199,
+   "ip": "1.0",
+   "k": 1,
+   "name": "Lake Bachar",
+   "pitches": 20,
+   "r": 1,
+   "strikes": 14
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 676510,
+    "ip": "0.1",
+    "k": 1,
+    "name": "Nolan Hoffman",
+    "pitches": 5,
+    "r": 0,
+    "strikes": 3
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "0.2",
+    "k": 1,
+    "name": "Connor Thomas",
+    "pitches": 26,
+    "r": 0,
+    "strikes": 15
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 621016,
+    "ip": "0.1",
+    "k": 1,
+    "name": "Jose Cuas",
+    "pitches": 7,
+    "r": 0,
+    "strikes": 4
+   },
+   {
+    "bb": 0,
+    "er": 2,
+    "h": 3,
+    "hr": 1,
+    "id": 663878,
+    "ip": "0.2",
+    "k": 1,
+    "name": "Nate Pearson",
+    "pitches": 25,
+    "r": 2,
+    "strikes": 18
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 543238,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 6,
+    "r": 0,
+    "strikes": 5
+   }
+  ],
+  "royals_starter": {
+   "bb": 4,
+   "er": 2,
+   "h": 4,
+   "hr": 1,
+   "id": 608379,
+   "ip": "5.2",
+   "k": 5,
+   "name": "Michael Wacha",
+   "pitches": 113,
+   "r": 2,
+   "strikes": 78
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 7,
+   "run_diff": -11,
+   "run_diff_excl_blowouts": -11,
+   "runs_allowed": 43,
+   "runs_scored": 32,
+   "top_game_run_share": 0.1562,
+   "top_game_runs": 5,
+   "wins": 3
+  },
+  "season": {
+   "games_played": 156,
+   "last10": "3-7",
+   "losses": 89,
+   "run_diff": -102,
+   "streak": "L4",
+   "wins": 67
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 42,
+    "event": "single",
+    "exit_velocity": 113.8,
+    "inning": 3,
+    "launch_angle": -1.0,
+    "team": "KC",
+    "xba": 0.56
+   },
+   {
+    "batter": "Bryan Reynolds",
+    "distance": 404,
+    "event": null,
+    "exit_velocity": 111.1,
+    "inning": 5,
+    "launch_angle": 26.0,
+    "team": "PIT",
+    "xba": null
+   },
+   {
+    "batter": "Oneil Cruz",
+    "distance": 344,
+    "event": "field_out",
+    "exit_velocity": 110.9,
+    "inning": 6,
+    "launch_angle": 51.0,
+    "team": "PIT",
+    "xba": 0.08
+   },
+   {
+    "batter": "Rafael Flores Jr.",
+    "distance": 426,
+    "event": "home_run",
+    "exit_velocity": 110.2,
+    "inning": 8,
+    "launch_angle": 29.0,
+    "team": "PIT",
+    "xba": 0.997
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 41,
+    "event": "field_out",
+    "exit_velocity": 109.5,
+    "inning": 3,
+    "launch_angle": -1.0,
+    "team": "KC",
+    "xba": 0.503
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Brandon Lowe",
+    "description": "Brandon Lowe singles on a ground ball to third baseman Maikel Garcia, deflected by shortstop Bobby Witt Jr.",
+    "event": "single",
+    "exit_velocity": 92.9,
+    "kind": "hit_below_xba",
+    "team": "PIT",
+    "xba": 0.066
+   },
+   {
+    "batter": "Luke Maile",
+    "description": "Luke Maile doubles (2) on a fly ball to right fielder Jake Mangum. Luke Maile to 3rd. Luke Maile advances to 3rd, on a fielding error by right fielder Jake Mangum.",
+    "event": "double",
+    "exit_velocity": 95.0,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.131
+   },
+   {
+    "batter": "Jac Caglianone",
+    "description": "Jac Caglianone lines out sharply to left fielder Bryan Reynolds.",
+    "event": "field_out",
+    "exit_velocity": 108.0,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.703
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.202,
+    "max_velo": 95.1,
+    "name": "Michael Wacha",
+    "pitches": 114,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.2,
+    "whiffs": 12
+   },
+   {
+    "csw_pct": 0.154,
+    "max_velo": 93.0,
+    "name": "Connor Thomas",
+    "pitches": 26,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.0,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.2,
+    "max_velo": 100.0,
+    "name": "Nate Pearson",
+    "pitches": 25,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.9,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.143,
+    "max_velo": 92.5,
+    "name": "Jose Cuas",
+    "pitches": 7,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.2,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.333,
+    "max_velo": 96.4,
+    "name": "Anthony Gose",
+    "pitches": 6,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 86.3,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.4,
+    "max_velo": 92.0,
+    "name": "Nolan Hoffman",
+    "pitches": 5,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 87.4,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 65,
+   "batter": "Rafael Flores Jr.",
+   "captivating_index": 65,
+   "description": "Rafael Flores Jr. homers (10) on a fly ball to left field. Ronny Simon scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Nate Pearson",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.133,
+   "wpa_royals": -0.461
+  },
+  {
+   "at_bat_index": 53,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 65,
+   "description": "Vinnie Pasquantino homers (14) on a fly ball to right center field. John Rave scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 7,
+   "pitcher": "Carmen Mlodzinski",
+   "rank": 2,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 3
+   },
+   "wp_royals_after": 0.649,
+   "wpa_royals": 0.372
+  },
+  {
+   "at_bat_index": 48,
+   "batter": "Spencer Horwitz",
+   "captivating_index": 60,
+   "description": "Spencer Horwitz singles on a line drive to center fielder Tyler Tolbert. Ryan O'Hearn scores. Rafael Flores Jr. to 2nd.",
+   "event": "Single",
+   "half": "bottom",
+   "inning": 6,
+   "pitcher": "Michael Wacha",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 1
+   },
+   "wp_royals_after": 0.266,
+   "wpa_royals": -0.168
+  },
+  {
+   "at_bat_index": 29,
+   "batter": "Oneil Cruz",
+   "captivating_index": 75,
+   "description": "Oneil Cruz homers (20) on a fly ball to center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 4,
+   "pitcher": "Michael Wacha",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 1
+   },
+   "wp_royals_after": 0.44,
+   "wpa_royals": -0.132
+  },
+  {
+   "at_bat_index": 73,
+   "batter": "Isaac Collins",
+   "captivating_index": 0,
+   "description": "Isaac Collins flies out to right fielder Jake Mangum.",
+   "event": "Flyout",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Mason Montgomery",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.0,
+   "wpa_royals": -0.131
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
