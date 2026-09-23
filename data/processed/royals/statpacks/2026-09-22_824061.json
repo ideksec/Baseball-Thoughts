@@ -1,0 +1,427 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Nick Loftin",
+    "season_total": 8
+   },
+   {
+    "count": 1,
+    "name": "Vinnie Pasquantino",
+    "season_total": 15
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 3,
+    "name": "Vinnie Pasquantino"
+   },
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Bobby Witt Jr."
+   },
+   {
+    "ab": 5,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-5, 2B, HR, 3 R, 5 RBI",
+   "name": "Vinnie Pasquantino"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663738,
+   "name": "Daniel Lynch IV"
+  },
+  "save": null,
+  "winner": {
+   "id": 702273,
+   "name": "Noah Schultz"
+  }
+ },
+ "game": {
+  "date": "2026-09-22",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824061,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CWS",
+   "id": 145,
+   "name": "Chicago White Sox"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 90,
+   "wins": 67
+  },
+  "score": {
+   "opponent": 14,
+   "royals": 11
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-23T13:46:05Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CWS",
+   "errors": 0,
+   "hits": 13,
+   "runs": 14,
+   "runs_by_inning": [
+    2,
+    1,
+    3,
+    3,
+    0,
+    0,
+    5,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 13,
+   "runs": 11,
+   "runs_by_inning": [
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    3,
+    4
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 313"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 4,
+   "h": 7,
+   "hr": 1,
+   "id": 641743,
+   "ip": "4.0",
+   "k": 4,
+   "name": "Anthony Kay",
+   "pitches": 65,
+   "r": 4,
+   "strikes": 43
+  },
+  "royals_bullpen": [
+   {
+    "bb": 3,
+    "er": 5,
+    "h": 4,
+    "hr": 1,
+    "id": 664062,
+    "ip": "2.2",
+    "k": 5,
+    "name": "Tony Gonsolin",
+    "pitches": 63,
+    "r": 5,
+    "strikes": 35
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 676510,
+    "ip": "1.1",
+    "k": 3,
+    "name": "Nolan Hoffman",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 14
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Alex Lange",
+    "pitches": 10,
+    "r": 0,
+    "strikes": 8
+   }
+  ],
+  "royals_starter": {
+   "bb": 3,
+   "er": 9,
+   "h": 7,
+   "hr": 3,
+   "id": 663738,
+   "ip": "4.0",
+   "k": 2,
+   "name": "Daniel Lynch IV",
+   "pitches": 78,
+   "r": 9,
+   "strikes": 48
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 8,
+   "run_diff": -17,
+   "run_diff_excl_blowouts": -17,
+   "runs_allowed": 55,
+   "runs_scored": 38,
+   "top_game_run_share": 0.2895,
+   "top_game_runs": 11,
+   "wins": 2
+  },
+  "season": {
+   "games_played": 157,
+   "last10": "2-8",
+   "losses": 90,
+   "run_diff": -105,
+   "streak": "L5",
+   "wins": 67
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Colson Montgomery",
+    "distance": 285,
+    "event": null,
+    "exit_velocity": 110.4,
+    "inning": 7,
+    "launch_angle": 18.0,
+    "team": "CWS",
+    "xba": null
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 351,
+    "event": "double",
+    "exit_velocity": 109.9,
+    "inning": 3,
+    "launch_angle": 21.0,
+    "team": "KC",
+    "xba": 0.923
+   },
+   {
+    "batter": "Randal Grichuk",
+    "distance": 321,
+    "event": "double",
+    "exit_velocity": 109.7,
+    "inning": 3,
+    "launch_angle": 17.0,
+    "team": "CWS",
+    "xba": 0.691
+   },
+   {
+    "batter": "Munetaka Murakami",
+    "distance": 373,
+    "event": "home_run",
+    "exit_velocity": 109.1,
+    "inning": 7,
+    "launch_angle": 24.0,
+    "team": "CWS",
+    "xba": 0.983
+   },
+   {
+    "batter": "Jac Caglianone",
+    "distance": 397,
+    "event": "double",
+    "exit_velocity": 107.2,
+    "inning": 8,
+    "launch_angle": 22.0,
+    "team": "KC",
+    "xba": 0.866
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Chase Meidroth",
+    "description": "Chase Meidroth singles on a ground ball to second baseman Michael Massey.",
+    "event": "single",
+    "exit_velocity": 88.5,
+    "kind": "hit_below_xba",
+    "team": "CWS",
+    "xba": 0.074
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "description": "Bobby Witt Jr. lines out sharply to center fielder Brenton Doyle.",
+    "event": "field_out",
+    "exit_velocity": 107.1,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.863
+   },
+   {
+    "batter": "Braden Montgomery",
+    "description": "Braden Montgomery lines out to second baseman Michael Massey.",
+    "event": "field_out",
+    "exit_velocity": 92.6,
+    "kind": "out_above_xba",
+    "team": "CWS",
+    "xba": 0.86
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.244,
+    "max_velo": 95.4,
+    "name": "Daniel Lynch IV",
+    "pitches": 78,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.4,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.302,
+    "max_velo": 94.2,
+    "name": "Tony Gonsolin",
+    "pitches": 63,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 91.9,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.529,
+    "max_velo": 93.2,
+    "name": "Nolan Hoffman",
+    "pitches": 17,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.8,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.5,
+    "max_velo": 96.0,
+    "name": "Alex Lange",
+    "pitches": 10,
+    "primary_pitch": "SL",
+    "primary_pitch_avg_velo": 87.7,
+    "whiffs": 2
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 4,
+   "batter": "Chase Meidroth",
+   "captivating_index": 33,
+   "description": "Chase Meidroth singles on a line drive to left fielder Nick Loftin. Tommy Pham scores. Randal Grichuk scores. Munetaka Murakami to 2nd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 0
+   },
+   "wp_royals_after": 0.284,
+   "wpa_royals": -0.117
+  },
+  {
+   "at_bat_index": 20,
+   "batter": "Chase Meidroth",
+   "captivating_index": 38,
+   "description": "Chase Meidroth homers (16) on a fly ball to left center field. Randal Grichuk scores. Munetaka Murakami scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 2,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 6,
+    "royals": 0
+   },
+   "wp_royals_after": 0.066,
+   "wpa_royals": -0.117
+  },
+  {
+   "at_bat_index": 10,
+   "batter": "Brenton Doyle",
+   "captivating_index": 75,
+   "description": "Brenton Doyle homers (4) on a fly ball to center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.222,
+   "wpa_royals": -0.08
+  },
+  {
+   "at_bat_index": 5,
+   "batter": "Kyle Teel",
+   "captivating_index": 24,
+   "description": "Kyle Teel grounds into a double play, first baseman Vinnie Pasquantino to shortstop Bobby Witt Jr. to pitcher Daniel Lynch IV. Chase Meidroth out at 2nd. Kyle Teel out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 0
+   },
+   "wp_royals_after": 0.352,
+   "wpa_royals": 0.068
+  },
+  {
+   "at_bat_index": 32,
+   "batter": "Randal Grichuk",
+   "captivating_index": 38,
+   "description": "Randal Grichuk homers (14) on a fly ball to center field. Miguel Vargas scores. Tommy Pham scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 5,
+   "rbi": 3,
+   "score_after": {
+    "opponent": 9,
+    "royals": 1
+   },
+   "wp_royals_after": 0.02,
+   "wpa_royals": -0.061
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
