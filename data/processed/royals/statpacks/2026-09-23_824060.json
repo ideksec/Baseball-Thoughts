@@ -1,0 +1,431 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 3,
+    "name": "Carter Jensen"
+   },
+   {
+    "ab": 3,
+    "hits": 3,
+    "name": "Maikel Garcia"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Michael Massey"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-3, 2B, BB, R, 3 RBI",
+   "name": "Maikel Garcia"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 696146,
+   "name": "Hagen Smith"
+  },
+  "save": {
+   "id": 674444,
+   "name": "Steven Cruz"
+  },
+  "winner": {
+   "id": 671162,
+   "name": "Connor Thomas"
+  }
+ },
+ "game": {
+  "date": "2026-09-23",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824060,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CWS",
+   "id": 145,
+   "name": "Chicago White Sox"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 90,
+   "wins": 68
+  },
+  "score": {
+   "opponent": 4,
+   "royals": 5
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-24T13:40:38Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CWS",
+   "errors": 1,
+   "hits": 9,
+   "runs": 4,
+   "runs_by_inning": [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 0,
+   "hits": 12,
+   "runs": 5,
+   "runs_by_inning": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 293"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 3,
+   "h": 4,
+   "hr": 0,
+   "id": 663542,
+   "ip": "0.1",
+   "k": 0,
+   "name": "Bryan Hudson",
+   "pitches": 16,
+   "r": 4,
+   "strikes": 10
+  },
+  "royals_bullpen": [
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.2",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "2.0",
+    "k": 1,
+    "name": "Connor Thomas",
+    "pitches": 22,
+    "r": 0,
+    "strikes": 15
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 668674,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Lucas Erceg",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 6
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 674444,
+    "ip": "1.0",
+    "k": 2,
+    "name": "Steven Cruz",
+    "pitches": 15,
+    "r": 0,
+    "strikes": 11
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 4,
+   "h": 7,
+   "hr": 0,
+   "id": 607625,
+   "ip": "3.1",
+   "k": 3,
+   "name": "Seth Lugo",
+   "pitches": 72,
+   "r": 4,
+   "strikes": 41
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 0,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 8,
+   "run_diff": -17,
+   "run_diff_excl_blowouts": -17,
+   "runs_allowed": 57,
+   "runs_scored": 40,
+   "top_game_run_share": 0.275,
+   "top_game_runs": 11,
+   "wins": 2
+  },
+  "season": {
+   "games_played": 158,
+   "last10": "2-8",
+   "losses": 90,
+   "run_diff": -104,
+   "streak": "W1",
+   "wins": 68
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 126,
+    "event": null,
+    "exit_velocity": 111.9,
+    "inning": 2,
+    "launch_angle": 6.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Braden Montgomery",
+    "distance": 83,
+    "event": "single",
+    "exit_velocity": 109.7,
+    "inning": 3,
+    "launch_angle": 3.0,
+    "team": "CWS",
+    "xba": 0.614
+   },
+   {
+    "batter": "Colson Montgomery",
+    "distance": 79,
+    "event": null,
+    "exit_velocity": 107.2,
+    "inning": 4,
+    "launch_angle": 3.0,
+    "team": "CWS",
+    "xba": null
+   },
+   {
+    "batter": "Munetaka Murakami",
+    "distance": 290,
+    "event": "double",
+    "exit_velocity": 107.1,
+    "inning": 3,
+    "launch_angle": 20.0,
+    "team": "CWS",
+    "xba": 0.737
+   },
+   {
+    "batter": "Munetaka Murakami",
+    "distance": 322,
+    "event": "field_out",
+    "exit_velocity": 106.8,
+    "inning": 2,
+    "launch_angle": 45.0,
+    "team": "CWS",
+    "xba": 0.223
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Braden Montgomery",
+    "description": "Braden Montgomery singles on a sharp ground ball to left fielder Isaac Collins.",
+    "event": "single",
+    "exit_velocity": 103.1,
+    "kind": "hit_below_xba",
+    "team": "CWS",
+    "xba": 0.095
+   },
+   {
+    "batter": "Salvador Perez",
+    "description": "Salvador Perez flies out sharply to center fielder Tristan Peters.",
+    "event": "field_out",
+    "exit_velocity": 106.5,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.869
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.264,
+    "max_velo": 94.8,
+    "name": "Seth Lugo",
+    "pitches": 72,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.5,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.273,
+    "max_velo": 92.8,
+    "name": "Connor Thomas",
+    "pitches": 22,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 91.9,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.235,
+    "max_velo": 97.6,
+    "name": "Anthony Gose",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 96.1,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.267,
+    "max_velo": 100.1,
+    "name": "Steven Cruz",
+    "pitches": 15,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 99.2,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.444,
+    "max_velo": 100.6,
+    "name": "Lucas Erceg",
+    "pitches": 9,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 99.0,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 60,
+   "batter": "Maikel Garcia",
+   "captivating_index": 61,
+   "description": "Maikel Garcia doubles (20) on a line drive to left fielder Sam Antonacci. Bobby Witt Jr. scores.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 7,
+   "pitcher": "Hagen Smith",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 5
+   },
+   "wp_royals_after": 0.777,
+   "wpa_royals": 0.212
+  },
+  {
+   "at_bat_index": 37,
+   "batter": "Miguel Vargas",
+   "captivating_index": 24,
+   "description": "Miguel Vargas grounds into a double play, shortstop Bobby Witt Jr. to second baseman Michael Massey to first baseman Vinnie Pasquantino. Kyle Teel out at 2nd. Miguel Vargas out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 4,
+   "pitcher": "Anthony Gose",
+   "rank": 2,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 4,
+    "royals": 4
+   },
+   "wp_royals_after": 0.56,
+   "wpa_royals": 0.179
+  },
+  {
+   "at_bat_index": 26,
+   "batter": "Munetaka Murakami",
+   "captivating_index": 71,
+   "description": "Munetaka Murakami doubles (15) on a sharp line drive to right fielder Jac Caglianone. Kyle Teel scores. Miguel Vargas to 3rd.",
+   "event": "Double",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Seth Lugo",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 4
+   },
+   "wp_royals_after": 0.403,
+   "wpa_royals": -0.131
+  },
+  {
+   "at_bat_index": 25,
+   "batter": "Miguel Vargas",
+   "captivating_index": 33,
+   "description": "Miguel Vargas singles on a fly ball to center fielder John Rave. Sam Antonacci scores. Kyle Teel to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Seth Lugo",
+   "rank": 4,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 4
+   },
+   "wp_royals_after": 0.534,
+   "wpa_royals": -0.131
+  },
+  {
+   "at_bat_index": 24,
+   "batter": "Kyle Teel",
+   "captivating_index": 33,
+   "description": "Kyle Teel singles on a sharp line drive to left fielder Isaac Collins. Chase Meidroth scores. Braden Montgomery scores. Sam Antonacci to 2nd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Seth Lugo",
+   "rank": 5,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 2,
+    "royals": 4
+   },
+   "wp_royals_after": 0.665,
+   "wpa_royals": -0.105
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
