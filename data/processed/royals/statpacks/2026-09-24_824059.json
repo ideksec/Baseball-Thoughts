@@ -1,0 +1,452 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 1,
+    "name": "Salvador Perez",
+    "season_total": 20
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "John Rave"
+   },
+   {
+    "ab": 3,
+    "hits": 2,
+    "name": "Kyle Isbel"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2B",
+   "name": "John Rave"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 677976,
+   "name": "Randy Dobnak"
+  },
+  "save": null,
+  "winner": {
+   "id": 689818,
+   "name": "David Sandlin"
+  }
+ },
+ "game": {
+  "date": "2026-09-24",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824059,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CWS",
+   "id": 145,
+   "name": "Chicago White Sox"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 91,
+   "wins": 68
+  },
+  "score": {
+   "opponent": 9,
+   "royals": 1
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-25T14:02:24Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CWS",
+   "errors": 0,
+   "hits": 12,
+   "runs": 9,
+   "runs_by_inning": [
+    3,
+    3,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 2,
+   "hits": 7,
+   "runs": 1,
+   "runs_by_inning": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 314"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 0,
+   "er": 1,
+   "h": 5,
+   "hr": 1,
+   "id": 689818,
+   "ip": "6.0",
+   "k": 7,
+   "name": "David Sandlin",
+   "pitches": 85,
+   "r": 1,
+   "strikes": 59
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 543238,
+    "ip": "1.2",
+    "k": 3,
+    "name": "Anthony Gose",
+    "pitches": 28,
+    "r": 0,
+    "strikes": 19
+   },
+   {
+    "bb": 2,
+    "er": 2,
+    "h": 2,
+    "hr": 1,
+    "id": 656638,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Alex Lange",
+    "pitches": 20,
+    "r": 2,
+    "strikes": 10
+   },
+   {
+    "bb": 3,
+    "er": 1,
+    "h": 1,
+    "hr": 0,
+    "id": 621016,
+    "ip": "2.0",
+    "k": 2,
+    "name": "Jose Cuas",
+    "pitches": 42,
+    "r": 1,
+    "strikes": 21
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 702352,
+    "ip": "2.0",
+    "k": 4,
+    "name": "Spencer Bivens",
+    "pitches": 32,
+    "r": 0,
+    "strikes": 24
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 676510,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Nolan Hoffman",
+    "pitches": 16,
+    "r": 0,
+    "strikes": 8
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 4,
+   "h": 6,
+   "hr": 0,
+   "id": 677976,
+   "ip": "1.1",
+   "k": 1,
+   "name": "Randy Dobnak",
+   "pitches": 42,
+   "r": 6,
+   "strikes": 27
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 4,
+   "losses": 8,
+   "run_diff": -21,
+   "run_diff_excl_blowouts": -13,
+   "runs_allowed": 61,
+   "runs_scored": 40,
+   "top_game_run_share": 0.275,
+   "top_game_runs": 11,
+   "wins": 2
+  },
+  "season": {
+   "games_played": 159,
+   "last10": "2-8",
+   "losses": 91,
+   "run_diff": -112,
+   "streak": "L1",
+   "wins": 68
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Salvador Perez",
+    "distance": 419,
+    "event": "home_run",
+    "exit_velocity": 110.1,
+    "inning": 4,
+    "launch_angle": 20.0,
+    "team": "KC",
+    "xba": 0.891
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 21,
+    "event": "double",
+    "exit_velocity": 109.4,
+    "inning": 1,
+    "launch_angle": -5.0,
+    "team": "KC",
+    "xba": 0.508
+   },
+   {
+    "batter": "Kyle Teel",
+    "distance": 424,
+    "event": "home_run",
+    "exit_velocity": 105.6,
+    "inning": 4,
+    "launch_angle": 28.0,
+    "team": "CWS",
+    "xba": 0.923
+   },
+   {
+    "batter": "John Rave",
+    "distance": 355,
+    "event": "double",
+    "exit_velocity": 103.8,
+    "inning": 7,
+    "launch_angle": 23.0,
+    "team": "KC",
+    "xba": 0.766
+   },
+   {
+    "batter": "Tristan Peters",
+    "distance": 51,
+    "event": "single",
+    "exit_velocity": 103.6,
+    "inning": 1,
+    "launch_angle": 1.0,
+    "team": "CWS",
+    "xba": 0.486
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Vinnie Pasquantino",
+    "description": "Vinnie Pasquantino lines out to first baseman Munetaka Murakami.",
+    "event": "field_out",
+    "exit_velocity": 97.5,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.883
+   },
+   {
+    "batter": "Tristan Peters",
+    "description": "Tristan Peters lines out to right fielder John Rave.",
+    "event": "field_out",
+    "exit_velocity": 80.4,
+    "kind": "out_above_xba",
+    "team": "CWS",
+    "xba": 0.791
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.31,
+    "max_velo": 93.0,
+    "name": "Jose Cuas",
+    "pitches": 42,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 91.8,
+    "whiffs": 5
+   },
+   {
+    "csw_pct": 0.238,
+    "max_velo": 93.0,
+    "name": "Randy Dobnak",
+    "pitches": 42,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 84.0,
+    "whiffs": 4
+   },
+   {
+    "csw_pct": 0.406,
+    "max_velo": 95.2,
+    "name": "Spencer Bivens",
+    "pitches": 32,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.0,
+    "whiffs": 7
+   },
+   {
+    "csw_pct": 0.393,
+    "max_velo": 97.1,
+    "name": "Anthony Gose",
+    "pitches": 28,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.6,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.25,
+    "max_velo": 97.1,
+    "name": "Alex Lange",
+    "pitches": 20,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 96.3,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.25,
+    "max_velo": 93.0,
+    "name": "Nolan Hoffman",
+    "pitches": 16,
+    "primary_pitch": "FC",
+    "primary_pitch_avg_velo": 88.1,
+    "whiffs": 2
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 5,
+   "batter": "Tristan Peters",
+   "captivating_index": 33,
+   "description": "Tristan Peters singles on a ground ball to center fielder Kyle Isbel. Miguel Vargas scores.",
+   "event": "Single",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Randy Dobnak",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.253,
+   "wpa_royals": -0.073
+  },
+  {
+   "at_bat_index": 2,
+   "batter": "Miguel Vargas",
+   "captivating_index": 33,
+   "description": "Miguel Vargas singles on a line drive to left fielder Isaac Collins. Sam Antonacci scores. Kyle Teel to 3rd.",
+   "event": "Single",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Randy Dobnak",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.298,
+   "wpa_royals": -0.067
+  },
+  {
+   "at_bat_index": 1,
+   "batter": "Kyle Teel",
+   "captivating_index": 4,
+   "description": "Kyle Teel hits a sacrifice bunt. Throwing error by pitcher Randy Dobnak. Sam Antonacci to 2nd. Kyle Teel to 1st.",
+   "event": "Sac Bunt",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Randy Dobnak",
+   "rank": 3,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.41,
+   "wpa_royals": -0.054
+  },
+  {
+   "at_bat_index": 3,
+   "batter": "Munetaka Murakami",
+   "captivating_index": 14,
+   "description": "Munetaka Murakami strikes out swinging.",
+   "event": "Strikeout",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Randy Dobnak",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 1,
+    "royals": 0
+   },
+   "wp_royals_after": 0.344,
+   "wpa_royals": 0.046
+  },
+  {
+   "at_bat_index": 9,
+   "batter": "Bobby Witt Jr.",
+   "captivating_index": 34,
+   "description": "Bobby Witt Jr. doubles (32) on a ground ball to left fielder Sam Antonacci.",
+   "event": "Double",
+   "half": "bottom",
+   "inning": 1,
+   "pitcher": "David Sandlin",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 3,
+    "royals": 0
+   },
+   "wp_royals_after": 0.284,
+   "wpa_royals": 0.038
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}

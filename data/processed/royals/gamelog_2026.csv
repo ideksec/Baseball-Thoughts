@@ -157,3 +157,4 @@ game_pk,date,game_number,doubleheader,home_away,opponent_abbrev,opponent_name,re
 823329,2026-09-20,1,N,away,PIT,Pittsburgh Pirates,L,3,4,9,False,9.0,1.0,8.0,1.0,Carmen Mlodzinski,Nate Pearson,Mason Montgomery,Michael Wacha,5.2,2.0,67,89,data/processed/royals/statpacks/2026-09-20_823329.json
 824061,2026-09-22,1,N,home,CWS,Chicago White Sox,L,11,14,9,False,13.0,0.0,13.0,0.0,Noah Schultz,Daniel Lynch IV,,Daniel Lynch IV,4.0,9.0,67,90,data/processed/royals/statpacks/2026-09-22_824061.json
 824060,2026-09-23,1,N,home,CWS,Chicago White Sox,W,5,4,9,False,12.0,0.0,9.0,1.0,Connor Thomas,Hagen Smith,Steven Cruz,Seth Lugo,3.1,4.0,68,90,data/processed/royals/statpacks/2026-09-23_824060.json
+824059,2026-09-24,1,N,home,CWS,Chicago White Sox,L,1,9,9,False,7.0,2.0,12.0,0.0,David Sandlin,Randy Dobnak,,Randy Dobnak,1.1,4.0,68,91,data/processed/royals/statpacks/2026-09-24_824059.json
