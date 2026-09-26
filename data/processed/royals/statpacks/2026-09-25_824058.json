@@ -1,0 +1,440 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 2,
+    "name": "Carter Jensen",
+    "season_total": 27
+   },
+   {
+    "count": 1,
+    "name": "Salvador Perez",
+    "season_total": 21
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 5,
+    "hits": 3,
+    "name": "Jac Caglianone"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Carter Jensen"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Maikel Garcia"
+   }
+  ],
+  "royals_top_line": {
+   "line": "3-5, 2B, 2 RBI",
+   "name": "Jac Caglianone"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  },
+  "save": null,
+  "winner": {
+   "id": 683769,
+   "name": "Hunter Gaddis"
+  }
+ },
+ "game": {
+  "date": "2026-09-25",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824058,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CLE",
+   "id": 114,
+   "name": "Cleveland Guardians"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 92,
+   "wins": 68
+  },
+  "score": {
+   "opponent": 12,
+   "royals": 9
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-26T13:17:34Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CLE",
+   "errors": 2,
+   "hits": 9,
+   "runs": 12,
+   "runs_by_inning": [
+    2,
+    1,
+    0,
+    1,
+    3,
+    0,
+    0,
+    0,
+    5
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 1,
+   "hits": 13,
+   "runs": 9,
+   "runs_by_inning": [
+    1,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 358"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 4,
+   "er": 4,
+   "h": 5,
+   "hr": 1,
+   "id": 668909,
+   "ip": "3.1",
+   "k": 4,
+   "name": "Gavin Williams",
+   "pitches": 74,
+   "r": 4,
+   "strikes": 46
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 671162,
+    "ip": "2.0",
+    "k": 0,
+    "name": "Connor Thomas",
+    "pitches": 22,
+    "r": 0,
+    "strikes": 16
+   },
+   {
+    "bb": 3,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 668674,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Lucas Erceg",
+    "pitches": 25,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 4,
+    "er": 4,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "0.2",
+    "k": 0,
+    "name": "Nate Pearson",
+    "pitches": 23,
+    "r": 4,
+    "strikes": 5
+   },
+   {
+    "bb": 2,
+    "er": 1,
+    "h": 1,
+    "hr": 0,
+    "id": 676510,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Nolan Hoffman",
+    "pitches": 11,
+    "r": 1,
+    "strikes": 3
+   }
+  ],
+  "royals_starter": {
+   "bb": 4,
+   "er": 6,
+   "h": 7,
+   "hr": 2,
+   "id": 702070,
+   "ip": "5.0",
+   "k": 3,
+   "name": "Noah Cameron",
+   "pitches": 101,
+   "r": 7,
+   "strikes": 56
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 3,
+   "losses": 8,
+   "run_diff": -21,
+   "run_diff_excl_blowouts": -13,
+   "runs_allowed": 69,
+   "runs_scored": 48,
+   "top_game_run_share": 0.2292,
+   "top_game_runs": 11,
+   "wins": 2
+  },
+  "season": {
+   "games_played": 160,
+   "last10": "2-8",
+   "losses": 92,
+   "run_diff": -115,
+   "streak": "L2",
+   "wins": 68
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Chase DeLauter",
+    "distance": 191,
+    "event": "double",
+    "exit_velocity": 109.6,
+    "inning": 3,
+    "launch_angle": 9.0,
+    "team": "CLE",
+    "xba": 0.826
+   },
+   {
+    "batter": "Jo Adell",
+    "distance": 158,
+    "event": "double",
+    "exit_velocity": 108.8,
+    "inning": 5,
+    "launch_angle": 9.0,
+    "team": "CLE",
+    "xba": 0.777
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 418,
+    "event": "home_run",
+    "exit_velocity": 108.4,
+    "inning": 8,
+    "launch_angle": 38.0,
+    "team": "KC",
+    "xba": 0.726
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 389,
+    "event": "home_run",
+    "exit_velocity": 108.2,
+    "inning": 2,
+    "launch_angle": 24.0,
+    "team": "KC",
+    "xba": 0.977
+   },
+   {
+    "batter": "Salvador Perez",
+    "distance": 434,
+    "event": "home_run",
+    "exit_velocity": 107.3,
+    "inning": 9,
+    "launch_angle": 28.0,
+    "team": "KC",
+    "xba": 0.946
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Travis Bazzana",
+    "description": "Travis Bazzana doubles (21) on a fly ball to right fielder Jac Caglianone.",
+    "event": "double",
+    "exit_velocity": 94.3,
+    "kind": "hit_below_xba",
+    "team": "CLE",
+    "xba": 0.006
+   },
+   {
+    "batter": "Jac Caglianone",
+    "description": "Jac Caglianone singles on a ground ball to shortstop Brayan Rocchio.",
+    "event": "single",
+    "exit_velocity": 103.7,
+    "kind": "hit_below_xba",
+    "team": "KC",
+    "xba": 0.139
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.158,
+    "max_velo": 94.2,
+    "name": "Noah Cameron",
+    "pitches": 101,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 92.2,
+    "whiffs": 3
+   },
+   {
+    "csw_pct": 0.12,
+    "max_velo": 100.0,
+    "name": "Lucas Erceg",
+    "pitches": 25,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 99.1,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.087,
+    "max_velo": 96.6,
+    "name": "Nate Pearson",
+    "pitches": 23,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.7,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.182,
+    "max_velo": 92.2,
+    "name": "Connor Thomas",
+    "pitches": 22,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 91.5,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.091,
+    "max_velo": 92.5,
+    "name": "Nolan Hoffman",
+    "pitches": 11,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 92.1,
+    "whiffs": 0
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 77,
+   "batter": "Carter Jensen",
+   "captivating_index": 75,
+   "description": "Carter Jensen homers (27) on a fly ball to right center field. Kyle Isbel scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Hunter Gaddis",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 7,
+    "royals": 7
+   },
+   "wp_royals_after": 0.526,
+   "wpa_royals": 0.407
+  },
+  {
+   "at_bat_index": 84,
+   "batter": "Jos\u00e9 Ram\u00edrez",
+   "captivating_index": 0,
+   "description": "Jos\u00e9 Ram\u00edrez walks. Patrick Bailey scores. Brayan Rocchio to 3rd. Steven Kwan to 2nd.",
+   "event": "Walk",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Nate Pearson",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 8,
+    "royals": 7
+   },
+   "wp_royals_after": 0.152,
+   "wpa_royals": -0.309
+  },
+  {
+   "at_bat_index": 45,
+   "batter": "David Fry",
+   "captivating_index": 65,
+   "description": "David Fry homers (8) on a fly ball to left field. Jo Adell scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 5,
+   "pitcher": "Noah Cameron",
+   "rank": 3,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 6,
+    "royals": 5
+   },
+   "wp_royals_after": 0.386,
+   "wpa_royals": -0.225
+  },
+  {
+   "at_bat_index": 83,
+   "batter": "Steven Kwan",
+   "captivating_index": 0,
+   "description": "Steven Kwan grounds into a force out, third baseman Maikel Garcia to catcher Carter Jensen. Nathaniel Lowe out at home. Patrick Bailey to 3rd. Brayan Rocchio to 2nd. Steven Kwan to 1st.",
+   "event": "Forceout",
+   "half": "top",
+   "inning": 9,
+   "pitcher": "Nate Pearson",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 7,
+    "royals": 7
+   },
+   "wp_royals_after": 0.461,
+   "wpa_royals": 0.179
+  },
+  {
+   "at_bat_index": 20,
+   "batter": "Carter Jensen",
+   "captivating_index": 75,
+   "description": "Carter Jensen homers (26) on a fly ball to right field. John Rave scores.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 2,
+   "pitcher": "Gavin Williams",
+   "rank": 5,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 3,
+    "royals": 3
+   },
+   "wp_royals_after": 0.528,
+   "wpa_royals": 0.167
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
