@@ -1,0 +1,438 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Carter Jensen"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Bobby Witt Jr."
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2 2B, 2 R, 2 RBI",
+   "name": "Jac Caglianone"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 608379,
+   "name": "Michael Wacha"
+  },
+  "save": null,
+  "winner": {
+   "id": 676440,
+   "name": "Tanner Bibee"
+  }
+ },
+ "game": {
+  "date": "2026-09-26",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824057,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CLE",
+   "id": 114,
+   "name": "Cleveland Guardians"
+  },
+  "result": "L",
+  "royals_record_after": {
+   "losses": 93,
+   "wins": 68
+  },
+  "score": {
+   "opponent": 11,
+   "royals": 5
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-27T14:11:02Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CLE",
+   "errors": 1,
+   "hits": 14,
+   "runs": 11,
+   "runs_by_inning": [
+    0,
+    4,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    4
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 2,
+   "hits": 10,
+   "runs": 5,
+   "runs_by_inning": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 299"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 3,
+   "h": 7,
+   "hr": 0,
+   "id": 676440,
+   "ip": "6.0",
+   "k": 6,
+   "name": "Tanner Bibee",
+   "pitches": 94,
+   "r": 3,
+   "strikes": 61
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 1,
+    "h": 2,
+    "hr": 1,
+    "id": 543238,
+    "ip": "0.2",
+    "k": 0,
+    "name": "Anthony Gose",
+    "pitches": 14,
+    "r": 1,
+    "strikes": 7
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 2,
+    "hr": 0,
+    "id": 621016,
+    "ip": "1.0",
+    "k": 0,
+    "name": "Jose Cuas",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 12
+   },
+   {
+    "bb": 1,
+    "er": 4,
+    "h": 3,
+    "hr": 2,
+    "id": 656638,
+    "ip": "0.1",
+    "k": 0,
+    "name": "Alex Lange",
+    "pitches": 29,
+    "r": 4,
+    "strikes": 16
+   },
+   {
+    "bb": 2,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 702352,
+    "ip": "0.2",
+    "k": 0,
+    "name": "Spencer Bivens",
+    "pitches": 23,
+    "r": 0,
+    "strikes": 9
+   }
+  ],
+  "royals_starter": {
+   "bb": 1,
+   "er": 2,
+   "h": 6,
+   "hr": 2,
+   "id": 608379,
+   "ip": "6.1",
+   "k": 4,
+   "name": "Michael Wacha",
+   "pitches": 90,
+   "r": 6,
+   "strikes": 62
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 8,
+   "run_diff": -25,
+   "run_diff_excl_blowouts": -17,
+   "runs_allowed": 76,
+   "runs_scored": 51,
+   "top_game_run_share": 0.2157,
+   "top_game_runs": 11,
+   "wins": 2
+  },
+  "season": {
+   "games_played": 161,
+   "last10": "2-8",
+   "losses": 93,
+   "run_diff": -121,
+   "streak": "L3",
+   "wins": 68
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Salvador Perez",
+    "distance": 305,
+    "event": "double",
+    "exit_velocity": 109.9,
+    "inning": 6,
+    "launch_angle": 15.0,
+    "team": "KC",
+    "xba": 0.663
+   },
+   {
+    "batter": "Patrick Bailey",
+    "distance": 247,
+    "event": null,
+    "exit_velocity": 109.2,
+    "inning": 9,
+    "launch_angle": 14.0,
+    "team": "CLE",
+    "xba": null
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 409,
+    "event": "double",
+    "exit_velocity": 108.0,
+    "inning": 2,
+    "launch_angle": 22.0,
+    "team": "KC",
+    "xba": 0.911
+   },
+   {
+    "batter": "Chase DeLauter",
+    "distance": 400,
+    "event": "home_run",
+    "exit_velocity": 107.9,
+    "inning": 3,
+    "launch_angle": 20.0,
+    "team": "CLE",
+    "xba": 0.82
+   },
+   {
+    "batter": "Carter Jensen",
+    "distance": 372,
+    "event": "field_out",
+    "exit_velocity": 107.9,
+    "inning": 7,
+    "launch_angle": 37.0,
+    "team": "KC",
+    "xba": 0.789
+   }
+  ],
+  "most_improbable": [
+   {
+    "batter": "Brayan Rocchio",
+    "description": "Brayan Rocchio homers (14) on a fly ball to left field.",
+    "event": "home_run",
+    "exit_velocity": 98.0,
+    "kind": "hit_below_xba",
+    "team": "CLE",
+    "xba": 0.02
+   },
+   {
+    "batter": "Isaac Collins",
+    "description": "Isaac Collins lines out sharply to center fielder Petey Halpin.",
+    "event": "field_out",
+    "exit_velocity": 105.6,
+    "kind": "out_above_xba",
+    "team": "KC",
+    "xba": 0.886
+   },
+   {
+    "batter": "Jos\u00e9 Ram\u00edrez",
+    "description": "Jos\u00e9 Ram\u00edrez lines out sharply to first baseman Vinnie Pasquantino.",
+    "event": "field_out",
+    "exit_velocity": 103.2,
+    "kind": "out_above_xba",
+    "team": "CLE",
+    "xba": 0.849
+   }
+  ],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.256,
+    "max_velo": 95.3,
+    "name": "Michael Wacha",
+    "pitches": 90,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 93.7,
+    "whiffs": 7
+   },
+   {
+    "csw_pct": 0.207,
+    "max_velo": 96.5,
+    "name": "Alex Lange",
+    "pitches": 29,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 89.7,
+    "whiffs": 0
+   },
+   {
+    "csw_pct": 0.13,
+    "max_velo": 95.6,
+    "name": "Spencer Bivens",
+    "pitches": 23,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 94.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.235,
+    "max_velo": 90.8,
+    "name": "Jose Cuas",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 90.0,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.143,
+    "max_velo": 96.3,
+    "name": "Anthony Gose",
+    "pitches": 14,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 95.1,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 14,
+   "batter": "Patrick Bailey",
+   "captivating_index": 75,
+   "description": "Umpire reviewed (home run), call on the field was upheld: Patrick Bailey homers (9) on a fly ball to right field. Travis Bazzana scores.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Michael Wacha",
+   "rank": 1,
+   "rbi": 2,
+   "score_after": {
+    "opponent": 3,
+    "royals": 3
+   },
+   "wp_royals_after": 0.54,
+   "wpa_royals": -0.171
+  },
+  {
+   "at_bat_index": 16,
+   "batter": "Steven Kwan",
+   "captivating_index": 62,
+   "description": "Steven Kwan triples (3) on a line drive to left fielder Isaac Collins. Brayan Rocchio scores.",
+   "event": "Triple",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Michael Wacha",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 4,
+    "royals": 3
+   },
+   "wp_royals_after": 0.407,
+   "wpa_royals": -0.11
+  },
+  {
+   "at_bat_index": 22,
+   "batter": "Chase DeLauter",
+   "captivating_index": 75,
+   "description": "Chase DeLauter homers (16) on a line drive to right center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 3,
+   "pitcher": "Michael Wacha",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 5,
+    "royals": 3
+   },
+   "wp_royals_after": 0.288,
+   "wpa_royals": -0.1
+  },
+  {
+   "at_bat_index": 11,
+   "batter": "Travis Bazzana",
+   "captivating_index": 34,
+   "description": "Travis Bazzana doubles (22) on a sharp line drive to right fielder Jac Caglianone. Jo Adell to 3rd.",
+   "event": "Double",
+   "half": "top",
+   "inning": 2,
+   "pitcher": "Michael Wacha",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 3
+   },
+   "wp_royals_after": 0.646,
+   "wpa_royals": -0.097
+  },
+  {
+   "at_bat_index": 1,
+   "batter": "Jos\u00e9 Ram\u00edrez",
+   "captivating_index": 24,
+   "description": "Jos\u00e9 Ram\u00edrez grounds into a double play, second baseman Michael Massey to shortstop Bobby Witt Jr. to first baseman Vinnie Pasquantino. Steven Kwan out at 2nd. Jos\u00e9 Ram\u00edrez out at 1st.",
+   "event": "Grounded Into DP",
+   "half": "top",
+   "inning": 1,
+   "pitcher": "Michael Wacha",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 0,
+    "royals": 0
+   },
+   "wp_royals_after": 0.538,
+   "wpa_royals": 0.074
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
