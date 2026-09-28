@@ -1,0 +1,418 @@
+{
+ "batting_highlights": {
+  "royals_home_runs": [
+   {
+    "count": 2,
+    "name": "Vinnie Pasquantino",
+    "season_total": 17
+   }
+  ],
+  "royals_multi_hit": [
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Vinnie Pasquantino"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Kyle Isbel"
+   },
+   {
+    "ab": 4,
+    "hits": 2,
+    "name": "Jac Caglianone"
+   }
+  ],
+  "royals_top_line": {
+   "line": "2-4, 2 HR, 2 R, 2 RBI",
+   "name": "Vinnie Pasquantino"
+  }
+ },
+ "decisions": {
+  "loser": {
+   "id": 804926,
+   "name": "Austin Peterson"
+  },
+  "save": {
+   "id": 668674,
+   "name": "Lucas Erceg"
+  },
+  "winner": {
+   "id": 663878,
+   "name": "Nate Pearson"
+  }
+ },
+ "game": {
+  "date": "2026-09-27",
+  "doubleheader": "N",
+  "game_number": 1,
+  "game_pk": 824055,
+  "home_away": "home",
+  "innings": 9,
+  "opponent": {
+   "abbrev": "CLE",
+   "id": 114,
+   "name": "Cleveland Guardians"
+  },
+  "result": "W",
+  "royals_record_after": {
+   "losses": 93,
+   "wins": 69
+  },
+  "score": {
+   "opponent": 2,
+   "royals": 3
+  },
+  "venue": "Kauffman Stadium",
+  "walk_off": false
+ },
+ "generated_at": "2026-09-28T16:52:27Z",
+ "linescore": {
+  "away": {
+   "abbrev": "CLE",
+   "errors": 0,
+   "hits": 9,
+   "runs": 2,
+   "runs_by_inning": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "home": {
+   "abbrev": "KC",
+   "errors": 2,
+   "hits": 9,
+   "runs": 3,
+   "runs_by_inning": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ]
+  }
+ },
+ "notes": [
+  "statcast rows: 258"
+ ],
+ "pitching": {
+  "opponent_starter": {
+   "bb": 1,
+   "er": 1,
+   "h": 6,
+   "hr": 0,
+   "id": 800048,
+   "ip": "3.0",
+   "k": 2,
+   "name": "Parker Messick",
+   "pitches": 64,
+   "r": 1,
+   "strikes": 42
+  },
+  "royals_bullpen": [
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 676510,
+    "ip": "0.2",
+    "k": 1,
+    "name": "Nolan Hoffman",
+    "pitches": 7,
+    "r": 0,
+    "strikes": 5
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 671162,
+    "ip": "1.1",
+    "k": 1,
+    "name": "Connor Thomas",
+    "pitches": 11,
+    "r": 0,
+    "strikes": 10
+   },
+   {
+    "bb": 1,
+    "er": 0,
+    "h": 0,
+    "hr": 0,
+    "id": 663878,
+    "ip": "0.2",
+    "k": 0,
+    "name": "Nate Pearson",
+    "pitches": 9,
+    "r": 0,
+    "strikes": 5
+   },
+   {
+    "bb": 0,
+    "er": 0,
+    "h": 1,
+    "hr": 0,
+    "id": 668674,
+    "ip": "1.0",
+    "k": 1,
+    "name": "Lucas Erceg",
+    "pitches": 17,
+    "r": 0,
+    "strikes": 13
+   }
+  ],
+  "royals_starter": {
+   "bb": 0,
+   "er": 2,
+   "h": 7,
+   "hr": 2,
+   "id": 663738,
+   "ip": "5.1",
+   "k": 2,
+   "name": "Daniel Lynch IV",
+   "pitches": 76,
+   "r": 2,
+   "strikes": 53
+  }
+ },
+ "rolling": {
+  "last10": {
+   "blowout_margin": 7,
+   "blowouts_excluded": 1,
+   "games": 10,
+   "games_le_2_runs": 2,
+   "losses": 8,
+   "run_diff": -27,
+   "run_diff_excl_blowouts": -19,
+   "runs_allowed": 76,
+   "runs_scored": 49,
+   "top_game_run_share": 0.2245,
+   "top_game_runs": 11,
+   "wins": 2
+  },
+  "season": {
+   "games_played": 162,
+   "last10": "2-8",
+   "losses": 93,
+   "run_diff": -120,
+   "streak": "W1",
+   "wins": 69
+  }
+ },
+ "schema_version": 1,
+ "sources": {
+  "statcast": true,
+  "statcast_error": null,
+  "statsapi_gumbo": true,
+  "win_probability_endpoint": true
+ },
+ "statcast": {
+  "available": true,
+  "hardest_hit": [
+   {
+    "batter": "Jac Caglianone",
+    "distance": 261,
+    "event": "single",
+    "exit_velocity": 114.2,
+    "inning": 3,
+    "launch_angle": 8.0,
+    "team": "KC",
+    "xba": 0.803
+   },
+   {
+    "batter": "Jo Adell",
+    "distance": 440,
+    "event": "home_run",
+    "exit_velocity": 112.0,
+    "inning": 6,
+    "launch_angle": 24.0,
+    "team": "CLE",
+    "xba": 0.994
+   },
+   {
+    "batter": "Bobby Witt Jr.",
+    "distance": 422,
+    "event": null,
+    "exit_velocity": 109.0,
+    "inning": 4,
+    "launch_angle": 32.0,
+    "team": "KC",
+    "xba": null
+   },
+   {
+    "batter": "Angel Genao",
+    "distance": 146,
+    "event": "single",
+    "exit_velocity": 107.1,
+    "inning": 4,
+    "launch_angle": 7.0,
+    "team": "CLE",
+    "xba": 0.626
+   },
+   {
+    "batter": "Josh Rojas",
+    "distance": 359,
+    "event": null,
+    "exit_velocity": 106.3,
+    "inning": 7,
+    "launch_angle": 34.0,
+    "team": "KC",
+    "xba": null
+   }
+  ],
+  "most_improbable": [],
+  "royals_pitchers": [
+   {
+    "csw_pct": 0.25,
+    "max_velo": 96.0,
+    "name": "Daniel Lynch IV",
+    "pitches": 76,
+    "primary_pitch": "SI",
+    "primary_pitch_avg_velo": 93.3,
+    "whiffs": 6
+   },
+   {
+    "csw_pct": 0.235,
+    "max_velo": 100.0,
+    "name": "Lucas Erceg",
+    "pitches": 17,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 99.6,
+    "whiffs": 2
+   },
+   {
+    "csw_pct": 0.545,
+    "max_velo": 92.8,
+    "name": "Connor Thomas",
+    "pitches": 11,
+    "primary_pitch": "ST",
+    "primary_pitch_avg_velo": 81.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.222,
+    "max_velo": 98.8,
+    "name": "Nate Pearson",
+    "pitches": 9,
+    "primary_pitch": "FF",
+    "primary_pitch_avg_velo": 97.4,
+    "whiffs": 1
+   },
+   {
+    "csw_pct": 0.429,
+    "max_velo": 93.2,
+    "name": "Nolan Hoffman",
+    "pitches": 7,
+    "primary_pitch": "CH",
+    "primary_pitch_avg_velo": 85.2,
+    "whiffs": 1
+   }
+  ]
+ },
+ "top_plays": [
+  {
+   "at_bat_index": 64,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 65,
+   "description": "Vinnie Pasquantino homers (17) on a fly ball to right field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 8,
+   "pitcher": "Austin Peterson",
+   "rank": 1,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 3
+   },
+   "wp_royals_after": 0.867,
+   "wpa_royals": 0.259
+  },
+  {
+   "at_bat_index": 46,
+   "batter": "Jo Adell",
+   "captivating_index": 75,
+   "description": "Jo Adell homers (23) on a fly ball to left center field.",
+   "event": "Home Run",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Daniel Lynch IV",
+   "rank": 2,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.534,
+   "wpa_royals": -0.162
+  },
+  {
+   "at_bat_index": 42,
+   "batter": "Vinnie Pasquantino",
+   "captivating_index": 65,
+   "description": "Vinnie Pasquantino homers (16) on a fly ball to center field.",
+   "event": "Home Run",
+   "half": "bottom",
+   "inning": 5,
+   "pitcher": "Austin Peterson",
+   "rank": 3,
+   "rbi": 1,
+   "score_after": {
+    "opponent": 1,
+    "royals": 2
+   },
+   "wp_royals_after": 0.671,
+   "wpa_royals": 0.156
+  },
+  {
+   "at_bat_index": 48,
+   "batter": "David Fry",
+   "captivating_index": 33,
+   "description": "David Fry singles on a line drive to center fielder Kyle Isbel. Nathaniel Lowe to 3rd. David Fry to 2nd. Nathaniel Lowe advances to 3rd, on a fielding error by center fielder Kyle Isbel.",
+   "event": "Single",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Nolan Hoffman",
+   "rank": 4,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.371,
+   "wpa_royals": -0.126
+  },
+  {
+   "at_bat_index": 49,
+   "batter": "Angel Genao",
+   "captivating_index": 0,
+   "description": "Angel Genao grounds out to first baseman Vinnie Pasquantino.",
+   "event": "Groundout",
+   "half": "top",
+   "inning": 6,
+   "pitcher": "Nolan Hoffman",
+   "rank": 5,
+   "rbi": 0,
+   "score_after": {
+    "opponent": 2,
+    "royals": 2
+   },
+   "wp_royals_after": 0.489,
+   "wpa_royals": 0.118
+  }
+ ],
+ "top_plays_ranking_basis": "win_probability"
+}
